@@ -743,9 +743,9 @@ Navbar Area CSS
 }
 
 .navbar-area.is-sticky {
-  position: fixed;
+  /* position: fixed; */
   top: 0;
-  inset-inline-start: 0;
+  left: 0;
   width: 100%;
   z-index: 999;
   background: #ffffff !important;
@@ -950,6 +950,8 @@ Search Modal Style CSS
   }
   .main-responsive-nav .main-responsive-menu {
     position: relative;
+    display: flex;
+    align-items: center;
   }
   .main-responsive-nav .main-responsive-menu.mean-container .mean-nav ul {
     font-size: 15px;
@@ -4036,6 +4038,9 @@ Footer Area CSS
   font-size: 45px;
   margin-bottom: 20px;
   font-weight: 600;
+}
+.footer-widget{
+  text-align: start;
 }
 .single-footer-widget h2 a {
   color: #ffffff;
@@ -12623,7 +12628,7 @@ Covid Footer Area CSS
     color: #333;
     font-family: 'Poppins', sans-serif;
     background-size: cover;
-    background-position: bottom;
+    background-position: center;
 }
 
 .footer-widget h3 {
@@ -22288,8 +22293,9 @@ MC Footer Area CSS
     position: fixed;
     inset-inline-start: 0;
     top: 90%;
-    transform: translateY(-50%);
+    transform: translateY(50%);
     z-index: 9999;
+    display: none;
 }
 
 .cta-item {
@@ -30339,4 +30345,30 @@ MC Footer Area CSS
 .package-img iframe{
   width: 100%;
   height: 450px;
+}
+@media only screen and (max-width: 1550px) {
+  .aboutsection-2 .contant-v{
+    position: unset;
+    width: 100%;
+  }
+  .bg-line1{
+  display: none;
+  }
+  .skill-area__one-left-video::before{
+  display: none;
+  }
+  .vision-counter{
+    display: unset;
+  }
+  .banner-slides video{
+  height: 71vh;
+  }
+  .banner-slides{
+  height: 71vh;
+  }
+  .banner-section{
+    height: 220px;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
 }
