@@ -1,0 +1,1961 @@
+
+.theme-dark body {
+  background-color: #000000;
+  color: #f1f1f1;
+}
+.theme-dark p {
+  color: #f1f1f1;
+}
+.theme-dark p a {
+  color: #f1f1f1 !important;
+}
+.theme-dark p a:hover {
+  color: #af915d !important;
+}
+.theme-dark a {
+  color: #ffffff;
+}
+.theme-dark .h1, .theme-dark .h2, .theme-dark .h3, .theme-dark .h4, .theme-dark .h5, .theme-dark .h6, .theme-dark h1, .theme-dark h2, .theme-dark h3, .theme-dark h4, .theme-dark h5, .theme-dark h6 {
+  color: #ffffff !important;
+}
+.theme-dark .h1 a, .theme-dark .h2 a, .theme-dark .h3 a, .theme-dark .h4 a, .theme-dark .h5 a, .theme-dark .h6 a, .theme-dark h1 a, .theme-dark h2 a, .theme-dark h3 a, .theme-dark h4 a, .theme-dark h5 a, .theme-dark h6 a {
+  color: #ffffff !important;
+}
+.theme-dark .h1 a:hover, .theme-dark .h2 a:hover, .theme-dark .h3 a:hover, .theme-dark .h4 a:hover, .theme-dark .h5 a:hover, .theme-dark .h6 a:hover, .theme-dark h1 a:hover, .theme-dark h2 a:hover, .theme-dark h3 a:hover, .theme-dark h4 a:hover, .theme-dark h5 a:hover, .theme-dark h6 a:hover {
+  color: #af915d !important;
+}
+.theme-dark .top-header-area {
+  background-color: #0e0e0e;
+}
+.theme-dark .top-header-information li {
+  color: #ffffff;
+}
+.theme-dark .top-header-information li a {
+  color: #ffffff;
+}
+.theme-dark .top-header-optional .languages-list .nice-select {
+  color: #ffffff;
+}
+.theme-dark .middle-header-content li {
+  color: #ffffff;
+}
+.theme-dark .middle-header-content li span {
+  color: #ffffff;
+}
+.theme-dark .top-information-wrap li {
+  color: #ffffff;
+}
+.theme-dark .top-information-wrap li a {
+  color: #ffffff;
+}
+.theme-dark .top-optional-wrap li a i {
+  color: #ffffff;
+  border: 2px solid #ffffff;
+}
+.theme-dark .navbar-area.is-sticky {
+  background-color: #161616 !important;
+}
+.theme-dark .main-navbar {
+  background-color: #0b0a0a;
+}
+.theme-dark .main-navbar .navbar .navbar-brand .white-logo {
+  display: block;
+}
+.theme-dark .main-navbar .navbar .navbar-brand .main-logo {
+  display: none;
+}
+.theme-dark .main-navbar .navbar .navbar-nav .nav-item a {
+  color: #ffffff;
+}
+.theme-dark .main-navbar .navbar .navbar-nav .nav-item a:hover, .theme-dark .main-navbar .navbar .navbar-nav .nav-item a:focus, .theme-dark .main-navbar .navbar .navbar-nav .nav-item a.active {
+  color: #af915d !important;
+}
+.theme-dark .main-navbar .navbar .navbar-nav .nav-item:hover a, .theme-dark .main-navbar .navbar .navbar-nav .nav-item:focus a, .theme-dark .main-navbar .navbar .navbar-nav .nav-item.active a {
+  color: #af915d !important;
+}
+.theme-dark .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu {
+  background: #0e0e0e;
+}
+.theme-dark .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li a {
+  color: #ffffff !important;
+  border-bottom: 1px dashed #000000;
+}
+.theme-dark .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li a:hover, .theme-dark .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li a:focus, .theme-dark .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li a.active {
+  color: #af915d !important;
+}
+.theme-dark .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a {
+  color: #ffffff !important;
+  border-bottom: 1px dashed #000000;
+}
+.theme-dark .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a:hover, .theme-dark .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a:focus, .theme-dark .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a.active {
+  color: #af915d !important;
+}
+.theme-dark .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li a {
+  color: #ffffff;
+}
+.theme-dark .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .theme-dark .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .theme-dark .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
+  color: #af915d;
+}
+.theme-dark .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a {
+  color: #ffffff;
+}
+.theme-dark .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .theme-dark .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .theme-dark .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
+  color: #af915d;
+}
+.theme-dark .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a {
+  color: #ffffff;
+}
+.theme-dark .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .theme-dark .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .theme-dark .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
+  color: #af915d;
+}
+.theme-dark .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a {
+  color: #ffffff;
+}
+.theme-dark .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .theme-dark .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .theme-dark .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
+  color: #af915d;
+}
+.theme-dark .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a {
+  color: #ffffff;
+}
+.theme-dark .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .theme-dark .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .theme-dark .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
+  color: #af915d;
+}
+.theme-dark .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li.active a {
+  color: #af915d;
+}
+.theme-dark .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li.active a {
+  color: #af915d;
+}
+.theme-dark .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li.active a {
+  color: #af915d;
+}
+.theme-dark .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li.active a {
+  color: #af915d;
+}
+.theme-dark .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li.active a {
+  color: #af915d;
+}
+.theme-dark .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li.active a {
+  color: #af915d;
+}
+.theme-dark .main-navbar .navbar .others-options .option-item .search-btn a i {
+  color: #ffffff;
+}
+.theme-dark .grin-care-navbar .main-navbar .navbar {
+  background-color: #0b0a0a;
+}
+.theme-dark .grin-care-navbar .main-navbar .others-options .option-item .cart-btn i {
+  color: #ffffff;
+}
+.theme-dark .main-slides-content h1 {
+  color: #000000 !important;
+}
+.theme-dark .main-slides-content h1 span {
+  color: #af915d;
+}
+.theme-dark .main-slides-content p {
+  color: #000000;
+}
+.theme-dark .main-banner-item {
+  background-color: #0e0e0e;
+}
+.theme-dark .dental-tourism-banner-content h1 {
+  color: #002345 !important;
+}
+.theme-dark .dental-tourism-banner-content p {
+  color: #486683 !important;
+}
+.theme-dark .skin-care-banner-area {
+  background-color: #0e0e0e;
+}
+.theme-dark .page-banner-area {
+  background-color: #302f2f;
+}
+.theme-dark .single-features {
+  background-color: #272727;
+}
+.theme-dark .single-features-box {
+  background-color: #0e0e0e;
+}
+.theme-dark .single-dental-tourism-features .content .icon-image img {
+  filter: brightness(0) invert(1);
+}
+.theme-dark .single-dental-tourism-features .content p {
+  color: #ffffff;
+}
+.theme-dark .skin-care-features-card {
+  background-color: #0e0e0e;
+}
+.theme-dark .skin-care-features-card .features-title .icon-image {
+  background-color: #000000;
+}
+.theme-dark .skin-care-features-card .features-title .icon-image img {
+  filter: brightness(0) invert(1);
+}
+.theme-dark .eye-care-features-card .features-content p {
+  color: #ffffff;
+}
+.theme-dark .dental-tourism-appointment-form form .form-group .form-control {
+  background-color: #0e0e0e;
+  border: 1px solid #0e0e0e;
+  color: #ffffff;
+}
+.theme-dark .dental-tourism-appointment-form form .form-group .form-control::-moz-placeholder {
+  color: #ffffff;
+}
+.theme-dark .dental-tourism-appointment-form form .form-group .form-control::placeholder {
+  color: #ffffff;
+}
+.theme-dark .dental-tourism-appointment-form form .form-group .form-control:focus {
+  border: 1px solid #af915d;
+}
+.theme-dark .dental-tourism-appointment-form form .form-group .form-control:focus::-moz-placeholder {
+  color: transparent;
+}
+.theme-dark .dental-tourism-appointment-form form .form-group .form-control:focus::placeholder {
+  color: transparent;
+}
+.theme-dark .dental-tourism-appointment-form form .form-group .nice-select {
+  background-color: #0e0e0e;
+  border: 1px solid #0e0e0e;
+  color: #ffffff;
+}
+.theme-dark .dental-tourism-appointment-form form .form-group .nice-select::after {
+  border-color: #ffffff;
+}
+.theme-dark .dental-tourism-dentist-card .dentist-image .share-link {
+  background-color: #0e0e0e;
+}
+.theme-dark .dental-tourism-dentist-card .dentist-image .share-link li a i {
+  color: #ffffff;
+  border: 2px solid #ffffff;
+}
+.theme-dark .single-services .services-content {
+  background-color: #0e0e0e;
+}
+.theme-dark .services-area.bg-eef9ff {
+  background-color: #0e0e0e;
+}
+.theme-dark .single-services-box {
+  background-color: #000000;
+}
+.theme-dark .single-services-item {
+  background-color: #0e0e0e;
+}
+.theme-dark .dental-tourism-services-area {
+  background-color: #0e0e0e;
+}
+.theme-dark .grin-care-navbar.is-sticky {
+  background-color: #000000 !important;
+}
+.theme-dark .grin-care-navbar .main-navbar {
+  background-color: transparent !important;
+}
+.theme-dark .grin-care-navbar .main-navbar .navbar {
+  background-color: #000000 !important;
+}
+.theme-dark .skin-care-services-area {
+  background-color: #0e0e0e;
+}
+.theme-dark .skin-care-services-card .services-content {
+  background-color: #000000;
+}
+.theme-dark .skin-care-services-card .services-content p {
+  color: #ffffff;
+}
+.theme-dark .skin-care-dry-content .list li {
+  color: #ffffff;
+}
+.theme-dark .skin-care-dry-content .dry-list li.title {
+  color: #ffffff;
+}
+.theme-dark .eye-care-services-area::before {
+  background-color: #0e0e0e;
+}
+.theme-dark .eye-care-services-card {
+  background-color: #000000;
+}
+.theme-dark .skin-care-appointment-form form .form-group .form-control {
+  background-color: #0e0e0e;
+  border: 1px solid #0e0e0e;
+  color: #ffffff;
+}
+.theme-dark .skin-care-appointment-form form .form-group .form-control::-moz-placeholder {
+  color: #ffffff;
+}
+.theme-dark .skin-care-appointment-form form .form-group .form-control::placeholder {
+  color: #ffffff;
+}
+.theme-dark .skin-care-appointment-form form .form-group .form-control:focus {
+  border: 1px solid #af915d;
+}
+.theme-dark .skin-care-appointment-form form .form-group .form-control:focus::-moz-placeholder {
+  color: transparent;
+}
+.theme-dark .skin-care-appointment-form form .form-group .form-control:focus::placeholder {
+  color: transparent;
+}
+.theme-dark .skin-care-appointment-form form .form-group .nice-select {
+  background-color: #0e0e0e;
+  border: 1px solid #0e0e0e;
+  color: #ffffff;
+}
+.theme-dark .skin-care-appointment-form form .form-group .nice-select::after {
+  border-color: #ffffff;
+}
+.theme-dark .widget-area .widget_categories ul li a {
+  color: #ffffff;
+}
+.theme-dark .widget-area .widget_categories ul li a:hover {
+  color: #af915d;
+}
+.theme-dark .widget-area .widget_info .content {
+  background: #0e0e0e;
+}
+.theme-dark .services-details-overview-content p span {
+  color: #ffffff;
+}
+.theme-dark .dental-tourism-choose-content .choose-inner-content p {
+  color: #ffffff;
+}
+.theme-dark .eye-care-solutions-content .solutions-inner-content p {
+  color: #ffffff;
+}
+.theme-dark .eye-care-solutions-content .solutions-inner-content.bg-F7F7FD {
+  background-color: #0e0e0e;
+}
+.theme-dark .overview-area {
+  background-color: #0e0e0e;
+}
+.theme-dark .appointment-overview-box {
+  background-color: #272626;
+}
+.theme-dark .appointment-overview-box .make-appointment-content form .form-group .form-control {
+  background-color: #000000;
+  color: #ffffff;
+  border: 1px solid #2a2929;
+}
+.theme-dark .appointment-overview-box .make-appointment-content form .form-group .form-control::-moz-placeholder {
+  color: #ffffff;
+}
+.theme-dark .appointment-overview-box .make-appointment-content form .form-group .form-control::placeholder {
+  color: #ffffff;
+}
+.theme-dark .about-content .about-info span {
+  color: #ffffff;
+}
+.theme-dark .dental-tourism-about-content .list li {
+  color: #ffffff;
+}
+.theme-dark .skin-care-about-content .about-btn-with-info li a {
+  color: #ffffff;
+}
+.theme-dark .eye-care-about-content .list li {
+  color: #ffffff;
+}
+.theme-dark .pricing-area {
+  background-color: #0e0e0e;
+}
+.theme-dark .single-pricing-table {
+  background-color: #000000;
+}
+.theme-dark .fun-facts-area {
+  background-color: #0e0e0e;
+}
+.theme-dark .core-features-area {
+  background-color: #272626;
+}
+.theme-dark .core-features-area::before {
+  background-color: #000000;
+}
+.theme-dark .single-core-features {
+  background-color: #0e0e0e;
+}
+.theme-dark .single-doctor .doctor-content {
+  background-color: #222121;
+}
+.theme-dark .single-doctor .doctor-content span {
+  color: #ffffff;
+}
+.theme-dark .dental-tourism-dentist-card .dentist-content span {
+  color: #ffffff;
+}
+.theme-dark .dental-tourism-tourists-content .list li {
+  color: #ffffff;
+}
+.theme-dark .eye-care-team-area {
+  background-color: #0e0e0e;
+}
+.theme-dark .eye-care-team-card .team-content span {
+  color: #ffffff;
+}
+.theme-dark .dentist-details-content span {
+  color: #ffffff;
+}
+.theme-dark .dentist-details-content .content-overview p span {
+  color: #ffffff;
+}
+.theme-dark .dentist-details-overview-content .overview-text p span {
+  color: #ffffff;
+}
+.theme-dark .appointment-inner-box .appointment-form {
+  background-color: #000000;
+}
+.theme-dark .appointment-inner-box .appointment-form form .form-group .form-control {
+  background-color: #0e0e0e;
+  color: #ffffff;
+  border: 1px solid #111111;
+}
+.theme-dark .appointment-inner-box .appointment-form form .form-group .form-control::-moz-placeholder {
+  color: #ffffff;
+}
+.theme-dark .appointment-inner-box .appointment-form form .form-group .form-control::placeholder {
+  color: #ffffff;
+}
+.theme-dark .appointment-form {
+  background-color: #000000;
+}
+.theme-dark .appointment-form form .form-group .form-control {
+  background-color: #0e0e0e;
+  color: #ffffff;
+  border: 1px solid #111111;
+}
+.theme-dark .appointment-form form .form-group .form-control::-moz-placeholder {
+  color: #ffffff;
+}
+.theme-dark .appointment-form form .form-group .form-control::placeholder {
+  color: #ffffff;
+}
+.theme-dark .dental-tourism-appointment-form h4 {
+  color: #000000 !important;
+}
+.theme-dark .gallery-area.bg-091e3e {
+  background-color: #323232;
+}
+.theme-dark .review-area {
+  background-color: #0e0e0e;
+}
+.theme-dark .single-review-item {
+  background-color: #000000;
+}
+.theme-dark .single-review-item .review-info span {
+  color: #ffffff;
+}
+.theme-dark .single-review-item:hover {
+  background-color: #af915d;
+}
+.theme-dark .dental-tourism-review-area {
+  background-color: #0e0e0e;
+}
+.theme-dark .dental-tourism-review-card {
+  background-color: #000000;
+}
+.theme-dark .skin-care-review-card {
+  background-color: #0e0e0e;
+}
+.theme-dark .eye-care-review-card {
+  background-color: #000000;
+}
+.theme-dark .eye-care-treatment-content .treatment-inner-content {
+  background-color: #0e0e0e;
+}
+.theme-dark .eye-care-treatment-content .treatment-inner-content p {
+  color: #ffffff;
+}
+.theme-dark .skin-care-before-after-area {
+  background-color: #0e0e0e;
+}
+.theme-dark .skin-care-before-after-slides.owl-theme .owl-nav [class*=owl-] {
+  color: #ffffff;
+}
+.theme-dark .single-blog .blog-content {
+  background-color: #0e0e0e;
+}
+.theme-dark .single-blog .blog-content .blog-btn {
+  color: #ffffff;
+}
+.theme-dark .single-blog .blog-content .entry-meta li span {
+  color: #ffffff;
+}
+.theme-dark .single-blog .blog-content .entry-meta::before {
+  background-color: #222121;
+}
+.theme-dark .dental-tourism-blog-card .blog-content .entry-meta li {
+  color: #ffffff;
+}
+.theme-dark .dental-tourism-blog-card .blog-content .entry-meta li a {
+  color: #ffffff;
+}
+.theme-dark .skin-care-blog-card .blog-content .entry-meta li {
+  color: #ffffff;
+}
+.theme-dark .skin-care-blog-card .blog-content .entry-meta li a {
+  color: #ffffff;
+}
+.theme-dark .eye-care-blog-card {
+  background-color: #0e0e0e;
+}
+.theme-dark .eye-care-blog-card .blog-content p {
+  color: #ffffff;
+}
+.theme-dark .eye-care-blog-card .blog-content .entry-meta li {
+  color: #ffffff;
+}
+.theme-dark .eye-care-blog-card .blog-content .entry-meta li a {
+  color: #ffffff;
+}
+.theme-dark .blog-details-desc .article-content .entry-meta ul li {
+  color: #ffffff;
+}
+.theme-dark .blog-details-desc .article-content .entry-meta ul li span {
+  color: #ffffff;
+}
+.theme-dark .blog-details-desc .article-content .entry-meta ul li a {
+  color: #ffffff;
+}
+.theme-dark .blog-details-desc blockquote, .theme-dark .blog-details-desc .blockquote {
+  background-color: #0e0e0e;
+}
+.theme-dark .blog-details-desc .article-tag {
+  border-top: 1px solid #0e0e0e;
+  border-bottom: 1px solid #0e0e0e;
+}
+.theme-dark .comments-area .comment-author .fn {
+  color: #ffffff;
+}
+.theme-dark .comments-area .comment-metadata a {
+  color: #ffffff;
+}
+.theme-dark .comments-area .comment-body .reply a {
+  color: #ffffff;
+}
+.theme-dark .comments-area .comment-respond input {
+  background-color: #0e0e0e;
+  color: #ffffff;
+  border: 1px solid #111111;
+}
+.theme-dark .comments-area .comment-respond input::-moz-placeholder {
+  color: #ffffff;
+}
+.theme-dark .comments-area .comment-respond input::placeholder {
+  color: #ffffff;
+}
+.theme-dark .comments-area .comment-respond textarea {
+  background-color: #0e0e0e;
+  border: 1px solid #111111;
+  color: #ffffff;
+}
+.theme-dark .comments-area .comment-respond textarea::-moz-placeholder {
+  color: #ffffff;
+}
+.theme-dark .comments-area .comment-respond textarea::placeholder {
+  color: #ffffff;
+}
+.theme-dark .comments-area .comment-respond .comment-form-cookies-consent label {
+  color: #ffffff;
+}
+.theme-dark .skin-care-partner-inner-box {
+  background-color: #272626;
+}
+.theme-dark .newsletter-inner-box {
+  background-color: #2d2d2d;
+}
+.theme-dark .newsletter-inner-box .newsletter-form .input-newsletter {
+  background-color: #0e0e0e;
+  border: 1px solid #0e0e0e;
+  color: #ffffff;
+}
+.theme-dark .newsletter-inner-box .newsletter-form .input-newsletter::-moz-placeholder {
+  color: #ffffff;
+}
+.theme-dark .newsletter-inner-box .newsletter-form .input-newsletter::placeholder {
+  color: #ffffff;
+}
+.theme-dark .newsletter-inner-box .newsletter-form .input-newsletter:focus::-moz-placeholder {
+  color: transparent;
+}
+.theme-dark .newsletter-inner-box .newsletter-form .input-newsletter:focus::placeholder {
+  color: transparent;
+}
+.theme-dark .footer-area {
+  background-color: #1c1d1d;
+}
+.theme-dark .copyright-area {
+  background-color: #1c1d1d;
+}
+.theme-dark .skin-care-footer-area {
+  background-color: #1c1d1d;
+}
+.theme-dark .skin-care-footer-widget .info-list li {
+  color: #ffffff;
+}
+.theme-dark .skin-care-footer-widget .info-list li a {
+  color: #ffffff;
+}
+.theme-dark .skin-care-footer-widget .share-link li span {
+  color: #ffffff;
+}
+.theme-dark .skin-care-footer-widget .quick-links li a {
+  color: #ffffff;
+}
+.theme-dark .skin-care-footer-widget .newsletter-form p {
+  color: #ffffff;
+}
+.theme-dark .skin-care-footer-widget .newsletter-form .form-group .input-newsletter {
+  color: #ffffff;
+}
+.theme-dark .skin-care-footer-widget .newsletter-form .form-group .input-newsletter::-moz-placeholder {
+  color: #ffffff;
+}
+.theme-dark .skin-care-footer-widget .newsletter-form .form-group .input-newsletter::placeholder {
+  color: #ffffff;
+}
+.theme-dark .eye-care-footer-area {
+  background: #0e0e0e;
+  padding-top: 180px;
+}
+.theme-dark .eye-care-footer-widget .info-list li {
+  color: #ffffff;
+}
+.theme-dark .eye-care-footer-widget .info-list li a {
+  color: #ffffff;
+}
+.theme-dark .eye-care-footer-widget .share-link li span {
+  color: #ffffff;
+}
+.theme-dark .eye-care-footer-widget .share-link li span {
+  color: #ffffff;
+}
+.theme-dark .eye-care-footer-widget .quick-links li a {
+  color: #ffffff;
+}
+.theme-dark .eye-care-footer-widget .hours-list li {
+  color: #ffffff;
+}
+.theme-dark .eye-care-footer-widget .hours-list li span {
+  color: #ffffff;
+}
+.theme-dark .skin-care-copyright-area .copyright-area-content {
+  border-top: 1px solid #000000;
+}
+.theme-dark .skin-care-copyright-area .copyright-area-content p {
+  color: #ffffff;
+}
+.theme-dark .eye-care-copyright-area .copyright-area-content {
+  border-top: 1px solid #000000;
+}
+.theme-dark .eye-care-copyright-area .copyright-area-content p {
+  color: #ffffff;
+}
+.theme-dark .eye-care-banner-area {
+  background: #111111;
+}
+.theme-dark .eye-care-features-card::before {
+  background-color: #111111;
+}
+.theme-dark .eye-care-team-card .team-image .share-link {
+  background-color: #000000;
+}
+.theme-dark .eye-care-team-card .team-image .share-link li a i {
+  color: #ffffff;
+  border: 2px solid #ffffff;
+}
+.theme-dark .eye-care-blog-card {
+  border: 1px solid #262525;
+}
+.theme-dark .login-form {
+  background-color: #0e0e0e;
+}
+.theme-dark .login-form form .form-group label {
+  color: #ffffff;
+}
+.theme-dark .login-form form .form-group .form-control {
+  background-color: #000000;
+  color: #ffffff;
+  border-color: #2a2a2a;
+}
+.theme-dark .login-form form .form-group .form-control::-moz-placeholder {
+  color: #ffffff;
+}
+.theme-dark .login-form form .form-group .form-control::placeholder {
+  color: #ffffff;
+}
+.theme-dark .login-form form .lost-your-password a {
+  color: #ffffff;
+}
+.theme-dark .register-form {
+  background-color: #0e0e0e;
+}
+.theme-dark .register-form form .form-group label {
+  color: #ffffff;
+}
+.theme-dark .register-form form .form-group .form-control {
+  background-color: #000000;
+  color: #ffffff;
+  border-color: #2a2a2a;
+}
+.theme-dark .register-form form .form-group .form-control::-moz-placeholder {
+  color: #ffffff;
+}
+.theme-dark .register-form form .form-group .form-control::placeholder {
+  color: #ffffff;
+}
+.theme-dark .faq-accordion .accordion .accordion-title {
+  background-color: #212020;
+  color: #ffffff;
+}
+.theme-dark .faq-accordion .accordion .accordion-content p {
+  color: #ffffff;
+}
+.theme-dark .coming-soon-content {
+  background: #0e0e0e;
+}
+.theme-dark .coming-soon-content .newsletter-form {
+  background-color: #000000;
+}
+.theme-dark .coming-soon-content .newsletter-form .form-group .input-newsletter {
+  background-color: #0e0e0e;
+  color: #ffffff;
+}
+.theme-dark .coming-soon-content .newsletter-form .form-group .input-newsletter::-moz-placeholder {
+  color: #ffffff;
+}
+.theme-dark .coming-soon-content .newsletter-form .form-group .input-newsletter::placeholder {
+  color: #ffffff;
+}
+.theme-dark .contact-form form .form-group .form-control {
+  background-color: #0e0e0e;
+  color: #ffffff;
+  border: 1px solid #222121;
+}
+.theme-dark .contact-form form .form-group .form-control::-moz-placeholder {
+  color: #ffffff;
+}
+.theme-dark .contact-form form .form-group .form-control::placeholder {
+  color: #ffffff;
+}
+.theme-dark .covid-navbar-area .main-navbar .navbar .navbar-nav .nav-item a {
+  color: #ffffff;
+}
+.theme-dark .covid-navbar-area .main-navbar .navbar .navbar-nav .nav-item a:hover, .theme-dark .covid-navbar-area .main-navbar .navbar .navbar-nav .nav-item a:focus, .theme-dark .covid-navbar-area .main-navbar .navbar .navbar-nav .nav-item a.active {
+  color: #0CB8B6 !important;
+}
+.theme-dark .covid-navbar-area .main-navbar .navbar .navbar-nav .nav-item:hover a, .theme-dark .covid-navbar-area .main-navbar .navbar .navbar-nav .nav-item.active a {
+  color: #0CB8B6 !important;
+}
+.theme-dark .covid-navbar-area .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li a {
+  color: #ffffff !important;
+}
+.theme-dark .covid-navbar-area .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li a:hover, .theme-dark .covid-navbar-area .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li a:focus, .theme-dark .covid-navbar-area .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li a.active {
+  color: #0CB8B6 !important;
+}
+.theme-dark .covid-banner-area {
+  background-color: #0e0e0e;
+}
+.theme-dark .covid-banner-content .banner-btn-with-info li {
+  color: #ffffff;
+}
+.theme-dark .covid-banner-content .banner-btn-with-info li.title span {
+  color: #ffffff;
+}
+.theme-dark .covid-check-form-area::before {
+  background-color: #0e0e0e;
+}
+.theme-dark .covid-about-area {
+  background-color: #0e0e0e;
+}
+.theme-dark .covid-about-area .list li {
+  color: #ffffff;
+}
+.theme-dark .covid-registration-shape {
+  opacity: 10%;
+}
+.theme-dark .covid-registration-form label {
+  color: #ffffff;
+}
+.theme-dark .covid-registration-form .bottom-title span {
+  color: #ffffff;
+}
+.theme-dark .covid-registration-form .bottom-title span a {
+  color: #ffffff;
+}
+.theme-dark .country-select .country-list .country-name, .theme-dark .country-select .country-list .flag {
+  color: #0e0e0e;
+}
+.theme-dark .covid-process-area {
+  background-color: #0e0e0e;
+}
+.theme-dark .covid-tracker-area {
+  position: relative;
+  z-index: 1;
+}
+.theme-dark .covid-tracker-area::before {
+  position: absolute;
+  content: "";
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #000000;
+  z-index: -1;
+}
+.theme-dark .covid-tracker-card {
+  background-color: #0e0e0e;
+  border: 1px solid #0e0e0e;
+}
+.theme-dark .covid-tracker-card .tracker-content p .one {
+  color: #ffffff;
+}
+.theme-dark .covid-tracker-card .tracker-content p .one b {
+  color: #ffffff;
+}
+.theme-dark .covid-tracker-card .tracker-content p .two {
+  color: #ffffff;
+}
+.theme-dark .covid-protection-area {
+  background-color: #0e0e0e;
+}
+.theme-dark .covid-protection-area::before {
+  background-color: #0e0e0e;
+}
+.theme-dark .covid-protection-content .content h3 {
+  color: #ffffff !important;
+}
+.theme-dark .covid-protection-content .protection-faq-accordion .accordion .accordion-item {
+  border: 1px solid #E2E5EA;
+}
+.theme-dark .covid-protection-content .protection-faq-accordion .accordion .accordion-title {
+  color: #ffffff;
+}
+.theme-dark .covid-protection-content .protection-faq-accordion .accordion .accordion-title i {
+  color: #ffffff;
+}
+.theme-dark .covid-protection-content .protection-faq-accordion .accordion .accordion-title.active {
+  color: #000000;
+}
+.theme-dark .covid-testimonials-inner {
+  background-color: #0e0e0e;
+}
+.theme-dark .covid-blog-area {
+  background-color: #0e0e0e;
+}
+.theme-dark .covid-blog-card .blog-content {
+  background-color: #000000;
+}
+.theme-dark .covid-blog-card .blog-content span {
+  color: #ffffff;
+}
+.theme-dark .covid-blog-card .blog-content .news-btn {
+  color: #ffffff;
+}
+.theme-dark .covid-page-banner-area {
+  background-color: #0b0a0a;
+}
+.theme-dark .covid-page-banner-content .list li {
+  color: #ffffff;
+}
+.theme-dark .covid-page-banner-content .list li a {
+  color: #ffffff;
+}
+.theme-dark .covid-doctors-card .doctors-content {
+  background-color: #0e0e0e;
+}
+.theme-dark .covid-registration-area.bg-F1F5FE {
+  background-color: #0e0e0e;
+}
+.theme-dark .covid-testimonials-wrap-card {
+  background-color: #0e0e0e;
+}
+.theme-dark .covid-testimonials-wrap-card .info .title span {
+  color: #ffffff;
+}
+.theme-dark .how-vaccines-work-desc .content p {
+  color: #ffffff;
+}
+.theme-dark .how-vaccines-work-sidebar .sidebar-box {
+  background-color: #0e0e0e;
+}
+.theme-dark .how-vaccines-work-sidebar .sidebar-box .list li {
+  border-bottom: 1px solid #000000;
+}
+.theme-dark .how-vaccines-work-sidebar .sidebar-box .list li a {
+  color: #ffffff;
+}
+.theme-dark .how-vaccines-work-sidebar .sidebar-box .list li a::before {
+  color: #ffffff;
+}
+.theme-dark .how-vaccines-work-sidebar .sidebar-box .list li:last-child {
+  border-bottom: none;
+}
+.theme-dark .covid-faq-accordion .accordion .accordion-title {
+  color: #ffffff;
+}
+.theme-dark .covid-faq-accordion .accordion .accordion-title i {
+  color: #ffffff;
+}
+.theme-dark .covid-faq-accordion .accordion .accordion-content p {
+  color: #ffffff;
+}
+.theme-dark .covid-blog-details-desc .content span {
+  color: #ffffff;
+}
+.theme-dark .covid-blog-details-desc .article-tag span {
+  color: #ffffff;
+}
+.theme-dark .covid-blog-details-desc .comments-area {
+  background-color: #0e0e0e;
+}
+.theme-dark .covid-blog-details-desc .comments-area .comment-body .comment-content p {
+  color: #ffffff;
+}
+.theme-dark .covid-blog-details-desc .comments-area .comment-respond input[type=date], .theme-dark .covid-blog-details-desc .comments-area .comment-respond input[type=time], .theme-dark .covid-blog-details-desc .comments-area .comment-respond input[type=datetime-local], .theme-dark .covid-blog-details-desc .comments-area .comment-respond input[type=week], .theme-dark .covid-blog-details-desc .comments-area .comment-respond input[type=month], .theme-dark .covid-blog-details-desc .comments-area .comment-respond input[type=text], .theme-dark .covid-blog-details-desc .comments-area .comment-respond input[type=email], .theme-dark .covid-blog-details-desc .comments-area .comment-respond input[type=url], .theme-dark .covid-blog-details-desc .comments-area .comment-respond input[type=password], .theme-dark .covid-blog-details-desc .comments-area .comment-respond input[type=search], .theme-dark .covid-blog-details-desc .comments-area .comment-respond input[type=tel], .theme-dark .covid-blog-details-desc .comments-area .comment-respond input[type=number], .theme-dark .covid-blog-details-desc .comments-area .comment-respond textarea {
+  background-color: #0b0a0a;
+  border: 1px solid #0b0a0a;
+  color: #ffffff;
+}
+.theme-dark .covid-blog-details-desc .comments-area .comment-respond input[type=date]::-moz-placeholder, .theme-dark .covid-blog-details-desc .comments-area .comment-respond input[type=time]::-moz-placeholder, .theme-dark .covid-blog-details-desc .comments-area .comment-respond input[type=datetime-local]::-moz-placeholder, .theme-dark .covid-blog-details-desc .comments-area .comment-respond input[type=week]::-moz-placeholder, .theme-dark .covid-blog-details-desc .comments-area .comment-respond input[type=month]::-moz-placeholder, .theme-dark .covid-blog-details-desc .comments-area .comment-respond input[type=text]::-moz-placeholder, .theme-dark .covid-blog-details-desc .comments-area .comment-respond input[type=email]::-moz-placeholder, .theme-dark .covid-blog-details-desc .comments-area .comment-respond input[type=url]::-moz-placeholder, .theme-dark .covid-blog-details-desc .comments-area .comment-respond input[type=password]::-moz-placeholder, .theme-dark .covid-blog-details-desc .comments-area .comment-respond input[type=search]::-moz-placeholder, .theme-dark .covid-blog-details-desc .comments-area .comment-respond input[type=tel]::-moz-placeholder, .theme-dark .covid-blog-details-desc .comments-area .comment-respond input[type=number]::-moz-placeholder, .theme-dark .covid-blog-details-desc .comments-area .comment-respond textarea::-moz-placeholder {
+  color: #ffffff;
+}
+.theme-dark .covid-blog-details-desc .comments-area .comment-respond input[type=date]::placeholder, .theme-dark .covid-blog-details-desc .comments-area .comment-respond input[type=time]::placeholder, .theme-dark .covid-blog-details-desc .comments-area .comment-respond input[type=datetime-local]::placeholder, .theme-dark .covid-blog-details-desc .comments-area .comment-respond input[type=week]::placeholder, .theme-dark .covid-blog-details-desc .comments-area .comment-respond input[type=month]::placeholder, .theme-dark .covid-blog-details-desc .comments-area .comment-respond input[type=text]::placeholder, .theme-dark .covid-blog-details-desc .comments-area .comment-respond input[type=email]::placeholder, .theme-dark .covid-blog-details-desc .comments-area .comment-respond input[type=url]::placeholder, .theme-dark .covid-blog-details-desc .comments-area .comment-respond input[type=password]::placeholder, .theme-dark .covid-blog-details-desc .comments-area .comment-respond input[type=search]::placeholder, .theme-dark .covid-blog-details-desc .comments-area .comment-respond input[type=tel]::placeholder, .theme-dark .covid-blog-details-desc .comments-area .comment-respond input[type=number]::placeholder, .theme-dark .covid-blog-details-desc .comments-area .comment-respond textarea::placeholder {
+  color: #ffffff;
+}
+.theme-dark .covid-widget-area .widget_search form .search-field {
+  background-color: #0e0e0e;
+  border: 1px solid #0e0e0e;
+  color: #ffffff;
+}
+.theme-dark .covid-widget-area .widget_search form .search-field::-moz-placeholder {
+  color: #ffffff;
+}
+.theme-dark .covid-widget-area .widget_search form .search-field::placeholder {
+  color: #ffffff;
+}
+.theme-dark .covid-widget-area .widget_grin_posts_thumb {
+  background-color: #0e0e0e;
+}
+.theme-dark .covid-widget-area .widget_categories {
+  background-color: #0e0e0e;
+}
+.theme-dark .covid-widget-area .widget_tag_cloud {
+  background-color: #0e0e0e;
+}
+.theme-dark .covid-info-card {
+  background-color: #0e0e0e;
+}
+.theme-dark .covid-info-card span {
+  color: #ffffff;
+}
+.theme-dark .covid-info-card span a {
+  color: #ffffff;
+}
+.theme-dark .covid-appointment-form label {
+  color: #ffffff;
+}
+.theme-dark .covid-contact-form label {
+  color: #ffffff;
+}
+.theme-dark .hospital-top-area .top-optional-wrap li a i {
+  border: none;
+}
+.theme-dark .hospital-navbar-area .main-navbar .navbar .navbar-brand {
+  color: #13A8B4;
+}
+.theme-dark .hospital-navbar-area .main-navbar .navbar .navbar-nav .nav-item a {
+  color: #ffffff !important;
+}
+.theme-dark .hospital-navbar-area .main-navbar .navbar .navbar-nav .nav-item a:hover, .theme-dark .hospital-navbar-area .main-navbar .navbar .navbar-nav .nav-item a:focus, .theme-dark .hospital-navbar-area .main-navbar .navbar .navbar-nav .nav-item a.active {
+  color: #13A8B4 !important;
+}
+.theme-dark .hospital-navbar-area .main-navbar .navbar .navbar-nav .nav-item:hover a, .theme-dark .hospital-navbar-area .main-navbar .navbar .navbar-nav .nav-item.active a {
+  color: #13A8B4 !important;
+}
+.theme-dark .hospital-navbar-area .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li a {
+  color: #ffffff !important;
+}
+.theme-dark .hospital-navbar-area .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li a:hover, .theme-dark .hospital-navbar-area .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li a:focus, .theme-dark .hospital-navbar-area .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li a.active {
+  color: #13A8B4 !important;
+}
+.theme-dark .hospital-specialist-card {
+  background-color: #0e0e0e;
+}
+.theme-dark .hospital-about-area {
+  background-color: #0e0e0e;
+}
+.theme-dark .hospital-about-content .list li {
+  color: #ffffff;
+}
+.theme-dark .hospital-services-slides.owl-theme .owl-nav [class*=owl-] {
+  color: #ffffff;
+  background: #0e0e0e;
+}
+.theme-dark .hospital-services-slides.owl-theme .owl-nav [class*=owl-]:hover {
+  background-color: #af915d;
+}
+.theme-dark .hospital-services-card {
+  background-color: #0e0e0e;
+  border-top: 5px solid #0b0a0a;
+  border-bottom: 5px solid #0b0a0a;
+  border-left: 2px solid #0b0a0a;
+  border-right: 2px solid #0b0a0a;
+}
+.theme-dark .hospital-skills-area {
+  background: #0e0e0e;
+}
+.theme-dark .hospital-team-slides.owl-theme .owl-nav [class*=owl-] {
+  color: #ffffff;
+  background: #0e0e0e;
+}
+.theme-dark .hospital-team-slides.owl-theme .owl-nav [class*=owl-]:hover {
+  background-color: #af915d;
+}
+.theme-dark .hospital-team-card {
+  background-color: #0e0e0e;
+}
+.theme-dark .hospital-team-card .team-content span {
+  color: #ffffff;
+}
+.theme-dark .hospital-app-area {
+  background: #0e0e0e;
+}
+.theme-dark .hospital-app-content .list li {
+  background-color: #000000;
+}
+.theme-dark .hospital-testimonials-slides.owl-theme .owl-nav [class*=owl-] {
+  color: #ffffff;
+  background: #0e0e0e;
+}
+.theme-dark .hospital-testimonials-slides.owl-theme .owl-nav [class*=owl-]:hover {
+  background-color: #af915d;
+}
+.theme-dark .hospital-testimonials-card p {
+  background-color: #0e0e0e;
+  padding: 25px;
+  border-top: 14px solid #0b0a0a;
+  border-bottom: 14px solid #0b0a0a;
+  border-left: 5px solid #0b0a0a;
+  border-right: 5px solid #0b0a0a;
+}
+.theme-dark .hospital-testimonials-card p::before {
+  background: #0b0a0a;
+}
+.theme-dark .hospital-testimonials-card .info-content .info .title span {
+  color: #ffffff;
+}
+.theme-dark .hospital-blog-area {
+  background: #0e0e0e;
+}
+.theme-dark .hospital-blog-area::before {
+  background-color: #0b0a0a;
+}
+.theme-dark .hospital-blog-card .blog-content {
+  background-color: #000000;
+}
+.theme-dark .hospital-blog-card .blog-content .meta li {
+  color: #ffffff;
+}
+.theme-dark .hospital-blog-card .blog-content .meta li a {
+  color: #ffffff;
+}
+.theme-dark .hospital-information-card {
+  background: #0e0e0e;
+}
+.theme-dark .hospital-information-card .content p {
+  color: #ffffff;
+}
+.theme-dark .hospital-pagination .page-numbers {
+  color: #ffffff;
+}
+.theme-dark .hospital-choice-content .list li {
+  color: #ffffff;
+}
+.theme-dark .hospital-widget-area .widget_search form .search-field {
+  background-color: #0e0e0e;
+  border: 1px solid #0e0e0e;
+  color: #ffffff;
+}
+.theme-dark .hospital-widget-area .widget_search form .search-field::-moz-placeholder {
+  color: #ffffff;
+}
+.theme-dark .hospital-widget-area .widget_search form .search-field::placeholder {
+  color: #ffffff;
+}
+.theme-dark .hospital-widget-area .widget_categories {
+  background: #0e0e0e;
+}
+.theme-dark .hospital-widget-area .widget_download_file {
+  background: #0e0e0e;
+}
+.theme-dark .hospital-widget-area .widget_download_file .download-file-list li .title span {
+  color: #ffffff;
+}
+.theme-dark .hospital-widget-area .widget_grin_posts_thumb {
+  background: #0e0e0e;
+}
+.theme-dark .hospital-widget-area .widget_tag_cloud {
+  background: #0e0e0e;
+}
+.theme-dark .hospital-services-details-desc .services-details-inner-content .list li {
+  color: #ffffff;
+}
+.theme-dark .hospital-services-details-desc .hospital-faq-accordion .accordion .accordion-item {
+  border: 1px solid #0e0e0e;
+}
+.theme-dark .hospital-services-details-desc .hospital-faq-accordion .accordion .accordion-title {
+  background-color: #0e0e0e;
+  color: #ffffff;
+}
+.theme-dark .hospital-services-details-desc .hospital-faq-accordion .accordion .accordion-title i {
+  color: #ffffff;
+}
+.theme-dark .hospital-services-details-desc .hospital-faq-accordion .accordion .accordion-content p {
+  color: #ffffff;
+}
+.theme-dark .hospital-page-banner-content h3 {
+  color: #0A335B !important;
+}
+.theme-dark .hospital-services-area.bg-F8F8F8 {
+  background-color: #0b0a0a;
+}
+.theme-dark .hospital-appointment-area-with-color {
+  background-color: #0e0e0e;
+}
+.theme-dark .hospital-portfolio-card .portfolio-content {
+  background: #0e0e0e;
+}
+.theme-dark .hospital-portfolio-card .portfolio-content span {
+  color: #ffffff;
+}
+.theme-dark .hospital-portfolio-card:hover .portfolio-content {
+  background-color: #af915d;
+}
+.theme-dark .hospital-portfolio-details-info {
+  background: #0e0e0e;
+}
+.theme-dark .hospital-portfolio-details-info .list li {
+  color: #ffffff;
+}
+.theme-dark .hospital-portfolio-details-info .list li span {
+  color: #ffffff;
+}
+.theme-dark .hospital-blog-details-desc .article-content .meta li {
+  color: #ffffff;
+}
+.theme-dark .hospital-blog-details-desc .article-content .meta li a {
+  color: #ffffff;
+}
+.theme-dark .hospital-blog-details-desc .article-quote {
+  background: #0e0e0e;
+  border-top: 5px solid #0b0a0a;
+  border-bottom: 5px solid #0b0a0a;
+  border-left: 10px solid #0b0a0a;
+  border-right: 10px solid #0b0a0a;
+}
+.theme-dark .hospital-blog-details-desc .article-quote p {
+  color: #ffffff;
+}
+.theme-dark .hospital-blog-details-desc .list li {
+  color: #ffffff;
+}
+.theme-dark .hospital-blog-details-desc .blog-details-inner-content p {
+  color: #ffffff;
+}
+.theme-dark .hospital-blog-details-desc .article-tag .tag-list span {
+  color: #ffffff;
+}
+.theme-dark .hospital-blog-details-desc .article-tag .tag-list a {
+  color: #ffffff;
+}
+.theme-dark .hospital-blog-details-desc .article-tag .share-list span {
+  color: #ffffff;
+}
+.theme-dark .hospital-blog-details-desc .comments-area .comment-respond input[type=date], .theme-dark .hospital-blog-details-desc .comments-area .comment-respond input[type=time], .theme-dark .hospital-blog-details-desc .comments-area .comment-respond input[type=datetime-local], .theme-dark .hospital-blog-details-desc .comments-area .comment-respond input[type=week], .theme-dark .hospital-blog-details-desc .comments-area .comment-respond input[type=month], .theme-dark .hospital-blog-details-desc .comments-area .comment-respond input[type=text], .theme-dark .hospital-blog-details-desc .comments-area .comment-respond input[type=email], .theme-dark .hospital-blog-details-desc .comments-area .comment-respond input[type=url], .theme-dark .hospital-blog-details-desc .comments-area .comment-respond input[type=password], .theme-dark .hospital-blog-details-desc .comments-area .comment-respond input[type=search], .theme-dark .hospital-blog-details-desc .comments-area .comment-respond input[type=tel], .theme-dark .hospital-blog-details-desc .comments-area .comment-respond input[type=number], .theme-dark .hospital-blog-details-desc .comments-area .comment-respond textarea {
+  background: #0e0e0e;
+  border: 1px solid #0e0e0e;
+  color: #ffffff;
+}
+.theme-dark .hospital-blog-details-desc .comments-area .comment-respond input[type=date]::-moz-placeholder, .theme-dark .hospital-blog-details-desc .comments-area .comment-respond input[type=time]::-moz-placeholder, .theme-dark .hospital-blog-details-desc .comments-area .comment-respond input[type=datetime-local]::-moz-placeholder, .theme-dark .hospital-blog-details-desc .comments-area .comment-respond input[type=week]::-moz-placeholder, .theme-dark .hospital-blog-details-desc .comments-area .comment-respond input[type=month]::-moz-placeholder, .theme-dark .hospital-blog-details-desc .comments-area .comment-respond input[type=text]::-moz-placeholder, .theme-dark .hospital-blog-details-desc .comments-area .comment-respond input[type=email]::-moz-placeholder, .theme-dark .hospital-blog-details-desc .comments-area .comment-respond input[type=url]::-moz-placeholder, .theme-dark .hospital-blog-details-desc .comments-area .comment-respond input[type=password]::-moz-placeholder, .theme-dark .hospital-blog-details-desc .comments-area .comment-respond input[type=search]::-moz-placeholder, .theme-dark .hospital-blog-details-desc .comments-area .comment-respond input[type=tel]::-moz-placeholder, .theme-dark .hospital-blog-details-desc .comments-area .comment-respond input[type=number]::-moz-placeholder, .theme-dark .hospital-blog-details-desc .comments-area .comment-respond textarea::-moz-placeholder {
+  color: #ffffff;
+}
+.theme-dark .hospital-blog-details-desc .comments-area .comment-respond input[type=date]::placeholder, .theme-dark .hospital-blog-details-desc .comments-area .comment-respond input[type=time]::placeholder, .theme-dark .hospital-blog-details-desc .comments-area .comment-respond input[type=datetime-local]::placeholder, .theme-dark .hospital-blog-details-desc .comments-area .comment-respond input[type=week]::placeholder, .theme-dark .hospital-blog-details-desc .comments-area .comment-respond input[type=month]::placeholder, .theme-dark .hospital-blog-details-desc .comments-area .comment-respond input[type=text]::placeholder, .theme-dark .hospital-blog-details-desc .comments-area .comment-respond input[type=email]::placeholder, .theme-dark .hospital-blog-details-desc .comments-area .comment-respond input[type=url]::placeholder, .theme-dark .hospital-blog-details-desc .comments-area .comment-respond input[type=password]::placeholder, .theme-dark .hospital-blog-details-desc .comments-area .comment-respond input[type=search]::placeholder, .theme-dark .hospital-blog-details-desc .comments-area .comment-respond input[type=tel]::placeholder, .theme-dark .hospital-blog-details-desc .comments-area .comment-respond input[type=number]::placeholder, .theme-dark .hospital-blog-details-desc .comments-area .comment-respond textarea::placeholder {
+  color: #ffffff;
+}
+.theme-dark .hospital-contact-form {
+  background: #0e0e0e;
+}
+.theme-dark .hospital-contact-form .form-group .form-control {
+  background-color: #0b0a0a;
+  border: 1px solid #0b0a0a;
+  color: #ffffff;
+}
+.theme-dark .hospital-contact-form .form-group .form-control::-moz-placeholder {
+  color: #ffffff;
+}
+.theme-dark .hospital-contact-form .form-group .form-control::placeholder {
+  color: #ffffff;
+}
+.theme-dark .navbar-area-optional .main-navbar {
+  background-color: transparent;
+}
+.theme-dark .navbar-area-optional .main-navbar .navbar .navbar-brand {
+  color: #ffffff;
+}
+.theme-dark .emergency-trauma-care-banner-content .banner-boxes-item .item h5 {
+  color: #000000 !important;
+}
+.theme-dark .etc-overview-list li a {
+  color: #ffffff;
+}
+.theme-dark .etc-about-content .inner-about .left-box {
+  background: #111111;
+}
+.theme-dark .etc-about-content .inner-about .right-box {
+  background: #0e0e0e;
+}
+.theme-dark .etc-about-content .inner-about .right-box img {
+  filter: brightness(0) invert(1);
+}
+.theme-dark .etc-services-inner {
+  background: #0e0e0e;
+}
+.theme-dark .etc-services-card {
+  background-color: #000000;
+}
+.theme-dark .etc-view-all-btn span {
+  color: #ffffff;
+}
+.theme-dark .etc-view-all-btn span a {
+  color: #ffffff;
+}
+.theme-dark .etc-view-all-btn span a:hover {
+  color: #af915d;
+}
+.theme-dark .etc-emergency-tips-content {
+  background-color: #111111;
+}
+.theme-dark .etc-emergency-tips-inner {
+  background-color: #0e0e0e;
+}
+.theme-dark .etc-appointment-form {
+  background: #111111;
+}
+.theme-dark .etc-appointment-form form .form-group .form-control {
+  background-color: #000000;
+  border: 1px solid #000000;
+  color: #ffffff;
+}
+.theme-dark .etc-appointment-form form .form-group .form-control::-moz-placeholder {
+  color: #ffffff;
+}
+.theme-dark .etc-appointment-form form .form-group .form-control::placeholder {
+  color: #ffffff;
+}
+.theme-dark .etc-appointment-form form .form-group .form-control:focus {
+  border: 1px solid #af915d;
+}
+.theme-dark .etc-appointment-form form .form-group .form-control:focus::-moz-placeholder {
+  color: transparent;
+}
+.theme-dark .etc-appointment-form form .form-group .form-control:focus::placeholder {
+  color: transparent;
+}
+.theme-dark .etc-appointment-form form .form-group .nice-select {
+  background-color: #000000;
+  border: 1px solid #000000;
+  color: #ffffff;
+}
+.theme-dark .etc-appointment-form form .form-group .nice-select::after {
+  border-color: #ffffff;
+}
+.theme-dark .etc-appointment-map .wrap {
+  background-color: #0e0e0e;
+}
+.theme-dark .etc-appointment-map .wrap img {
+  filter: brightness(0) invert(1);
+}
+.theme-dark .etc-team-inner {
+  border-bottom: 1px solid #262525;
+}
+.theme-dark .etc-testimonials-card {
+  background: #0e0e0e;
+}
+.theme-dark .etc-hospital-card {
+  background-color: #0e0e0e;
+}
+.theme-dark .etc-working-hours-info {
+  background: #0e0e0e;
+}
+.theme-dark .etc-working-hours-info .list li {
+  color: #ffffff;
+}
+.theme-dark .etc-working-hours-app-info {
+  background-color: #0e0e0e;
+}
+.theme-dark .etc-blog-card {
+  background-color: #0e0e0e;
+}
+.theme-dark .etc-blog-card .content .entry-meta li {
+  color: #ffffff;
+}
+.theme-dark .etc-blog-card .content .entry-meta li a {
+  color: #ffffff;
+}
+.theme-dark .orthopedic-care-banner-content .sub-top .title span {
+  color: #486683 !important;
+}
+.theme-dark .orthopedic-care-banner-content h1 {
+  color: #002345 !important;
+}
+.theme-dark .orthopedic-care-banner-content p {
+  color: #486683 !important;
+}
+.theme-dark .orthopedic-care-banner-info h4 {
+  color: #002345 !important;
+}
+.theme-dark .orthopedic-care-banner-info h5 {
+  color: #002345 !important;
+}
+.theme-dark .orthopedic-care-banner-info h5 a {
+  color: #486683 !important;
+}
+.theme-dark .oc-features-card {
+  background-color: #0e0e0e;
+}
+.theme-dark .oc-about-item .item {
+  background-color: #0e0e0e;
+}
+.theme-dark .oc-about-content .inner-info .about-btn .default-btn {
+  color: #ffffff;
+}
+.theme-dark .oc-about-content .inner-info .hotline .sub {
+  color: #ffffff;
+}
+.theme-dark .oc-services-inner {
+  background-color: #0e0e0e;
+}
+.theme-dark .oc-services-content .view-all-btn span {
+  color: #ffffff;
+}
+.theme-dark .oc-services-content .view-all-btn span a {
+  color: #ffffff;
+}
+.theme-dark .oc-services-items .item .content .icon a i {
+  color: #ffffff;
+  border: 1px solid #ffffff;
+}
+.theme-dark .oc-view-all-btn span {
+  color: #ffffff;
+}
+.theme-dark .oc-view-all-btn span a {
+  color: #ffffff;
+}
+.theme-dark .oc-working-hours-info {
+  background-color: #0e0e0e;
+}
+.theme-dark .oc-working-hours-info .list li {
+  color: #ffffff;
+}
+.theme-dark .oc-working-hours-app-info {
+  background-color: #0e0e0e;
+}
+.theme-dark .oc-appointment-form h4 {
+  color: #000000 !important;
+}
+.theme-dark .oc-appointment-form form .form-group .form-control {
+  background-color: #000000;
+  border: 1px solid #000000;
+  color: #ffffff;
+}
+.theme-dark .oc-appointment-form form .form-group .form-control::-moz-placeholder {
+  color: #ffffff;
+}
+.theme-dark .oc-appointment-form form .form-group .form-control::placeholder {
+  color: #ffffff;
+}
+.theme-dark .oc-appointment-form form .form-group .form-control:focus {
+  border: 1px solid #af915d;
+}
+.theme-dark .oc-appointment-form form .form-group .form-control:focus::-moz-placeholder {
+  color: transparent;
+}
+.theme-dark .oc-appointment-form form .form-group .form-control:focus::placeholder {
+  color: transparent;
+}
+.theme-dark .oc-appointment-form form .form-group .nice-select {
+  background-color: #000000;
+  border: 1px solid #000000;
+  color: #ffffff;
+}
+.theme-dark .oc-appointment-form form .form-group .nice-select::after {
+  border-color: #ffffff;
+}
+.theme-dark .oc-partner-inner {
+  background-color: #0e0e0e;
+}
+.theme-dark .oc-partner-card a img {
+  filter: brightness(0) invert(1);
+}
+.theme-dark .oc-faq-accordion .accordion .accordion-title {
+  color: #ffffff;
+}
+.theme-dark .oc-blog-area {
+  background: #0e0e0e;
+}
+.theme-dark .oc-blog-card {
+  background-color: #000000;
+}
+.theme-dark .oc-blog-card .content .entry-meta li {
+  color: #ffffff;
+}
+.theme-dark .oc-blog-card .content .entry-meta li a {
+  color: #ffffff;
+}
+.theme-dark .cart-table table thead tr th {
+  color: #ffffff;
+}
+.theme-dark .cart-table table tbody tr td {
+  color: #ffffff;
+}
+.theme-dark .cart-totals ul li {
+  color: #ffffff;
+}
+.theme-dark .cart-totals ul li:last-child span {
+  color: #ffffff;
+}
+.theme-dark .checkout-info-form .form-group label {
+  color: #ffffff;
+}
+.theme-dark .checkout-info-form .form-group .form-control {
+  background-color: #0e0e0e;
+  border: 1px solid #0e0e0e;
+  color: #ffffff;
+}
+.theme-dark .checkout-info-form .form-group .form-control::-moz-placeholder {
+  color: #ffffff;
+}
+.theme-dark .checkout-info-form .form-group .form-control::placeholder {
+  color: #ffffff;
+}
+.theme-dark .checkout-info-form .form-group .form-control:focus {
+  box-shadow: none;
+  border: 1px solid #af915d;
+}
+.theme-dark .checkout-info-form .form-group .form-control:focus::-moz-placeholder {
+  color: transparent;
+}
+.theme-dark .checkout-info-form .form-group .form-control:focus::placeholder {
+  color: transparent;
+}
+.theme-dark .checkout-info-form .form-group textarea.form-control {
+  min-height: 120px;
+}
+.theme-dark .checkout-info-form .form-group .nice-select {
+  background-color: #0e0e0e;
+  border: 1px solid #0e0e0e;
+  color: #ffffff;
+}
+.theme-dark .checkout-sidebar .order-box .list li .info .title h4 a {
+  color: #ffffff;
+}
+.theme-dark .checkout-sidebar .order-box .list li .price {
+  color: #ffffff;
+}
+.theme-dark .checkout-sidebar .payment-method p [type=radio]:checked + label, .theme-dark .checkout-sidebar .payment-method p [type=radio]:not(:checked) + label {
+  color: #ffffff;
+}
+.theme-dark .checkout-sidebar .payment-method p [type=radio]:checked + label::before, .theme-dark .checkout-sidebar .payment-method p [type=radio]:not(:checked) + label::before {
+  border: 1px solid #ffffff;
+}
+.theme-dark .checkout-sidebar .payment-method p [type=radio]:checked + label::after, .theme-dark .checkout-sidebar .payment-method p [type=radio]:not(:checked) + label::after {
+  background: #af915d;
+}
+.theme-dark .products-details-desc .products-info li span {
+  color: #ffffff;
+}
+.theme-dark .products-details-tabs .nav .nav-item .nav-link {
+  color: #cccccc;
+}
+.theme-dark .products-details-tabs .nav .nav-item .nav-link.active {
+  color: #ffffff;
+}
+.theme-dark .products-details-tabs .tab-content .tab-pane ul li {
+  color: #ffffff;
+}
+.theme-dark .section-title-top-warp .sub {
+  color: #ffffff;
+}
+.theme-dark .rth-navbar-area.is-sticky .main-navbar {
+  background-color: #0e0e0e !important;
+}
+.theme-dark .rth-navbar-area .main-navbar {
+  background-color: #000000 !important;
+}
+.theme-dark .rth-navbar-area .main-navbar .navbar-brand {
+  color: #ffffff;
+}
+.theme-dark .rth-navbar-area .main-navbar .navbar .others-options .option-item .cart-btn i {
+  color: #ffffff;
+}
+.theme-dark .rth-about-card {
+  background-color: #0e0e0e;
+}
+.theme-dark .rth-about-quote {
+  background: #0e0e0e;
+}
+.theme-dark .rth-about-quote .left .title span {
+  color: #ffffff;
+}
+.theme-dark .rth-services-area {
+  background-color: #0e0e0e;
+}
+.theme-dark .rth-services-card {
+  background-color: #000000;
+}
+.theme-dark .rth-services-card .services-btn {
+  color: #ffffff;
+}
+.theme-dark .rth-research-innovation-info .item {
+  background-color: #0e0e0e;
+}
+.theme-dark .rth-research-innovation-info .working {
+  background-color: #0e0e0e;
+}
+.theme-dark .rth-research-innovation-items .item h3 span {
+  color: #ffffff;
+}
+.theme-dark .rth-team-link {
+  background: #0e0e0e;
+}
+.theme-dark .rth-testimonial-slides.owl-theme .owl-nav [class*=owl-] {
+  border: 1px solid #ffffff;
+  color: #ffffff;
+}
+.theme-dark .rth-testimonial-slides.owl-theme .owl-nav [class*=owl-]:hover {
+  color: #000000;
+  background-color: #ffffff;
+}
+.theme-dark .rth-contact-content .content .sub {
+  color: #ffffff;
+}
+.theme-dark .rth-contact-content .map .wrap {
+  background-color: #000000;
+}
+.theme-dark .rth-contact-form form .form-group .form-control {
+  background-color: #000000;
+  border: 1px solid #000000;
+  color: #ffffff;
+}
+.theme-dark .rth-contact-form form .form-group .form-control::-moz-placeholder {
+  color: #ffffff;
+}
+.theme-dark .rth-contact-form form .form-group .form-control::placeholder {
+  color: #ffffff;
+}
+.theme-dark .rth-contact-form form .form-group .form-control:focus {
+  border: 1px solid #af915d;
+}
+.theme-dark .rth-contact-form form .form-group .nice-select {
+  background-color: #000000;
+  border: 1px solid #000000;
+  color: #ffffff;
+}
+.theme-dark .rth-contact-form form .form-group .nice-select::after {
+  border-color: #ffffff;
+}
+.theme-dark .rth-blog-area {
+  background: #0e0e0e;
+}
+.theme-dark .rth-blog-item .content .meta li {
+  color: #ffffff;
+}
+.theme-dark .rth-blog-item .content .meta li a {
+  color: #ffffff;
+}
+.theme-dark .rth-blog-item .content .meta li::before {
+  color: #ffffff;
+}
+.theme-dark .rth-blog-item .content .blog-btn {
+  color: #ffffff;
+}
+.theme-dark .tvc-banner-content h1 {
+  color: #002345 !important;
+}
+.theme-dark .tvc-banner-content p {
+  color: #002345 !important;
+}
+.theme-dark .tvc-online-doctor {
+  background-color: #0e0e0e;
+}
+.theme-dark .tvc-trusted-inner {
+  background-color: #0e0e0e;
+}
+.theme-dark .tvc-trusted-item img {
+  filter: invert(1);
+}
+.theme-dark .tvc-about-inner {
+  border-bottom: 1px solid #3c3939;
+}
+.theme-dark .tvc-about-inner .image1 {
+  opacity: 80%;
+}
+.theme-dark .tvc-about-inner .image2 {
+  opacity: 80%;
+}
+.theme-dark .tvc-about-content::before {
+  background-color: #0e0e0e;
+}
+.theme-dark .tvc-about-content .about-btn .default-btn2 {
+  color: #ffffff !important;
+}
+.theme-dark .tvc-works-card .icon img {
+  filter: invert(1);
+}
+.theme-dark .tvc-services-area {
+  background-color: #0e0e0e;
+}
+.theme-dark .tvc-services-image .bottom .right .list li {
+  border: 1px solid #3c3939;
+  background-color: #000000;
+}
+.theme-dark .tvc-services-content .items .item {
+  background-color: #000000;
+}
+.theme-dark .tvc-services-content .items .item .title h3 span {
+  color: #ffffff;
+}
+.theme-dark .tvc-telemedicine-services-content .nav .nav-item .nav-link {
+  background: #0e0e0e;
+}
+.theme-dark .tvc-telemedicine-services-content .nav .nav-item .nav-link h3 span {
+  color: #ffffff;
+}
+.theme-dark .tvc-telemedicine-services-content .nav .nav-item .nav-link:hover, .theme-dark .tvc-telemedicine-services-content .nav .nav-item .nav-link.active {
+  background-color: #af915d;
+  color: #ffffff;
+}
+.theme-dark .tvc-telemedicine-services-right .services-btn {
+  color: #ffffff;
+}
+.theme-dark .tvc-team-card .image .link-btn a {
+  background-color: #000000;
+}
+.theme-dark .tvc-testimonial-item {
+  background-color: #0e0e0e;
+}
+.theme-dark .tvc-testimonial-item .info .quote img {
+  filter: invert(1);
+}
+.theme-dark .tvc-testimonial-slides.owl-theme .owl-nav [class*=owl-] {
+  border: 1px solid #ffffff;
+  color: #ffffff;
+}
+.theme-dark .tvc-testimonial-slides.owl-theme .owl-nav [class*=owl-]:hover {
+  color: #000000;
+  background-color: #ffffff;
+}
+.theme-dark .tvc-pricing-inner .top {
+  background-color: #0e0e0e;
+}
+.theme-dark .tvc-pricing-inner .tvc-pricing-list.radius1 li {
+  border: 1px solid #0e0e0e;
+  background: #0e0e0e;
+}
+.theme-dark .tvc-pricing-inner .tvc-pricing-list li {
+  border: 1px solid #0e0e0e;
+}
+.theme-dark .tvc-faq-image span {
+  color: #ffffff;
+}
+.theme-dark .tvc-faq-image span a {
+  color: #ffffff;
+}
+.theme-dark .tvc-faq-accordion {
+  background-color: #0e0e0e;
+}
+.theme-dark .tvc-faq-accordion .accordion .accordion-item {
+  border-bottom: 1px solid #000000;
+}
+.theme-dark .tvc-faq-accordion .accordion .accordion-item:last-child {
+  border-bottom: none;
+}
+.theme-dark .tvc-faq-accordion .accordion .accordion-title {
+  color: #ffffff;
+}
+.theme-dark .tvc-faq-accordion::before {
+  background-color: #0e0e0e;
+}
+.theme-dark .tvc-blog-item .meta li {
+  color: #ffffff;
+}
+.theme-dark .tvc-blog-item .meta li a {
+  color: #ffffff;
+}
+.theme-dark .tvc-blog-item .meta li::before {
+  color: #ffffff;
+}
+.theme-dark .tvc-blog-item .content .blog-btn {
+  color: #ffffff;
+}
+.theme-dark .rehabilitation-center-slider-thumb-inner {
+  background-color: #000000;
+}
+.theme-dark .rehabilitation-center-slider-thumb-inner .shape1 svg {
+  fill: #000000;
+}
+.theme-dark .rehabilitation-center-slider-thumb-inner .shape2 svg {
+  fill: #000000;
+}
+.theme-dark .tvc-trusted-area.rc-style-wrap .tvc-trusted-inner {
+  background-color: #0e0e0e;
+}
+.theme-dark .rc-offer-area {
+  background: linear-gradient(180deg, #0e0e0e 0%, #000000 100%);
+}
+.theme-dark .rc-offer-items .item {
+  border-bottom: 1px solid #2e2c29;
+}
+.theme-dark .rc-offer-items .item .right .services-btn {
+  color: #ffffff;
+}
+.theme-dark .rc-offer-items .item .right:hover p {
+  background-color: #0e0e0e;
+}
+.theme-dark .rc-contact-area::before {
+  background: #0e0e0e;
+}
+.theme-dark .rc-contact-form .form-group .form-control {
+  background-color: #000000;
+  border: 1px solid #000000;
+  color: #ffffff;
+}
+.theme-dark .rc-contact-form .form-group .form-control::-moz-placeholder {
+  color: #ffffff;
+}
+.theme-dark .rc-contact-form .form-group .form-control::placeholder {
+  color: #ffffff;
+}
+.theme-dark .rc-contact-form .form-group .form-control:focus {
+  border: 1px solid #af915d;
+}
+.theme-dark .rc-contact-form .form-group .nice-select {
+  background-color: #000000;
+  border: 1px solid #000000;
+  color: #ffffff;
+}
+.theme-dark .rc-contact-form .form-group .nice-select::after {
+  border-color: #ffffff;
+}
+.theme-dark .rc-map .wrap {
+  background-color: #0e0e0e;
+}
+.theme-dark .rc-treatment-plans-image .content h3 {
+  color: #000000;
+}
+.theme-dark .rc-treatment-plans-items .item {
+  background-color: #0e0e0e;
+}
+.theme-dark .rc-treatment-plans-items .item .number {
+  background-color: #000000;
+}
+.theme-dark .rc-blog-card .content .meta li {
+  color: #ffffff;
+}
+.theme-dark .rc-blog-card .image .arrow-btn a {
+  background-color: #000000;
+}
+.theme-dark .rc-blog-card .image .arrow-btn a .shape1 svg {
+  fill: #000000;
+}
+.theme-dark .rc-blog-card .image .arrow-btn a .shape2 svg {
+  fill: #000000;
+}
+.theme-dark .rc-overview-inner {
+  background-color: #000000;
+}
+.theme-dark .rc-overview-inner .inner h2 {
+  color: #000000 !important;
+}
+.theme-dark .rc-overview-inner .inner p {
+  color: #486683;
+}
+.theme-dark .rc-overview-inner .shape1 svg {
+  fill: #000000;
+}
+.theme-dark .rc-overview-inner .shape2 svg {
+  fill: #000000;
+}
+.theme-dark .services-details-two-sidebar .item .list li a {
+  background: #0e0e0e;
+  color: #ffffff;
+}
+.theme-dark .services-details-two-sidebar .item .list li a:hover {
+  background-color: #0056D2;
+}
+.theme-dark .services-details-two-sidebar .item form .form-group .form-control {
+  background-color: #0e0e0e;
+  border: 1px solid #0e0e0e;
+  color: #ffffff;
+}
+.theme-dark .services-details-two-sidebar .item form .form-group .form-control::-moz-placeholder {
+  color: #ffffff;
+}
+.theme-dark .services-details-two-sidebar .item form .form-group .form-control::placeholder {
+  color: #ffffff;
+}
+.theme-dark .services-details-two-sidebar .item form .form-group .form-control:focus {
+  border: 1px solid #af915d;
+}
+.theme-dark .services-details-two-sidebar .item .time-list {
+  background: #0e0e0e;
+}
+.theme-dark .maternity-clinic-navbar-area.is-sticky {
+  background: #0e0e0e !important;
+}
+.theme-dark .maternity-clinic-navbar-area.is-sticky .main-navbar {
+  background: #0e0e0e !important;
+}
+.theme-dark .maternity-clinic-navbar-area .main-navbar .navbar-brand {
+  color: #ffffff;
+}
+.theme-dark .maternity-clinic-navbar-area .main-navbar .navbar .others-options .option-item .call-btn a {
+  color: #ffffff;
+}
+.theme-dark .maternity-clinic-navbar-area .main-navbar .navbar .others-options .option-item .call-btn a:hover {
+  color: #af915d;
+}
+.theme-dark .maternity-clinic-banner-content::before {
+  background-color: #000000;
+}
+.theme-dark .maternity-clinic-banner-content::after {
+  background-color: #000000;
+}
+.theme-dark .maternity-clinic-banner-content .banner-btn li:last-child .default-btn {
+  color: #ffffff;
+}
+.theme-dark .maternity-clinic-banner-content .list li span {
+  color: #ffffff;
+}
+.theme-dark .mc-about-inner {
+  background-color: #0e0e0e;
+}
+.theme-dark .mc-about-content .list li span {
+  color: #ffffff;
+}
+.theme-dark .mc-about-content .about-btn .default-btn {
+  color: #ffffff;
+}
+.theme-dark .mc-choose-card {
+  background-color: #000000;
+}
+.theme-dark .mc-choose-card.wrap-style1::before {
+  background-color: #000000;
+}
+.theme-dark .mc-choose-card.wrap-style1::after {
+  background-color: #000000;
+}
+.theme-dark .mc-choose-card.wrap-style2::before {
+  background-color: #000000;
+}
+.theme-dark .mc-choose-card.wrap-style2::after {
+  background-color: #000000;
+}
+.theme-dark .mc-services-card {
+  background: #0e0e0e;
+}
+.theme-dark .mc-testimonials-area {
+  background-color: #0e0e0e;
+}
+.theme-dark .mc-testimonials-card {
+  border: 1px solid #0e0e0e;
+  background: #000000;
+}
+.theme-dark .mc-footer-widget .info-list li {
+  color: #ffffff;
+}
+.theme-dark .mc-footer-widget .info-list li a {
+  color: #ffffff;
+}
+.theme-dark .mc-footer-widget .share-link li span {
+  color: #ffffff;
+}
+.theme-dark .mc-footer-widget .quick-links li a {
+  color: #ffffff;
+}
+.theme-dark .mc-footer-widget .newsletter-form p {
+  color: #ffffff;
+}
+.theme-dark .mc-footer-widget .newsletter-form .form-group .input-newsletter {
+  color: #ffffff;
+}
+.theme-dark .mc-copyright-area .copyright-area-content p {
+  color: #ffffff;
+}
+.theme-dark .bg-color-F8F8F8 {
+  background-color: #000000;
+}
+.theme-dark .mc-about-area.bg-color-F8F8F8 .mc-about-inner {
+  background-color: #0e0e0e;
+}
+.theme-dark .ccc-services-card {
+  background-color: #0e0e0e;
+}
+.theme-dark .ccc-services-card::before {
+  background-image: unset;
+  background-color: #0e0e0e;
+}
+.theme-dark .ccc-choose-card {
+  background-color: #000000;
+}
+.theme-dark .ccc-choose-card.wrap-style1 {
+  background-color: transparent;
+}
+.theme-dark .ccc-choose-card.wrap-style1::before {
+  background-color: #000000;
+}
+.theme-dark .ccc-choose-card.wrap-style1::after {
+  background-color: #000000;
+}
+.theme-dark .ccc-choose-card.wrap-style2 {
+  background-color: transparent;
+}
+.theme-dark .ccc-choose-card.wrap-style2::before {
+  background-color: #000000;
+}
+.theme-dark .ccc-choose-card.wrap-style2::after {
+  background-color: #000000;
+}
+.theme-dark .ccc-fun-facts-inner::before {
+  background-color: #0e0e0e;
+}
+.theme-dark .ccc-fun-facts-inner::after {
+  background-color: #0e0e0e;
+}
+.theme-dark .ccc-testimonials-area {
+  background-color: #0e0e0e;
+}
+.theme-dark .ccc-testimonials-items .item {
+  background: #000000;
+}
+@media only screen and (max-width: 991px) {
+  .theme-dark .navbar-area {
+    background-color: #292828;
+  }
+  .theme-dark .main-responsive-nav .mean-container a.meanmenu-reveal span {
+    background: #ffffff;
+  }
+  .theme-dark .main-responsive-nav .logo .main-logo {
+    display: none;
+  }
+  .theme-dark .main-responsive-nav .logo .white-logo {
+    display: block;
+  }
+  .theme-dark .others-option-for-responsive .dot-menu {
+    top: -42px;
+  }
+  .theme-dark .others-option-for-responsive .dot-menu .inner .circle {
+    background-color: #ffffff;
+  }
+  .theme-dark .others-option-for-responsive .others-option-for-responsive .container .container {
+    background-color: #292828;
+  }
+}/*# sourceMappingURL=dark.css.map */
