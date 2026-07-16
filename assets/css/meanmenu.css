@@ -1,7 +1,7 @@
 .mean-container .mean-bar {
 	float: left;
 	width: 100%;
-	/* position: absolute; */
+	position: absolute;
 	background: transparent;
 	padding: 20px 0 0;
 	z-index: 999;

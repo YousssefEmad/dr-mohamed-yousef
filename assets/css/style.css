@@ -743,7 +743,7 @@ Navbar Area CSS
 }
 
 .navbar-area.is-sticky {
-  /* position: fixed; */
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
@@ -30370,5 +30370,11 @@ MC Footer Area CSS
     height: 220px;
     background-repeat: no-repeat;
     background-size: contain;
+  }
+  .navbar-area.is-sticky{
+    position: unset;
+  }
+  .mean-container .mean-bar {
+position: unset;
   }
 }
