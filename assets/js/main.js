@@ -1,4 +1,40 @@
-// Main Tabs
+const menu = document.getElementById("mobileMenu");
+const overlay = document.getElementById("mobileOverlay");
+
+document.getElementById("menuToggle").onclick = () => {
+    menu.classList.add("active");
+    overlay.classList.add("active");
+    document.body.classList.add("menu-open");
+};
+
+function closeMenu() {
+    menu.classList.remove("active");
+    overlay.classList.remove("active");
+    document.body.classList.remove("menu-open");
+}
+
+document.getElementById("closeMenu").onclick = closeMenu;
+
+overlay.onclick = closeMenu;
+
+var swiper = new Swiper('.mySwiper-slider', {
+        spaceBetween: 30,
+        centeredSlides: true,
+		loop: true,
+		effect: 'fade',
+        // autoplay: {
+        //   delay: 2500,
+        //   disableOnInteraction: false,
+        // },
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true,
+        },
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+      });
 document.querySelectorAll(".tab-btn").forEach(btn => {
     btn.addEventListener("click", function () {
 

@@ -78,7 +78,7 @@ img {
 }
 
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
-  color: #222222;
+  color: #7c5a2e;
   font-family: "Poppins", sans-serif;
   font-weight: bold;
 }
@@ -128,6 +128,16 @@ Section Title CSS
 =================================================*/
 .section-title-warp {
   margin-bottom: 45px;
+}
+.contact-area {
+  background-color: #af915d;
+}
+.contact-area img{
+  height: 120px;
+}
+.contact-area iframe{
+  height: 100%;
+  width: 100%;
 }
 .section-title-warp .sub-title {
 display: inline-block;
@@ -230,6 +240,7 @@ Preloader Area CSS
   border-right: 4px solid #af915d;
   border-radius: 50%;
   animation: spinCircle 1s linear infinite;
+  display: none;
 }
 
 .preloader .loader .sbl-half-circle-spin img {
@@ -297,6 +308,15 @@ Preloader Area CSS
 /*================================================
 Top Header Area CSS
 =================================================*/
+.soail-contact-header ul {
+  display: flex;
+  gap: 20px;
+}
+.soail-contact-header ul li a{
+  padding: 10px; 
+  color: #000;
+}
+
 .top-header-area {
   padding-top: 10px;
   padding-bottom: 10px;
@@ -974,7 +994,7 @@ Search Modal Style CSS
     box-shadow: 0 7px 13px 0 rgba(0, 0, 0, 0.1);
   }
   .main-responsive-nav .mean-container a.meanmenu-reveal {
-    color: #fff;
+    color: #000000;
   }
   .main-responsive-nav .mean-container a.meanmenu-reveal span {
     background: #fff;
@@ -1127,6 +1147,173 @@ Main Slides Area CSS
 .banner-slides {
   position: relative;
   height: 100vh;
+}
+.banner-slides .mySwiper-slider .swiper-slide{
+  height: 100vh;
+}
+.banner-slides{
+    position: relative;
+}
+
+.banner-slides .swiper{
+    width:100%;
+    height:100vh;
+}
+
+.banner-slides .swiper-slide{
+    position:relative;
+    overflow:hidden;
+}
+
+.banner-slides .swiper-slide img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+.banner-slides .swiper-slide::after{
+    content:"";
+    position:absolute;
+    inset:0;
+    background:rgba(0,0,0,.35);
+}
+
+.banner-content{
+
+    position:absolute;
+
+    top:50%;
+    left:8%;
+
+    transform:translateY(-50%);
+
+    width:520px;
+    max-width:90%;
+
+    background:rgba(255,255,255,.15);
+
+    backdrop-filter:blur(12px);
+
+    padding:45px;
+
+    border-radius:20px;
+
+    box-shadow:
+        0 20px 50px rgba(0,0,0,.25);
+
+    z-index:5;
+
+    color:#fff;
+
+}
+
+.banner-content span{
+
+    display:inline-block;
+
+    color:#D8B36A;
+
+    font-size:15px;
+
+    text-transform:uppercase;
+
+    letter-spacing:2px;
+
+    margin-bottom:12px;
+
+}
+
+.banner-content h1{
+
+    font-size:52px;
+
+    font-weight:700;
+
+    line-height:1.2;
+
+    margin-bottom:20px;
+color: #e9c786 !important;
+}
+
+.banner-content p{
+
+    font-size:17px;
+
+    line-height:1.9;
+
+    margin-bottom:30px;
+
+    color:#f3f3f3;
+
+}
+
+.banner-content .default-btn{
+
+    display:inline-flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    padding:14px 34px;
+
+    border-radius:50px;
+
+    background:#D8B36A;
+
+    color:#fff;
+
+    text-decoration:none;
+
+    transition:.3s;
+
+}
+
+.banner-content .default-btn:hover{
+
+    background:#fff;
+
+    color:#222;
+
+}
+
+.swiper-button-next,
+.swiper-button-prev{
+
+    color:#fff;
+
+}
+
+@media(max-width:991px){
+
+.banner-slides .swiper{
+
+    height:650px;
+
+}
+
+.banner-content{
+
+    left:20px;
+    right:20px;
+    width:auto;
+
+    padding:30px;
+
+}
+
+.banner-content h1{
+
+    font-size:32px;
+
+}
+
+.banner-content p{
+
+    font-size:15px;
+
+}
+
 }
 .banner-slides  video {
   width: 100%;
@@ -1405,13 +1592,12 @@ Services Area CSS
   color: #ffffff;
 }
 .single-services:hover .services-content {
-  background-color: #af915d;
 }
 .single-services:hover .services-content h3 a {
   color: #ffffff;
 }
 .single-services:hover .services-content p {
-  color: #ffffff;
+  color: #000000;
 }
 
 .single-services-box {
@@ -1923,7 +2109,9 @@ About Area CSS
 .about-image .about-inner-box:hover {
   transform: translateY(-5px);
 }
-
+.services-are{
+  
+}
 /*================================================
 Core Features Area CSS
 =================================================*/
@@ -2208,9 +2396,9 @@ Blog Area CSS
   background-color: #ffffff;
   box-shadow: 0px 15px 35px rgba(0, 0, 0, 0.1);
   padding: 25px;
-  border-radius: 0 0 10px 10px;
-  border-bottom: 2px solid #af915d;
-  height: 250px;
+  border-radius: 10px 10px;
+  border-left: 2px solid #af915d;
+  height: 100%;
 }
 .single-blog .blog-content h3 {
   font-size: 25px;
@@ -2219,7 +2407,7 @@ Blog Area CSS
   line-height: 1.4;
 }
 .single-blog .blog-content h3 a {
-  color: #222222;
+  color: #af915d;
 }
 .single-blog .blog-content h3 a:hover {
   color: #af915d;
@@ -4015,7 +4203,7 @@ Footer Area CSS
   width: 100%;
   height: 100%;
   z-index: 1;
-  background-color: #00000087;
+  background-color: #ffffff87;
 }
 .footer-area .container,
 .footer-area .copyright-area{
@@ -4299,10 +4487,11 @@ Go Top CSS
 Header Area CSS
 =================================================*/
 .grin-care-header {
-  position: absolute;
-  top: 20px;
+  position: fixed;
+  top: 0;
   z-index: 9;
   width: 100%;
+  background-color: #fff;
 }
 
 /*================================================
@@ -4576,7 +4765,7 @@ Navbar Area CSS
   margin-inline-end: 10px;
 }
 .grin-care-navbar .main-navbar .navbar .navbar-nav .nav-item a {
-  color: #fff;
+  color: #000000;
   font-family: "Heebo", sans-serif;
 }
 .grin-care-navbar .main-navbar .navbar .navbar-nav .nav-item a::before {
@@ -4873,7 +5062,7 @@ Dental Tourism About Area CSS
 }
 .dental-tourism-about-content p {
   margin-bottom: 0;
-  color: #fff;
+  color: #000000;
 }
 .dental-tourism-about-content .list {
   padding: 0;
@@ -4882,7 +5071,7 @@ Dental Tourism About Area CSS
 }
 .dental-tourism-about-content .list li {
   list-style-type: none;
-  color: #002345;
+  color: #b4b4b4;
   margin-bottom: 15px;
   position: relative;
   padding-inline-start: 22px;
@@ -12737,7 +12926,7 @@ Covid Footer Area CSS
     text-align:center;
     padding: 15px 25px;
     border-radius: 15px;
-    background-color: #060606;
+    background-color: #fff;
 }
 
 .counter-item h3{
@@ -12751,7 +12940,7 @@ Covid Footer Area CSS
 .counter-item p{
     margin:0;
     font-size: 22px;
-    color: #fad396;
+    color: #000;
     font-weight: 600;
 }
 .skill-area__one-left-video::before {
@@ -21700,26 +21889,26 @@ MC Footer Area CSS
   margin-bottom: 0;
 }
   body {
-  background-color: #000000;
-  color: #f1f1f1;
+  background-color: #ffffff;
+  color: #000000;
 }
   p {
-  color: #f1f1f1;
+  color: #000000;
 }
   p a {
-  color: #f1f1f1 !important;
+  color: #af915d !important;
 }
   p a:hover {
   color: #af915d !important;
 }
   a {
-  color: #ffffff;
+  color: #af915d;
 }
   .h1,   .h2,   .h3,   .h4,   .h5,   .h6,   h1,   h2,   h3,   h4,   h5,   h6 {
-  color: #ffffff !important;
+  color: #7c5a2e !important;
 }
   .h1 a,   .h2 a,   .h3 a,   .h4 a,   .h5 a,   .h6 a,   h1 a,   h2 a,   h3 a,   h4 a,   h5 a,   h6 a {
-  color: #ffffff !important;
+  color: #af915d !important;
 }
   .h1 a:hover,   .h2 a:hover,   .h3 a:hover,   .h4 a:hover,   .h5 a:hover,   .h6 a:hover,   h1 a:hover,   h2 a:hover,   h3 a:hover,   h4 a:hover,   h5 a:hover,   h6 a:hover {
   color: #af915d !important;
@@ -21753,7 +21942,7 @@ MC Footer Area CSS
   border: 2px solid #ffffff;
 }
   .navbar-area.is-sticky {
-  background-color: #161616 !important;
+  background-color: #ffffff !important;
 }
   .main-navbar {
   background-color: #0b0a0a;
@@ -21765,7 +21954,7 @@ MC Footer Area CSS
   display: none;
 }
   .main-navbar .navbar .navbar-nav .nav-item a {
-  color: #ffffff;
+  color: #000000;
 }
   .main-navbar .navbar .navbar-nav .nav-item a:hover,   .main-navbar .navbar .navbar-nav .nav-item a:focus,   .main-navbar .navbar .navbar-nav .nav-item a.active {
   color: #af915d !important;
@@ -21774,11 +21963,11 @@ MC Footer Area CSS
   color: #af915d !important;
 }
   .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu {
-  background: #0000003b;
+  background: #ffffff;
   backdrop-filter: blur(27px);
 }
   .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li a {
-  color: #ffffff !important;
+  color: #000000 !important;
 }
   .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li a:hover,   .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li a:focus,   .main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li a.active {
   color: #af915d !important;
@@ -21842,7 +22031,6 @@ MC Footer Area CSS
   color: #ffffff;
 }
   .grin-care-navbar .main-navbar .navbar {
-  background-color: #0b0a0a;
 }
   .grin-care-navbar .main-navbar .others-options .option-item .cart-btn i {
   color: #ffffff;
@@ -21931,7 +22119,7 @@ MC Footer Area CSS
   border: 2px solid #ffffff;
 }
   .single-services .services-content {
-  background-color: #0e0e0e;
+  background-color: #ffffff;
 }
   .services-area.bg-eef9ff {
   background-color: #0e0e0e;
@@ -21946,14 +22134,13 @@ MC Footer Area CSS
   background-color: #0e0e0e;
 }
   .grin-care-navbar.is-sticky {
-  background-color: #000000 !important;
+  background-color: #ffffff !important;
 }
   .grin-care-navbar .main-navbar {
   background-color: transparent !important;
 }
   .grin-care-navbar .main-navbar .navbar {
-      background-color: #00000054 !important;
-    backdrop-filter: blur(50px);
+      backdrop-filter: blur(50px);
 }
   .skin-care-services-area {
   background-color: #0e0e0e;
@@ -22028,7 +22215,7 @@ MC Footer Area CSS
   color: #ffffff;
 }
   .dental-tourism-choose-content .choose-inner-content p {
-  color: #ffffff;
+  color: #373737;
 }
   .eye-care-solutions-content .solutions-inner-content p {
   color: #ffffff;
@@ -22057,7 +22244,7 @@ MC Footer Area CSS
   color: #ffffff;
 }
   .dental-tourism-about-content .list li {
-  color: #ffffff;
+  color: #5f5f5f;
 }
   .skin-care-about-content .about-btn-with-info li a {
   color: #ffffff;
@@ -22181,10 +22368,9 @@ MC Footer Area CSS
   color: #ffffff;
 }
   .single-blog .blog-content {
-  background-color: #0e0e0e;
 }
   .single-blog .blog-content .blog-btn {
-  color: #ffffff;
+  color: #af915d;
 }
   .single-blog .blog-content .entry-meta li span {
   color: #ffffff;
@@ -23298,7 +23484,7 @@ MC Footer Area CSS
   color: #ffffff;
 }
   .rth-team-link {
-  background: #0e0e0e;
+  background: #dbdbdb;
 }
   .rth-testimonial-slides.owl-theme .owl-nav [class*=owl-] {
   border: 1px solid #ffffff;
@@ -23712,10 +23898,10 @@ MC Footer Area CSS
 }
 @media only screen and (max-width: 991px) {
     .navbar-area {
-    background-color: #292828;
+    background-color: #ffffff;
   }
     .main-responsive-nav .mean-container a.meanmenu-reveal span {
-    background: #ffffff;
+    background: #000000;
   }
     .main-responsive-nav .logo .main-logo {
     display: none;
@@ -30346,6 +30532,303 @@ MC Footer Area CSS
   width: 100%;
   height: 450px;
 }
+.mobile-menu-btn{
+    width:45px;
+    height:45px;
+    border:none;
+    background:transparent;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    gap:6px;
+    cursor:pointer;
+}
+
+.mobile-menu-btn span{
+    width:26px;
+    height:2px;
+    background:#222;
+    display:block;
+    transition:.3s;
+}
+
+.mobile-overlay{
+    position:fixed;
+    inset:0;
+    background:rgba(0,0,0,.45);
+    opacity:0;
+    visibility:hidden;
+    transition:.35s;
+    z-index:9998;
+}
+
+.mobile-menu{
+
+    position:fixed;
+    top:0;
+    right:-320px;
+    width:300px;
+    max-width:90%;
+    height:100vh;
+
+    background:#fff;
+
+    z-index:9999;
+
+    transition:.35s;
+
+    display:flex;
+    flex-direction:column;
+
+    overflow:auto;
+
+    padding:25px;
+
+    box-shadow:-5px 0 20px rgba(0,0,0,.1);
+
+}
+
+.mobile-menu.active{
+    right:0;
+}
+
+.mobile-overlay.active{
+    opacity:1;
+    visibility:visible;
+}
+
+.mobile-menu-header{
+
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    position:relative;
+    padding-bottom:25px;
+    margin-bottom:25px;
+    border-bottom:1px solid #eee;
+
+}
+
+.mobile-logo img{
+    width:150px;
+}
+
+.close-menu{
+
+    position:absolute;
+    top:0;
+    left:0;
+
+    width:40px;
+    height:40px;
+
+    border:none;
+    background:#f4f4f4;
+
+    border-radius:50%;
+
+    font-size:30px;
+    cursor:pointer;
+
+}
+
+.mobile-menu ul{
+    list-style:none;
+    padding:0;
+    margin:0;
+}
+
+.mobile-menu ul li{
+    border-bottom:1px solid #eee;
+}
+
+.mobile-menu ul li a{
+
+    display:block;
+
+    padding:16px 0;
+
+    color:#222;
+
+    font-size:18px;
+
+    text-decoration:none;
+
+    transition:.3s;
+
+}
+
+.mobile-menu ul li a:hover{
+    color:#1E90FF;
+    padding-right:10px;
+}
+
+body.menu-open{
+    overflow:hidden;
+}
+.social-links{
+    display:flex;
+    align-items:center;
+    gap:15px;
+    padding:0;
+    margin:25px 0 0;
+    list-style:none;
+}
+
+.social-links li a{
+    width:45px;
+    height:45px;
+    border-radius:50%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background:#987b43;
+    color:#fff;
+    font-size:22px;
+    transition:.3s;
+}
+
+.social-links li a:hover{
+    transform:translateY(-5px);
+}
+.specialties-area{
+    background:#fff;
+    overflow:hidden;
+}
+
+
+.section-title h2{
+    font-size:45px;
+    color:#111;
+    margin-bottom:20px;
+}
+
+
+.section-title span{
+    display:block;
+    width:60px;
+    height:5px;
+    background:#9b9b9b;
+    margin:auto;
+}
+
+
+.specialties-wrapper{
+    display:grid;
+    grid-template-columns:1fr 350px 1fr;
+    align-items:center;
+    gap:40px;
+    margin-top:60px;
+}
+
+
+
+.specialty-item{
+    margin-bottom:70px;
+}
+
+
+.specialty-item h3{
+    font-size:30px;
+    font-weight:500;
+    color:#111;
+    line-height:1.3;
+    margin-bottom:20px;
+}
+
+
+.specialty-item p{
+    font-size:18px;
+    line-height:2;
+    color:#333;
+}
+
+
+
+.left{
+    text-align:right;
+}
+
+
+.right{
+    text-align:right;
+}
+
+
+
+.doctor-image{
+    text-align:center;
+    position:relative;
+}
+
+
+.doctor-image img{
+    max-width:100%;
+    position:relative;
+    z-index:2;
+}
+
+
+/* shadow تحت الدكتور */
+.doctor-image:after{
+    content:"";
+    position:absolute;
+    bottom:40px;
+    left:50%;
+    transform:translateX(-50%);
+    width:220px;
+    height:50px;
+    background:rgba(0,0,0,.2);
+    filter:blur(25px);
+    border-radius:50%;
+}
+
+
+
+@media(max-width:991px){
+
+    .specialties-wrapper{
+        grid-template-columns:1fr;
+    }
+
+
+    .doctor-image{
+        order:-1;
+    }
+
+
+    .left,
+    .right{
+        text-align:center;
+    }
+
+
+    .specialty-item{
+        margin-bottom:40px;
+    }
+
+}
+.contact-area{
+  background-color: #af915d;
+}
+.contact-item{
+  direction: ltr;
+}
+.contact-area .section-title-warp h2{
+  color: #fff !important;
+}
+.contact-item i{
+  color: #fff;
+}
+.contact-item h4{
+     color: #fff !important;
+}
+.contact-item p{
+     color: #fff;
+}
+.contact-item p a{
+     color: #fff !important;
+}
 @media only screen and (max-width: 1550px) {
   .aboutsection-2 .contant-v{
     position: unset;
@@ -30377,4 +30860,31 @@ MC Footer Area CSS
   .mean-container .mean-bar {
 position: unset;
   }
+}
+@media only screen and (max-width: 900px) {
+  .single-blog .blog-image img{
+        height: auto;
+  }
+  .banner-slides .mySwiper-slider .swiper-slide {
+    height: 60vh;
+    margin-top: 90px;
+}
+.banner-content span {
+    display: inline-block;
+    color: #D8B36A;
+    font-size: 10px;}
+        .banner-content h1 {
+        font-size: 20px;
+    }
+    .banner-content p {
+        font-size: 12px;
+    }
+        .banner-content {
+        left: 20px;
+        right: 20px;
+        width: auto;
+        bottom: -175px;
+        padding: 30px;
+        top: unset;
+    }
 }
