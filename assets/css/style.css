@@ -313,8 +313,10 @@ Top Header Area CSS
   gap: 20px;
 }
 .soail-contact-header ul li a{
-  padding: 10px; 
-  color: #000;
+  padding: 10px;
+    color: #000;
+    background-color: #ffffff;
+    border-radius: 25px;
 }
 
 .top-header-area {
@@ -2730,13 +2732,27 @@ Appointment Area CSS
 Page Banner CSS
 =================================================*/
 .page-banner-area {
-  padding-top: 230px;
-  padding-bottom: 130px;
-  background-position: center top;
+    position: relative;
+    padding-top: 230px;
+    padding-bottom: 130px;
+    background-position: center bottom;
+    background-size: contain;
+    overflow: hidden;
+    margin-top: 150px;
+}
+
+.page-banner-area::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgb(255 255 255 / 37%); 
+    z-index: 1;
 }
 
 .page-banner-content {
-  text-align: start;
+    position: relative;
+    z-index: 2;
+    text-align: start;
 }
 .page-banner-content h2 {
   color: #ffffff;
@@ -2754,7 +2770,7 @@ Page Banner CSS
   list-style-type: none;
   margin-inline-start: 30px;
   font-weight: 500;
-  color: #ffffff;
+  color: #000;
   font-size: 16px;
   position: relative;
 }
@@ -2763,7 +2779,7 @@ Page Banner CSS
   content: ">";
   top: -2px;
   inset-inline-start: -20px;
-  color: #ffffff;
+  color: #000;
   font-size: 20px;
 }
 .page-banner-content .pages-list li span {
@@ -2777,7 +2793,7 @@ Page Banner CSS
 }
 .page-banner-content .pages-list li a {
   display: block;
-  color: #ffffff;
+  color: #af915d;
 }
 .page-banner-content .pages-list li a:hover {
   color: #af915d;
@@ -3393,6 +3409,7 @@ Contact Area CSS
 .contact-info .contact-info-content h2 a {
   display: inline-block;
   color: #af915d;
+  direction: ltr;
 }
 .contact-info .contact-info-content h2 a:hover {
   color: #124390;
@@ -3443,6 +3460,9 @@ Services Details Area CSS
 =================================================*/
 .services-details-image img {
   border-radius: 30px;
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
 }
 
 .services-details-content {
@@ -3785,6 +3805,8 @@ Blog Details Area CSS
 }
 .blog-details-desc .article-image img {
   border-radius: 30px;
+      height: 600px;
+    width: 100%;
 }
 .blog-details-desc .article-image .tag {
   position: absolute;
@@ -4491,7 +4513,7 @@ Header Area CSS
   top: 0;
   z-index: 9;
   width: 100%;
-  background-color: #fff;
+  background-color: transparent;
 }
 
 /*================================================
@@ -4747,8 +4769,8 @@ Navbar Area CSS
   padding-inline-end: 30px;
 }
 .grin-care-navbar .main-navbar .navbar {
-  background-color: #ffffff;
-  padding: 15px 25px;
+  background-color: transparent;
+  padding: 0;
   border-radius: 10px;
 }
 .grin-care-navbar .main-navbar .navbar .navbar-brand {
@@ -4760,12 +4782,14 @@ Navbar Area CSS
   color: #af915d;
 }
 .grin-care-navbar .main-navbar .navbar .navbar-brand img{
-  height: 100px;
+  height: 150px;
   width: auto;
   margin-inline-end: 10px;
+  border-radius: 50px;
+  padding: 0px;
 }
 .grin-care-navbar .main-navbar .navbar .navbar-nav .nav-item a {
-  color: #000000;
+  color: #fff;
   font-family: "Heebo", sans-serif;
 }
 .grin-care-navbar .main-navbar .navbar .navbar-nav .nav-item a::before {
@@ -22133,14 +22157,17 @@ MC Footer Area CSS
   .dental-tourism-services-area {
   background-color: #0e0e0e;
 }
+  .grin-care-navbar {
+  background-color: #2b2b2b75;
+  backdrop-filter: blur(30px);
+}
   .grin-care-navbar.is-sticky {
-  background-color: #ffffff !important;
+  background-color: #2b2b2b !important;
 }
   .grin-care-navbar .main-navbar {
   background-color: transparent !important;
 }
   .grin-care-navbar .main-navbar .navbar {
-      backdrop-filter: blur(50px);
 }
   .skin-care-services-area {
   background-color: #0e0e0e;
@@ -22196,7 +22223,7 @@ MC Footer Area CSS
 }
 .widget-area {
   padding: 20px;
-  background-color: #0e0e0e;
+  background-color: #f9f9f9;
   border-radius: 10px;
   margin-top: 20px;
 }
@@ -22412,7 +22439,7 @@ MC Footer Area CSS
   color: #ffffff;
 }
   .blog-details-desc blockquote,   .blog-details-desc .blockquote {
-  background-color: #0e0e0e;
+  background-color: #fafafa;
 }
   .blog-details-desc .article-tag {
   border-top: 1px solid #0e0e0e;
@@ -30547,7 +30574,7 @@ MC Footer Area CSS
 .mobile-menu-btn span{
     width:26px;
     height:2px;
-    background:#222;
+    background:#e8c283;
     display:block;
     transition:.3s;
 }
@@ -30862,6 +30889,9 @@ position: unset;
   }
 }
 @media only screen and (max-width: 900px) {
+  .page-banner-area{
+    margin: 0;
+  }
   .single-blog .blog-image img{
         height: auto;
   }
