@@ -30856,6 +30856,46 @@ body.menu-open{
 .contact-item p a{
      color: #fff !important;
 }
+.mySwiper-testim .swiper-wrapper{
+    transition-timing-function: linear !important;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  position: fixed;
+  right: 0;
+  bottom: 40px;
+  z-index: 10;
+}
+
+.wrapper .icon {
+  position: relative;
+  background-color: #ae905c;
+  border-radius: 30px;
+  /* border: 1px solid #209e2e; */
+  padding: 15px;
+  margin: 4px;
+  width: 50px;
+  height: 50px;
+  font-size: 23px;
+  display: flex;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transform: translateY(-50%);
+  animation-name: tada;
+  animation-duration: 5s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+  transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+.wrapper .icon span a i{
+  color: #ffffff;
+}
 @media only screen and (max-width: 1550px) {
   .aboutsection-2 .contant-v{
     position: unset;

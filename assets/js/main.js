@@ -16,16 +16,49 @@ function closeMenu() {
 document.getElementById("closeMenu").onclick = closeMenu;
 
 overlay.onclick = closeMenu;
+var swiper = new Swiper(".mySwiper-testim", {
+    slidesPerView: 5,
+    loop: true,
+    spaceBetween: 30,
 
+    speed: 5000,
+    autoplay: {
+        delay: 0,
+        disableOnInteraction: false,
+        pauseOnMouseEnter: true,
+    },
+
+    allowTouchMove: true,
+    grabCursor: true,
+
+    breakpoints: {
+        320: {
+            slidesPerView: 1.5,
+        },
+        576: {
+            slidesPerView: 2,
+        },
+        768: {
+            slidesPerView: 3,
+        },
+        992: {
+            slidesPerView: 4,
+        },
+        1200: {
+            slidesPerView: 5,
+        },
+    },
+});
 var swiper = new Swiper('.mySwiper-slider', {
         spaceBetween: 30,
         centeredSlides: true,
 		loop: true,
 		effect: 'fade',
-        // autoplay: {
-        //   delay: 2500,
-        //   disableOnInteraction: false,
-        // },
+		speed:2000,
+        autoplay: {
+          delay: 3000,
+          disableOnInteraction: false,
+        },
         pagination: {
           el: '.swiper-pagination',
           clickable: true,
