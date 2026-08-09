@@ -1,30 +1,35 @@
 const menu = document.getElementById("mobileMenu");
 const overlay = document.getElementById("mobileOverlay");
 
-document.getElementById("menuToggle").onclick = () => {
-    menu.classList.add("active");
-    overlay.classList.add("active");
-    document.body.classList.add("menu-open");
-};
+var menuToggle = document.getElementById("menuToggle");
+var closeMenuBtn = document.getElementById("closeMenu");
+
+if (menuToggle && menu && overlay) {
+    menuToggle.onclick = () => {
+        menu.classList.add("active");
+        overlay.classList.add("active");
+        document.body.classList.add("menu-open");
+    };
+}
 
 function closeMenu() {
+    if (!menu || !overlay) return;
     menu.classList.remove("active");
     overlay.classList.remove("active");
     document.body.classList.remove("menu-open");
 }
 
-document.getElementById("closeMenu").onclick = closeMenu;
-
-overlay.onclick = closeMenu;
-var swiper = new Swiper(".mySwiper-testim", {
-    slidesPerView: 5,
+if (closeMenuBtn) closeMenuBtn.onclick = closeMenu;
+if (overlay) overlay.onclick = closeMenu;
+var swiper = document.querySelector(".mySwiper-testim") && new Swiper(".mySwiper-testim", {
+    slidesPerView: 4,
     loop: true,
-    spaceBetween: 30,
+    spaceBetween: 20,
 
-    speed: 5000,
+    speed: 800,
     autoplay: {
-        delay: 0,
-        disableOnInteraction: false,
+        delay: 3500,
+        disableOnInteraction: true,
         pauseOnMouseEnter: true,
     },
 
@@ -33,7 +38,8 @@ var swiper = new Swiper(".mySwiper-testim", {
 
     breakpoints: {
         320: {
-            slidesPerView: 1.5,
+            slidesPerView: 1.15,
+            spaceBetween: 14,
         },
         576: {
             slidesPerView: 2,

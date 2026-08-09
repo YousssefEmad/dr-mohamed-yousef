@@ -1,0 +1,628 @@
+/* ============================================
+   Eagle Eye Clinic — Client revisions
+   ============================================ */
+
+@import url("https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&display=swap");
+
+:root {
+  --brand-gold: #af915d;
+  --brand-gold-light: #d8b36a;
+  --brand-gold-soft: #e8c283;
+  --brand-dark: #1a1a1a;
+  --brand-dark-soft: #2b2b2b;
+  --text-main: #222222;
+  --text-muted: #6a6c72;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body,
+button,
+input,
+textarea,
+select,
+.navbar,
+.nav-link,
+h1, h2, h3, h4, h5, h6,
+p, a, span, li, label {
+  font-family: "Alexandria", sans-serif !important;
+}
+
+/* ---------- Header social icons (gold) ---------- */
+.soail-contact-header ul {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.soail-contact-header ul li a,
+.header-social-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(175, 145, 93, 0.55);
+  color: var(--brand-gold) !important;
+  padding: 0 !important;
+  transition: 0.25s ease;
+}
+
+.soail-contact-header ul li a:hover,
+.header-social-link:hover {
+  background: var(--brand-gold);
+  color: #fff !important;
+  border-color: var(--brand-gold);
+}
+
+.soail-contact-header ul li a i,
+.header-social-link i {
+  font-size: 22px;
+  line-height: 1;
+  color: inherit;
+}
+
+.soail-contact-header svg {
+  width: 22px;
+  height: 22px;
+}
+
+.soail-contact-header svg path {
+  fill: var(--brand-gold) !important;
+}
+
+.soail-contact-header svg linearGradient stop {
+  stop-color: var(--brand-gold) !important;
+}
+
+/* About social links gold */
+.social-links li a,
+.social-links li a i,
+.contact-info .contact-info-content .social li a,
+.contact-info .contact-info-content .social li a i,
+.footer-widget a i,
+.single-footer-widget .footer-information li i {
+  color: var(--brand-gold) !important;
+}
+.social-links li a i{
+  color: #fff !important;
+}
+.social-links li a:hover,
+.contact-info .contact-info-content .social li a:hover {
+  color: #7c5a2e !important;
+}
+
+/* ---------- Desktop navbar polish ---------- */
+.grin-care-navbar {
+  background-color: rgba(26, 26, 26, 0.78);
+  backdrop-filter: blur(18px);
+}
+
+.grin-care-navbar.is-sticky {
+  background-color: var(--brand-dark) !important;
+}
+
+.grin-care-navbar .main-navbar .navbar .navbar-nav .nav-item a {
+  font-family: "Alexandria", sans-serif !important;
+}
+
+/* ---------- Mobile header = PC dark header ---------- */
+@media (max-width: 991px) {
+  .navbar-area,
+  .grin-care-navbar,
+  .grin-care-navbar .main-responsive-nav {
+    background-color: var(--brand-dark) !important;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .grin-care-navbar {
+    position: absolute;
+    inset-inline: 0;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+  }
+
+  .grin-care-navbar.is-sticky {
+    position: fixed !important;
+    background-color: var(--brand-dark) !important;
+  }
+
+  .main-responsive-nav .logo img {
+    max-width: 72px !important;
+    height: auto;
+  }
+
+  .mobile-menu-btn span {
+    background: var(--brand-gold-soft);
+  }
+
+  .mobile-menu {
+    background: var(--brand-dark);
+  }
+
+  .mobile-menu-header {
+    border-bottom-color: rgba(175, 145, 93, 0.35);
+  }
+
+  .mobile-menu ul li {
+    border-bottom-color: rgba(255, 255, 255, 0.08);
+  }
+
+  .mobile-menu ul li a,
+  .mobile-menu ul li a.nav-link {
+    color: #fff !important;
+    font-size: 16px;
+    padding: 14px 0;
+  }
+
+  .mobile-menu ul li a:hover {
+    color: var(--brand-gold-soft) !important;
+    padding-right: 8px;
+  }
+
+  .close-menu {
+    color: var(--brand-gold-soft);
+    background: transparent;
+    border: 0;
+    font-size: 32px;
+    line-height: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  /* Hero fills first screen */
+  .banner-slides,
+  .banner-slides .swiper,
+  .banner-slides .mySwiper-slider .swiper-slide,
+  .banner-slides video {
+    height: 100svh !important;
+    min-height: 100svh;
+    margin-top: 0 !important;
+  }
+
+  .banner-slides .swiper-slide img {
+    object-fit: cover;
+    object-position: center top;
+  }
+
+  .banner-content {
+    left: 16px !important;
+    right: 16px !important;
+    width: auto !important;
+    top: 50% !important;
+    bottom: auto !important;
+    transform: translateY(-50%);
+    padding: 22px 18px !important;
+    background: rgba(18, 18, 18, 0.55);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(175, 145, 93, 0.35);
+    border-radius: 14px;
+    max-width: 520px;
+    margin-inline: auto;
+  }
+
+  .banner-content span {
+    font-size: 13px !important;
+    color: var(--brand-gold-soft) !important;
+    margin-bottom: 8px;
+  }
+
+  .banner-content h1 {
+    font-size: 26px !important;
+    line-height: 1.35 !important;
+    color: var(--brand-gold-light) !important;
+    margin-bottom: 10px;
+  }
+
+  .banner-content p {
+    font-size: 13px !important;
+    line-height: 1.7 !important;
+    color: #f3f3f3 !important;
+    margin: 0;
+  }
+
+  .banner-slides .swiper-button-next,
+  .banner-slides .swiper-button-prev {
+    color: #fff;
+    width: 34px;
+    height: 34px;
+  }
+
+  .banner-slides .swiper-button-next::after,
+  .banner-slides .swiper-button-prev::after {
+    font-size: 16px;
+  }
+}
+
+/* ---------- Specialties: mobile card layout ---------- */
+@media (max-width: 991px) {
+  .specialties-area {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background: linear-gradient(180deg, #faf8f4 0%, #ffffff 100%);
+  }
+
+  .specialties-area .bg-line2 {
+    display: none;
+  }
+
+  .specialties-wrapper {
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+    gap: 16px !important;
+  }
+
+  .doctor-image {
+    order: -1;
+    margin-bottom: 8px;
+  }
+
+  .doctor-image img {
+    max-width: 220px;
+    margin-inline: auto;
+  }
+
+  .specialties-column.left,
+  .specialties-column.right {
+    display: grid;
+    gap: 14px;
+    text-align: right !important;
+  }
+
+  .specialty-item {
+    margin-bottom: 0 !important;
+    background: #fff;
+    border: 1px solid rgba(175, 145, 93, 0.28);
+    border-radius: 16px;
+    padding: 18px 16px;
+    box-shadow: 0 8px 24px rgba(26, 26, 26, 0.04);
+  }
+
+  .specialty-item h3 {
+    font-size: 18px !important;
+    color: var(--brand-gold) !important;
+    margin-bottom: 8px !important;
+    line-height: 1.4;
+  }
+
+  .specialty-item p {
+    font-size: 14px !important;
+    line-height: 1.8 !important;
+    color: var(--text-muted) !important;
+    margin: 0;
+  }
+}
+
+/* ---------- Reviews with SEO text + blur overlay ---------- */
+.review-card {
+  position: relative;
+  border-radius: 16px;
+  overflow: hidden;
+  cursor: pointer;
+  isolation: isolate;
+}
+
+.review-card img {
+  width: 100%;
+  display: block;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  transition: filter 0.35s ease, transform 0.35s ease;
+}
+
+.review-card__seo {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.review-card__overlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 10px;
+  padding: 18px 16px;
+  background: linear-gradient(180deg, rgba(10, 10, 10, 0.25) 0%, rgba(10, 10, 10, 0.82) 55%, rgba(10, 10, 10, 0.92) 100%);
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.3s ease;
+  z-index: 2;
+}
+
+.review-card.is-open img,
+.review-card:hover img {
+  filter: blur(3px) brightness(0.55);
+  transform: scale(1.03);
+}
+
+.review-card.is-open .review-card__overlay,
+.review-card:focus-within .review-card__overlay {
+  opacity: 1;
+  visibility: visible;
+}
+
+@media (hover: hover) {
+  .review-card:hover .review-card__overlay {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+.review-card__author {
+  color: var(--brand-gold-soft);
+  font-size: 14px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.review-card__text {
+  color: #fff;
+  font-size: 13px;
+  line-height: 1.75;
+  margin: 0;
+  max-height: 55%;
+  overflow: auto;
+}
+
+.review-card__hint {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  z-index: 3;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: rgba(26, 26, 26, 0.55);
+  color: #fff;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(175, 145, 93, 0.5);
+  pointer-events: none;
+}
+
+.mySwiper-testim .swiper-slide {
+  height: auto;
+}
+
+.gallery-card .overlay {
+  display: none;
+}
+
+/* ---------- Footer: no logo covering text ---------- */
+.footer-area.site-footer,
+.footer-area {
+  background: #f7f4ef !important;
+  background-image: none !important;
+  position: relative;
+  overflow: hidden;
+  padding-top: 70px;
+}
+
+.footer-area::after {
+  background-color: transparent !important;
+  content: none !important;
+}
+
+.footer-area .container,
+.footer-area .copyright-area {
+  position: relative;
+  z-index: 2;
+}
+
+.footer-brand {
+  margin-bottom: 36px;
+}
+
+.footer-logo-img {
+  max-width: 140px;
+  height: auto;
+  display: inline-block;
+}
+
+.footer-widget h3,
+.single-footer-widget h3 {
+  color: var(--brand-gold) !important;
+  font-size: 20px !important;
+  margin-bottom: 16px !important;
+  font-weight: 700;
+}
+
+.footer-widget p,
+.footer-widget a,
+.footer-ul li a,
+.copyright-area p,
+.copyright-area a {
+  color: var(--text-main) !important;
+}
+
+.footer-widget p,
+.footer-ul li a {
+  font-size: 15px;
+  line-height: 1.9;
+}
+
+.footer-ul li a:hover {
+  color: var(--brand-gold) !important;
+}
+
+.footer-contact-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-contact-list li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.footer-contact-list li i {
+  color: var(--brand-gold);
+  font-size: 18px;
+}
+
+.copyright-area {
+  border-top: 1px dashed rgba(175, 145, 93, 0.45);
+  margin-top: 30px;
+  padding-top: 18px !important;
+  padding-bottom: 10px;
+  background: transparent;
+}
+
+.copyright-area p {
+  font-size: 13px;
+  text-align: center;
+}
+
+/* ---------- Blog images: stop stretching ---------- */
+.single-blog .blog-image {
+  overflow: hidden;
+  border-radius: 12px;
+  background: #f0ebe3;
+}
+
+.single-blog .blog-image a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.single-blog .blog-image img {
+  width: 100% !important;
+  height: 300px !important;
+  object-fit: cover !important;
+  object-position: center;
+  border-radius: 12px;
+}
+
+@media (max-width: 767px) {
+  .single-blog .blog-image img {
+    height: 200px !important;
+  }
+
+  .single-blog .blog-content {
+    padding-top: 16px;
+  }
+}
+
+/* ---------- Videos page ---------- */
+.case-video-card {
+  background: #fff;
+  border: 1px solid rgba(175, 145, 93, 0.25);
+  border-radius: 16px;
+  overflow: hidden;
+  height: 100%;
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.05);
+}
+
+.case-video-card__media {
+  position: relative;
+  aspect-ratio: 16 / 9;
+  background: #111;
+}
+
+.case-video-card__media iframe,
+.case-video-card__media video {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  object-fit: cover;
+}
+
+.case-video-card__body {
+  padding: 16px;
+}
+
+.case-video-card__body h3 {
+  font-size: 17px;
+  color: var(--brand-gold);
+  margin-bottom: 8px;
+}
+
+.case-video-card__body p {
+  font-size: 14px;
+  color: var(--text-muted);
+  margin: 0;
+}
+
+.case-video-card__media--facebook {
+  background: #1877f2 url("../images/gallary-2.jpg") center / cover no-repeat;
+}
+
+.case-video-card__media--tiktok {
+  background: #111 url("../images/gallary-3.jpg") center / cover no-repeat;
+}
+
+.case-video-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.72));
+  color: #fff !important;
+  text-decoration: none !important;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.case-video-link i {
+  font-size: 28px;
+  color: var(--brand-gold-soft);
+}
+
+/* ---------- General mobile polish ---------- */
+@media (max-width: 767px) {
+  .ptb-100 {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .dental-tourism-about-content h3,
+  .section-title h2,
+  .section-title-warp h2 {
+    font-size: 24px !important;
+    line-height: 1.45;
+  }
+
+  .page-banner-area {
+    margin: 0;
+    min-height: 180px;
+  }
+
+  .wrapper {
+    z-index: 90;
+  }
+
+  .footer-widget {
+    margin-bottom: 28px;
+  }
+
+  .col-lg-6.text-lg-end {
+    text-align: right !important;
+  }
+}

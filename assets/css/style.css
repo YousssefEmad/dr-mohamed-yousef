@@ -1,13 +1,10 @@
 @charset "UTF-8";
 
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&display=swap");
 body {
   padding: 0;
   margin: 0;
-  font-family: "Poppins", sans-serif;
+  font-family: "Alexandria", sans-serif;
   font-size: 16px;
 }
 
@@ -31,7 +28,7 @@ p {
   line-height: 1.8;
   color: #6a6c72;
   font-weight: 400;
-  font-family: "Poppins", sans-serif;
+  font-family: "Alexandria", sans-serif;
   font-size: 16px;
 }
 p:last-child {
@@ -79,7 +76,7 @@ img {
 
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
   color: #7c5a2e;
-  font-family: "Poppins", sans-serif;
+  font-family: "Alexandria", sans-serif;
   font-weight: bold;
 }
 .h1:last-child, .h2:last-child, .h3:last-child, .h4:last-child, .h5:last-child, .h6:last-child, h1:last-child, h2:last-child, h3:last-child, h4:last-child, h5:last-child, h6:last-child {
@@ -1009,9 +1006,9 @@ Search Modal Style CSS
     max-width: 100px !important;
   }
   .navbar-area {
-    background-color: #ffffff;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    background-color: #1a1a1a;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
   .main-navbar {
     display: none;
@@ -4543,7 +4540,7 @@ Top Area CSS
   color: #ffffff;
   font-size: 15px;
   font-weight: 400;
-  font-family: "Nunito Sans", sans-serif;
+  font-family: "Alexandria", sans-serif;
   position: relative;
   padding-inline-start: 22px;
 }
@@ -4615,7 +4612,7 @@ Top Area CSS
   color: #002345;
   font-size: 15px;
   font-weight: 400;
-  font-family: "Nunito Sans", sans-serif;
+  font-family: "Alexandria", sans-serif;
   position: relative;
   padding-inline-start: 22px;
 }
@@ -4688,7 +4685,7 @@ Navbar Area CSS
   text-transform: capitalize;
   font-size: 35px;
   font-weight: bold;
-  font-family: "Heebo", sans-serif;
+  font-family: "Alexandria", sans-serif;
 }
 
 .dental-tourism-navbar .main-navbar .navbar .navbar-brand::before {
@@ -4706,7 +4703,7 @@ Navbar Area CSS
 }
 .dental-tourism-navbar .main-navbar .navbar .navbar-nav .nav-item a {
   color: #002345;
-  font-family: "Heebo", sans-serif;
+  font-family: "Alexandria", sans-serif;
 }
 .dental-tourism-navbar .main-navbar .navbar .navbar-nav .nav-item a::before {
   background-color: #af915d;
@@ -4778,7 +4775,7 @@ Navbar Area CSS
   text-transform: capitalize;
   font-size: 35px;
   font-weight: bold;
-  font-family: "Heebo", sans-serif;
+  font-family: "Alexandria", sans-serif;
   color: #af915d;
 }
 .grin-care-navbar .main-navbar .navbar .navbar-brand img{
@@ -4790,7 +4787,7 @@ Navbar Area CSS
 }
 .grin-care-navbar .main-navbar .navbar .navbar-nav .nav-item a {
   color: #fff;
-  font-family: "Heebo", sans-serif;
+  font-family: "Alexandria", sans-serif;
 }
 .grin-care-navbar .main-navbar .navbar .navbar-nav .nav-item a::before {
   background-color: #af915d;
@@ -4885,13 +4882,13 @@ Dental Tourism Banner Area CSS
   color: #af915d;
   font-weight: 600;
   font-size: 16px;
-  font-family: "Nunito Sans", sans-serif;
+  font-family: "Alexandria", sans-serif;
   display: block;
   margin-bottom: 18px;
 }
 .dental-tourism-banner-content h1 {
   font-size: 80px;
-  font-family: "Heebo", sans-serif;
+  font-family: "Alexandria", sans-serif;
   color: #002345;
   margin-bottom: 12px;
 }
@@ -4941,7 +4938,7 @@ Dental Tourism Features Area CSS
 }
 .single-dental-tourism-features .content h3 {
   font-size: 24px;
-  font-family: "Heebo", sans-serif;
+  font-family: "Alexandria", sans-serif;
   margin-bottom: 15px;
   font-weight: 500;
 }
@@ -5081,7 +5078,7 @@ Dental Tourism About Area CSS
 .dental-tourism-about-content h3 {
   font-size: 40px;
   margin-bottom: 15px;
-  font-family: "Heebo", sans-serif;
+  font-family: "Alexandria", sans-serif;
   line-height: 1.4;
 }
 .dental-tourism-about-content p {
@@ -5171,7 +5168,7 @@ Dental Tourism Services Area CSS
 }
 .dental-tourism-services-card .services-content h3 {
   font-size: 24px;
-  font-family: "Heebo", sans-serif;
+  font-family: "Alexandria", sans-serif;
   font-weight: 500;
 }
 .dental-tourism-services-card .services-content h3 a {
@@ -5200,7 +5197,7 @@ Dental Tourism Choose Area CSS
 .dental-tourism-choose-content h3 {
   font-size: 40px;
   margin-bottom: 15px;
-  font-family: "Heebo", sans-serif;
+  font-family: "Alexandria", sans-serif;
 }
 .dental-tourism-choose-content p {
   margin-bottom: 0;
@@ -5454,7 +5451,7 @@ Dental Tourism Dentist Area CSS
 .dental-tourism-dentist-card .dentist-content h3 {
   font-size: 24px;
   font-weight: 500;
-  font-family: "Heebo", sans-serif;
+  font-family: "Alexandria", sans-serif;
 }
 .dental-tourism-dentist-card .dentist-content h3 a {
   color: #002345;
@@ -5497,7 +5494,7 @@ Dental Tourism Tourists Area CSS
 .dental-tourism-tourists-content h3 {
   font-size: 40px;
   margin-bottom: 15px;
-  font-family: "Heebo", sans-serif;
+  font-family: "Alexandria", sans-serif;
   line-height: 1.4;
 }
 .dental-tourism-tourists-content p {
@@ -5541,7 +5538,7 @@ Dental Tourism Tourists Area CSS
 .dental-tourism-tourists-image .tourists-image .content h3 {
   font-size: 24px;
   font-weight: 500;
-  font-family: "Heebo", sans-serif;
+  font-family: "Alexandria", sans-serif;
   color: #ffffff;
 }
 .dental-tourism-tourists-image .tourists-image::before {
@@ -5592,7 +5589,7 @@ Dental Tourism Review Area CSS
 .dental-tourism-review-card .review-info h3 {
   font-size: 24px;
   font-weight: 500;
-  font-family: "Heebo", sans-serif;
+  font-family: "Alexandria", sans-serif;
   margin-bottom: 0;
 }
 .dental-tourism-review-card .review-info span {
@@ -5721,7 +5718,7 @@ Dental Tourism Blog Area CSS
 .dental-tourism-blog-card .blog-content h3 {
   font-size: 24px;
   font-weight: 500;
-  font-family: "Heebo", sans-serif;
+  font-family: "Alexandria", sans-serif;
   line-height: 1.5;
 }
 .dental-tourism-blog-card .blog-content h3 a {
@@ -5771,7 +5768,7 @@ Dental Tourism Footer Area CSS
 .dental-tourism-footer-widget h3 {
   font-size: 24px;
   font-weight: 500;
-  font-family: "Heebo", sans-serif;
+  font-family: "Alexandria", sans-serif;
   margin-bottom: 25px;
   color: #ffffff;
 }
@@ -5783,7 +5780,7 @@ Dental Tourism Footer Area CSS
   list-style-type: none;
   margin-bottom: 18px;
   color: #ffffff;
-  font-family: "Nunito Sans", sans-serif;
+  font-family: "Alexandria", sans-serif;
 }
 .dental-tourism-footer-widget .info-list li:last-child {
   margin-bottom: 0;
@@ -5813,7 +5810,7 @@ Dental Tourism Footer Area CSS
   font-size: 20px;
   color: #ffffff;
   font-weight: 500;
-  font-family: "Heebo", sans-serif;
+  font-family: "Alexandria", sans-serif;
 }
 .dental-tourism-footer-widget .share-link li a i {
   color: #ffffff;
@@ -5842,7 +5839,7 @@ Dental Tourism Footer Area CSS
   list-style-type: none;
   margin-bottom: 15px;
   position: relative;
-  font-family: "Nunito Sans", sans-serif;
+  font-family: "Alexandria", sans-serif;
   padding-inline-start: 22px;
 }
 .dental-tourism-footer-widget .quick-links li:last-child {
@@ -5862,7 +5859,7 @@ Dental Tourism Footer Area CSS
 }
 .dental-tourism-footer-widget .newsletter-form p {
   color: #ffffff;
-  font-family: "Nunito Sans", sans-serif;
+  font-family: "Alexandria", sans-serif;
   margin-bottom: 0;
 }
 .dental-tourism-footer-widget .newsletter-form .form-group {
@@ -5918,7 +5915,7 @@ Dental Tourism Footer Area CSS
 .dental-tourism-copyright-area .copyright-area-content p {
   color: #ffffff;
   font-size: 15px;
-  font-family: "Nunito Sans", sans-serif;
+  font-family: "Alexandria", sans-serif;
 }
 .dental-tourism-copyright-area .copyright-area-content p a {
   display: inline-block;
@@ -5951,13 +5948,13 @@ Skin Care Banner Area CSS
   color: #af915d;
   font-weight: 600;
   font-size: 16px;
-  font-family: "Nunito Sans", sans-serif;
+  font-family: "Alexandria", sans-serif;
   display: block;
   margin-bottom: 18px;
 }
 .skin-care-banner-content h1 {
   font-size: 75px;
-  font-family: "Heebo", sans-serif;
+  font-family: "Alexandria", sans-serif;
   color: #002345;
   margin-bottom: 12px;
 }
@@ -6015,7 +6012,7 @@ Skin Care Features Area CSS
 .skin-care-features-card .features-title h3 {
   font-size: 24px;
   font-weight: 500;
-  font-family: "Heebo", sans-serif;
+  font-family: "Alexandria", sans-serif;
 }
 .skin-care-features-card .features-title h3 a {
   color: #002345;
@@ -6077,7 +6074,7 @@ Skin Care About Area CSS
 .skin-care-about-content h3 {
   font-size: 40px;
   margin-bottom: 15px;
-  font-family: "Heebo", sans-serif;
+  font-family: "Alexandria", sans-serif;
   line-height: 1.4;
 }
 .skin-care-about-content p {
@@ -6127,7 +6124,7 @@ Skin Care About Area CSS
 .skin-care-about-content .about-btn-with-info li a {
   font-size: 18px;
   color: #002345;
-  font-family: "Heebo", sans-serif;
+  font-family: "Alexandria", sans-serif;
   font-weight: 500;
 }
 
@@ -6176,7 +6173,7 @@ Skin Care Services Area CSS
 .skin-care-services-card .services-content h3 {
   font-size: 24px;
   font-weight: 500;
-  font-family: "Heebo", sans-serif;
+  font-family: "Alexandria", sans-serif;
   margin-bottom: 18px;
 }
 .skin-care-services-card .services-content h3 a {
@@ -6215,7 +6212,7 @@ Skin Care Dry Area CSS
 .skin-care-dry-content h3 {
   font-size: 40px;
   margin-bottom: 15px;
-  font-family: "Heebo", sans-serif;
+  font-family: "Alexandria", sans-serif;
   line-height: 1.4;
 }
 .skin-care-dry-content p {
@@ -6432,7 +6429,7 @@ Skin Care Review Area CSS
 .skin-care-review-card .review-info h3 {
   font-size: 24px;
   font-weight: 500;
-  font-family: "Heebo", sans-serif;
+  font-family: "Alexandria", sans-serif;
   margin-bottom: 0;
   transition: 0.6s;
 }
@@ -6622,7 +6619,7 @@ Skin Care Blog Area CSS
 .skin-care-blog-card .blog-content h3 {
   font-size: 24px;
   font-weight: 500;
-  font-family: "Heebo", sans-serif;
+  font-family: "Alexandria", sans-serif;
   line-height: 1.5;
 }
 .skin-care-blog-card .blog-content h3 a {
@@ -6676,7 +6673,7 @@ Skin Care Footer Area CSS
 .skin-care-footer-widget h3 {
   font-size: 24px;
   font-weight: 500;
-  font-family: "Heebo", sans-serif;
+  font-family: "Alexandria", sans-serif;
   margin-bottom: 25px;
   color: #002345;
 }
@@ -6688,7 +6685,7 @@ Skin Care Footer Area CSS
   list-style-type: none;
   margin-bottom: 18px;
   color: #486683;
-  font-family: "Nunito Sans", sans-serif;
+  font-family: "Alexandria", sans-serif;
 }
 .skin-care-footer-widget .info-list li:last-child {
   margin-bottom: 0;
@@ -6718,7 +6715,7 @@ Skin Care Footer Area CSS
   font-size: 20px;
   color: #486683;
   font-weight: 500;
-  font-family: "Heebo", sans-serif;
+  font-family: "Alexandria", sans-serif;
 }
 .skin-care-footer-widget .share-link li a i {
   color: #486683;
@@ -6747,7 +6744,7 @@ Skin Care Footer Area CSS
   list-style-type: none;
   margin-bottom: 15px;
   position: relative;
-  font-family: "Nunito Sans", sans-serif;
+  font-family: "Alexandria", sans-serif;
   padding-inline-start: 22px;
 }
 .skin-care-footer-widget .quick-links li:last-child {
@@ -6767,7 +6764,7 @@ Skin Care Footer Area CSS
 }
 .skin-care-footer-widget .newsletter-form p {
   color: #486683;
-  font-family: "Nunito Sans", sans-serif;
+  font-family: "Alexandria", sans-serif;
   margin-bottom: 0;
 }
 .skin-care-footer-widget .newsletter-form .form-group {
@@ -6823,7 +6820,7 @@ Skin Care Footer Area CSS
 .skin-care-copyright-area .copyright-area-content p {
   color: #486683;
   font-size: 15px;
-  font-family: "Nunito Sans", sans-serif;
+  font-family: "Alexandria", sans-serif;
 }
 .skin-care-copyright-area .copyright-area-content p a {
   display: inline-block;
@@ -6857,13 +6854,13 @@ Eye Care Banner Area CSS
   color: #af915d;
   font-weight: 600;
   font-size: 16px;
-  font-family: "Nunito Sans", sans-serif;
+  font-family: "Alexandria", sans-serif;
   display: block;
   margin-bottom: 18px;
 }
 .eye-care-banner-content h1 {
   font-size: 70px;
-  font-family: "Heebo", sans-serif;
+  font-family: "Alexandria", sans-serif;
   color: #ffffff;
   margin-bottom: 20px;
 }
@@ -7016,7 +7013,7 @@ Eye Care Features Area CSS
   margin-bottom: 15px;
   font-size: 24px;
   font-weight: 500;
-  font-family: "Heebo", sans-serif;
+  font-family: "Alexandria", sans-serif;
 }
 .eye-care-features-card .features-content h3 a {
   color: #002345;
@@ -7040,7 +7037,7 @@ Eye Care About Area CSS
 .eye-care-about-content h3 {
   font-size: 40px;
   margin-bottom: 15px;
-  font-family: "Heebo", sans-serif;
+  font-family: "Alexandria", sans-serif;
   line-height: 1.4;
 }
 .eye-care-about-content p {
@@ -7151,7 +7148,7 @@ Eye Care Services Area CSS
 .eye-care-services-card h3 {
   font-size: 24px;
   font-weight: 500;
-  font-family: "Heebo", sans-serif;
+  font-family: "Alexandria", sans-serif;
   margin-bottom: 15px;
 }
 .eye-care-services-card h3 a {
@@ -7174,7 +7171,7 @@ Eye Care Services Area CSS
   font-size: 80px;
   color: #002345;
   font-weight: bold;
-  font-family: "Heebo", sans-serif;
+  font-family: "Alexandria", sans-serif;
   opacity: 10%;
   position: absolute;
   inset-inline-end: 20px;
@@ -7236,7 +7233,7 @@ Eye Care Solutions Area CSS
 .eye-care-solutions-content h3 {
   font-size: 24px;
   color: #002345;
-  font-family: "Heebo", sans-serif;
+  font-family: "Alexandria", sans-serif;
   font-weight: 500;
   margin-bottom: 15px;
 }
@@ -7250,7 +7247,7 @@ Eye Care Solutions Area CSS
 .eye-care-solutions-content .solutions-inner-content h4 {
   font-size: 20px;
   color: #002345;
-  font-family: "Heebo", sans-serif;
+  font-family: "Alexandria", sans-serif;
   font-weight: 500;
   margin-bottom: 15px;
 }
@@ -7342,7 +7339,7 @@ Eye Care Team Area CSS
 .eye-care-team-card .team-content h3 {
   font-size: 24px;
   font-weight: 500;
-  font-family: "Heebo", sans-serif;
+  font-family: "Alexandria", sans-serif;
 }
 .eye-care-team-card .team-content h3 a {
   color: #002345;
@@ -7411,7 +7408,7 @@ Eye Care Testimonials Area CSS
 }
 .eye-care-testimonials-content-box .content span {
   color: #ffffff;
-  font-family: "Heebo", sans-serif;
+  font-family: "Alexandria", sans-serif;
   display: inline-block;
   margin-bottom: 15px;
 }
@@ -7419,7 +7416,7 @@ Eye Care Testimonials Area CSS
   font-size: 40px;
   margin-bottom: 0;
   font-weight: 500;
-  font-family: "Heebo", sans-serif;
+  font-family: "Alexandria", sans-serif;
   color: #ffffff;
 }
 
@@ -7443,7 +7440,7 @@ Eye Care Testimonials Area CSS
 .eye-care-review-card .review-info h3 {
   font-size: 24px;
   font-weight: 500;
-  font-family: "Heebo", sans-serif;
+  font-family: "Alexandria", sans-serif;
   margin-bottom: 0;
   color: #002345;
 }
@@ -7524,7 +7521,7 @@ Eye Care Testimonials Area CSS
 .eye-care-treatment-content h3 {
   font-size: 40px;
   margin-bottom: 15px;
-  font-family: "Heebo", sans-serif;
+  font-family: "Alexandria", sans-serif;
   line-height: 1.4;
 }
 .eye-care-treatment-content p {
@@ -7547,7 +7544,7 @@ Eye Care Testimonials Area CSS
   font-size: 20px;
   text-align: center;
   font-weight: bold;
-  font-family: "Heebo", sans-serif;
+  font-family: "Alexandria", sans-serif;
   border-radius: 50px;
   position: absolute;
   inset-inline-start: 25px;
@@ -7619,7 +7616,7 @@ Eye Care Blog Area CSS
 .eye-care-blog-card .blog-content h3 {
   font-size: 22px;
   font-weight: 500;
-  font-family: "Heebo", sans-serif;
+  font-family: "Alexandria", sans-serif;
   line-height: 1.5;
 }
 .eye-care-blog-card .blog-content h3 a {
@@ -7652,7 +7649,7 @@ Newsletter Area CSS
   font-size: 24px;
   color: #ffffff;
   font-weight: 500;
-  font-family: "Heebo", sans-serif;
+  font-family: "Alexandria", sans-serif;
   margin-bottom: 15px;
 }
 .newsletter-inner-box .newsletter-content p {
@@ -7739,7 +7736,7 @@ Eye Care Footer Area CSS
 .eye-care-footer-widget h3 {
   font-size: 24px;
   font-weight: 500;
-  font-family: "Heebo", sans-serif;
+  font-family: "Alexandria", sans-serif;
   margin-bottom: 25px;
   color: #002345;
 }
@@ -7751,7 +7748,7 @@ Eye Care Footer Area CSS
   list-style-type: none;
   margin-bottom: 18px;
   color: #486683;
-  font-family: "Nunito Sans", sans-serif;
+  font-family: "Alexandria", sans-serif;
 }
 .eye-care-footer-widget .info-list li:last-child {
   margin-bottom: 0;
@@ -7781,7 +7778,7 @@ Eye Care Footer Area CSS
   font-size: 20px;
   color: #486683;
   font-weight: 500;
-  font-family: "Heebo", sans-serif;
+  font-family: "Alexandria", sans-serif;
 }
 .eye-care-footer-widget .share-link li a i {
   color: #486683;
@@ -7810,7 +7807,7 @@ Eye Care Footer Area CSS
   list-style-type: none;
   margin-bottom: 15px;
   position: relative;
-  font-family: "Nunito Sans", sans-serif;
+  font-family: "Alexandria", sans-serif;
   padding-inline-start: 22px;
 }
 .eye-care-footer-widget .quick-links li:last-child {
@@ -7855,7 +7852,7 @@ Eye Care Footer Area CSS
 .eye-care-copyright-area .copyright-area-content p {
   color: #486683;
   font-size: 15px;
-  font-family: "Nunito Sans", sans-serif;
+  font-family: "Alexandria", sans-serif;
 }
 .eye-care-copyright-area .copyright-area-content p a {
   display: inline-block;
@@ -7873,7 +7870,7 @@ Eye Care Footer Area CSS
 }
 .section-title.with-covid-color h2 {
   color: #0D0246;
-  font-family: "Heebo", sans-serif;
+  font-family: "Alexandria", sans-serif;
   font-weight: 900;
   margin-bottom: 0;
   margin-top: 15px;
@@ -7929,7 +7926,7 @@ Covid Bar Area CSS
 }
 .covid-top-area .top-information-wrap li {
   color: #CCCCCC;
-  font-family: "Nunito Sans", sans-serif;
+  font-family: "Alexandria", sans-serif;
   font-weight: 600;
 }
 .covid-top-area .top-information-wrap li a {
@@ -7957,7 +7954,7 @@ Covid Navbar Area CSS
   font-size: 35px;
   text-transform: capitalize;
   font-weight: bold;
-  font-family: "Heebo", sans-serif;
+  font-family: "Alexandria", sans-serif;
 }
 .covid-navbar-area .main-navbar .navbar .navbar-nav .nav-item a {
   color: #0D0246;
@@ -8088,7 +8085,7 @@ Covid Banner Area CSS
 }
 .covid-banner-content h1 {
   font-size: 62px;
-  font-family: "Heebo", sans-serif;
+  font-family: "Alexandria", sans-serif;
   font-weight: 900;
   margin-bottom: 12px;
   color: #0D0246;
@@ -8227,7 +8224,7 @@ Covid Check Form Area CSS
   font-size: 30px;
   color: #ffffff;
   margin-bottom: 0;
-  font-family: "Heebo", sans-serif;
+  font-family: "Alexandria", sans-serif;
   font-weight: bold;
 }
 .covid-check-title a {
@@ -8352,7 +8349,7 @@ Covid Vaccine Area CSS
   font-size: 22px;
   margin-bottom: 15px;
   color: #0D0246;
-  font-family: "Heebo", sans-serif;
+  font-family: "Alexandria", sans-serif;
   font-weight: 900;
 }
 .covid-vaccine-card .vaccine-content p {
@@ -8381,7 +8378,7 @@ Covid About Area CSS
   font-size: 48px;
   color: #0D0246;
   margin-bottom: 15px;
-  font-family: "Heebo", sans-serif;
+  font-family: "Alexandria", sans-serif;
   font-weight: 900;
 }
 .covid-about-content p {
@@ -8637,7 +8634,7 @@ Covid Registration Area CSS
   font-size: 48px;
   color: #0D0246;
   margin-bottom: 15px;
-  font-family: "Heebo", sans-serif;
+  font-family: "Alexandria", sans-serif;
   font-weight: 900;
 }
 
@@ -8665,7 +8662,7 @@ Covid Process Area CSS
   font-size: 22px;
   margin-bottom: 15px;
   color: #0D0246;
-  font-family: "Heebo", sans-serif;
+  font-family: "Alexandria", sans-serif;
   font-weight: 900;
 }
 .covid-process-card p {
@@ -8709,7 +8706,7 @@ Covid Tracker Area CSS
   font-size: 22px;
   color: #0D0246;
   margin-bottom: 15px;
-  font-family: "Heebo", sans-serif;
+  font-family: "Alexandria", sans-serif;
   font-weight: 900;
 }
 .covid-tracker-card .tracker-content p {
@@ -8818,7 +8815,7 @@ Covid Protection Area CSS
   font-size: 48px;
   color: #0D0246 !important;
   margin-bottom: 0;
-  font-family: "Heebo", sans-serif;
+  font-family: "Alexandria", sans-serif;
   font-weight: 900;
 }
 .covid-protection-content .protection-faq-accordion {
@@ -8965,7 +8962,7 @@ Covid Testimonials Area CSS
   font-size: 22px;
   margin-top: 25px;
   margin-bottom: 15px;
-  font-family: "Heebo", sans-serif;
+  font-family: "Alexandria", sans-serif;
   font-weight: 900;
 }
 .covid-testimonials-card p {
@@ -9158,7 +9155,7 @@ Covid Blog Area CSS
   font-size: 22px;
   margin-bottom: 15px;
   line-height: 1.4;
-  font-family: "Heebo", sans-serif;
+  font-family: "Alexandria", sans-serif;
   font-weight: 900;
 }
 .covid-blog-card .blog-content h3 a {
@@ -10358,11 +10355,11 @@ Covid Footer Area CSS
 /* Start "Hospital Website Demo CSS" */
 .section-title.with-hospital-color span {
   color: #13A8B4;
-  font-family: "Jost", sans-serif;
+  font-family: "Alexandria", sans-serif;
 }
 .section-title.with-hospital-color h2 {
   color: #0A335B;
-  font-family: "Jost", sans-serif;
+  font-family: "Alexandria", sans-serif;
   font-weight: 900;
   margin-bottom: 0;
   margin-top: 15px;
@@ -10375,7 +10372,7 @@ Covid Footer Area CSS
   border-radius: 50px;
   box-shadow: unset;
   font-weight: 500;
-  font-family: "Jost", sans-serif;
+  font-family: "Alexandria", sans-serif;
 }
 .hospital-pagination .page-numbers.current, .hospital-pagination .page-numbers:hover, .hospital-pagination .page-numbers:focus {
   background: #13A8B4;
@@ -10422,11 +10419,11 @@ Hospital Bar Area CSS
 }
 .hospital-top-area .top-information-wrap li {
   color: #CCCCCC;
-  font-family: "Nunito Sans", sans-serif;
+  font-family: "Alexandria", sans-serif;
   font-weight: 600;
   border-right: 1px solid #355370;
   padding-inline-end: 15px;
-  font-family: "Jost", sans-serif;
+  font-family: "Alexandria", sans-serif;
   font-size: 14px;
 }
 .hospital-top-area .top-information-wrap li:last-child {
@@ -10458,7 +10455,7 @@ Hospital Navbar Area CSS
   font-size: 35px;
   text-transform: capitalize;
   font-weight: bold;
-  font-family: "Jost", sans-serif;
+  font-family: "Alexandria", sans-serif;
 }
 .hospital-navbar-area .main-navbar .navbar .navbar-nav {
   margin-inline-start: auto !important;
@@ -10466,7 +10463,7 @@ Hospital Navbar Area CSS
 }
 .hospital-navbar-area .main-navbar .navbar .navbar-nav .nav-item a {
   color: #0A335B;
-  font-family: "Jost", sans-serif;
+  font-family: "Alexandria", sans-serif;
 }
 .hospital-navbar-area .main-navbar .navbar .navbar-nav .nav-item a::before {
   display: none;
@@ -10557,7 +10554,7 @@ Hospital Navbar Area CSS
 .hospital-navbar-area .main-navbar .navbar .others-options .option-item .navbar-btn .default-btn {
   background-color: #13A8B4;
   color: #ffffff;
-  font-family: "Jost", sans-serif;
+  font-family: "Alexandria", sans-serif;
 }
 .hospital-navbar-area .main-navbar .navbar .others-options .option-item .navbar-btn .default-btn:hover {
   background-color: #0A335B;
@@ -10574,7 +10571,7 @@ Hospital Navbar Area CSS
 .hospital-navbar-area .others-option-for-responsive .option-inner .others-options .option-item .navbar-btn .default-btn {
   background-color: #13A8B4;
   color: #ffffff;
-  font-family: "Jost", sans-serif;
+  font-family: "Alexandria", sans-serif;
 }
 .hospital-navbar-area .others-option-for-responsive .option-inner .others-options .option-item .navbar-btn .default-btn:hover {
   background-color: #0A335B;
@@ -10609,19 +10606,19 @@ Hospital Banner Area CSS
   font-size: 15px;
   color: #ffffff;
   margin-bottom: 20px;
-  font-family: "Jost", sans-serif;
+  font-family: "Alexandria", sans-serif;
   font-weight: 500;
 }
 .hospital-banner-content h1 {
   font-size: 75px;
   color: #ffffff;
   margin-bottom: 15px;
-  font-family: "Jost", sans-serif;
+  font-family: "Alexandria", sans-serif;
   font-weight: 900;
 }
 .hospital-banner-content p {
   color: #ffffff;
-  font-family: "Jost", sans-serif;
+  font-family: "Alexandria", sans-serif;
   max-width: 750px;
   margin-bottom: 0;
 }
@@ -10632,7 +10629,7 @@ Hospital Banner Area CSS
   background-color: #0A335B;
   border: 1px solid #0A335B;
   padding: 15px 30px;
-  font-family: "Jost", sans-serif;
+  font-family: "Alexandria", sans-serif;
 }
 .hospital-banner-content .banner-btn .default-btn:hover {
   background-color: transparent;
@@ -10680,7 +10677,7 @@ Hospital Specialist Area CSS
 .hospital-specialist-card .specialist-content h3 {
   font-size: 22px;
   margin-bottom: 0;
-  font-family: "Jost", sans-serif;
+  font-family: "Alexandria", sans-serif;
   color: #0A335B;
   font-weight: 800;
 }
@@ -10695,7 +10692,7 @@ Hospital Specialist Area CSS
 .view-all-specialist-btn .default-btn {
   background-color: #13A8B4;
   padding: 15px 30px;
-  font-family: "Jost", sans-serif;
+  font-family: "Alexandria", sans-serif;
 }
 .view-all-specialist-btn .default-btn:hover {
   background-color: #0A335B;
@@ -10716,22 +10713,22 @@ Hospital About Area CSS
   display: inline-block;
   margin-bottom: 15px;
   font-weight: 500;
-  font-family: "Jost", sans-serif;
+  font-family: "Alexandria", sans-serif;
 }
 .hospital-about-content h3 {
   font-size: 40px;
   margin-bottom: 15px;
-  font-family: "Jost", sans-serif;
+  font-family: "Alexandria", sans-serif;
   color: #0A335B;
   font-weight: 900;
 }
 .hospital-about-content p {
-  font-family: "Jost", sans-serif;
+  font-family: "Alexandria", sans-serif;
   margin-bottom: 20px;
 }
 .hospital-about-content h4 {
   font-size: 20px;
-  font-family: "Jost", sans-serif;
+  font-family: "Alexandria", sans-serif;
   color: #0A335B;
 }
 .hospital-about-content .list {
@@ -10742,7 +10739,7 @@ Hospital About Area CSS
 .hospital-about-content .list li {
   color: #0A335B;
   font-size: 16.5px;
-  font-family: "Jost", sans-serif;
+  font-family: "Alexandria", sans-serif;
   list-style-type: none;
   margin-bottom: 15px;
   font-weight: 500;
@@ -10767,7 +10764,7 @@ Hospital About Area CSS
 .hospital-about-content .about-btn .default-btn {
   background-color: #13A8B4;
   padding: 15px 30px;
-  font-family: "Jost", sans-serif;
+  font-family: "Alexandria", sans-serif;
 }
 .hospital-about-content .about-btn .default-btn:hover {
   background-color: #0A335B;
@@ -10817,7 +10814,7 @@ Hospital Appointment Area CSS
   font-size: 15px;
   color: #ffffff;
   transition: 0.6s;
-  font-family: "Jost", sans-serif;
+  font-family: "Alexandria", sans-serif;
 }
 .hospital-appointment-form .form-control::-moz-placeholder {
   color: #ffffff;
@@ -10842,7 +10839,7 @@ Hospital Appointment Area CSS
   color: #ffffff;
   height: 55px;
   line-height: 55px;
-  font-family: "Jost", sans-serif;
+  font-family: "Alexandria", sans-serif;
   padding-inline-start: 20px;
   padding-inline-end: 35px;
 }
@@ -10885,7 +10882,7 @@ Hospital Appointment Area CSS
   padding: 15px 30px;
   width: 100%;
   color: #13A8B4;
-  font-family: "Jost", sans-serif;
+  font-family: "Alexandria", sans-serif;
 }
 .hospital-appointment-form .default-btn:hover {
   background-color: #222222;
@@ -10907,12 +10904,12 @@ Hospital Appointment Area CSS
   display: inline-block;
   margin-bottom: 15px;
   font-weight: 500;
-  font-family: "Jost", sans-serif;
+  font-family: "Alexandria", sans-serif;
 }
 .hospital-appointment-area-with-color .hospital-appointment-form .content h3 {
   font-size: 40px;
   margin-bottom: 15px;
-  font-family: "Jost", sans-serif;
+  font-family: "Alexandria", sans-serif;
   color: #0A335B;
   font-weight: 900;
 }
@@ -10959,7 +10956,7 @@ Hospital Services Area CSS
 .hospital-services-area .section-title.with-hospital-color .default-btn {
   background-color: #13A8B4;
   padding: 15px 30px;
-  font-family: "Jost", sans-serif;
+  font-family: "Alexandria", sans-serif;
 }
 .hospital-services-area .section-title.with-hospital-color .default-btn:hover {
   background-color: #0A335B;
@@ -10994,17 +10991,17 @@ Hospital Services Area CSS
 .hospital-services-card .title h3 {
   font-size: 22px;
   margin-bottom: 0;
-  font-family: "Jost", sans-serif;
+  font-family: "Alexandria", sans-serif;
   color: #0A335B;
   font-weight: 800;
 }
 .hospital-services-card p {
-  font-family: "Jost", sans-serif;
+  font-family: "Alexandria", sans-serif;
 }
 .hospital-services-card .services-btn {
   color: #13A8B4;
   font-weight: 500;
-  font-family: "Jost", sans-serif;
+  font-family: "Alexandria", sans-serif;
 }
 .hospital-services-card:hover {
   border-top: 5px solid #13A8B4;
@@ -11063,17 +11060,17 @@ Hospital Skills Area CSS
   display: inline-block;
   margin-bottom: 15px;
   font-weight: 500;
-  font-family: "Jost", sans-serif;
+  font-family: "Alexandria", sans-serif;
 }
 .hospital-skills-content h3 {
   font-size: 40px;
   margin-bottom: 15px;
-  font-family: "Jost", sans-serif;
+  font-family: "Alexandria", sans-serif;
   color: #0A335B;
   font-weight: 900;
 }
 .hospital-skills-content p {
-  font-family: "Jost", sans-serif;
+  font-family: "Alexandria", sans-serif;
   margin-bottom: 0;
 }
 .hospital-skills-content .skills {
@@ -11090,7 +11087,7 @@ Hospital Skills Area CSS
 .hospital-skills-content .skills .skill-item .skill-header .skill-title {
   font-size: 15.5px;
   margin-bottom: 0;
-  font-family: "Jost", sans-serif;
+  font-family: "Alexandria", sans-serif;
   color: #0A335B;
   font-weight: 600;
 }
@@ -11098,7 +11095,7 @@ Hospital Skills Area CSS
   position: absolute;
   inset-inline-end: 0;
   top: 0;
-  font-family: "Jost", sans-serif;
+  font-family: "Alexandria", sans-serif;
   font-size: 15px;
   font-weight: 500;
   font-color: #0A335B;
@@ -11161,7 +11158,7 @@ Hospital Fun Facts Area CSS
 .hospital-fun-fact h3 {
   font-size: 70px;
   color: #ffffff;
-  font-family: "Jost", sans-serif;
+  font-family: "Alexandria", sans-serif;
   margin-bottom: 5px;
   font-weight: 900;
 }
@@ -11176,7 +11173,7 @@ Hospital Fun Facts Area CSS
 .hospital-fun-fact p {
   font-size: 18px;
   color: #ffffff;
-  font-family: "Jost", sans-serif;
+  font-family: "Alexandria", sans-serif;
   font-weight: 500;
 }
 .hospital-fun-fact .shape {
@@ -11243,11 +11240,11 @@ Hospital Team Area CSS
   font-size: 22px;
   color: #0A335B;
   margin-bottom: 0;
-  font-family: "Jost", sans-serif;
+  font-family: "Alexandria", sans-serif;
   font-weight: bold;
 }
 .hospital-team-card .team-content span {
-  font-family: "Jost", sans-serif;
+  font-family: "Alexandria", sans-serif;
   color: #486683;
   display: inline-block;
   margin-top: 12px;
@@ -11339,17 +11336,17 @@ Hospital App Area CSS
   display: inline-block;
   margin-bottom: 15px;
   font-weight: 500;
-  font-family: "Jost", sans-serif;
+  font-family: "Alexandria", sans-serif;
 }
 .hospital-app-content h3 {
   font-size: 40px;
   margin-bottom: 15px;
-  font-family: "Jost", sans-serif;
+  font-family: "Alexandria", sans-serif;
   color: #0A335B;
   font-weight: 900;
 }
 .hospital-app-content p {
-  font-family: "Jost", sans-serif;
+  font-family: "Alexandria", sans-serif;
   margin-bottom: 0;
 }
 .hospital-app-content .list {
@@ -11376,7 +11373,7 @@ Hospital App Area CSS
 }
 .hospital-app-content .list li h4 {
   font-size: 18px;
-  font-family: "Jost", sans-serif;
+  font-family: "Alexandria", sans-serif;
   color: #0A335B;
   margin-bottom: 0;
 }
@@ -11414,13 +11411,13 @@ Hospital Call To Action Area CSS
   font-size: 18px;
   color: #ffffff;
   font-weight: 500;
-  font-family: "Jost", sans-serif;
+  font-family: "Alexandria", sans-serif;
   display: inline-block;
   margin-bottom: 15px;
 }
 .hospital-call-to-action-content h3 {
   font-size: 48px;
-  font-family: "Jost", sans-serif;
+  font-family: "Alexandria", sans-serif;
   color: #ffffff;
   margin-bottom: 15px;
   font-weight: 900;
@@ -11429,7 +11426,7 @@ Hospital Call To Action Area CSS
   font-size: 20px;
   color: #ffffff;
   font-weight: 500;
-  font-family: "Jost", sans-serif;
+  font-family: "Alexandria", sans-serif;
   margin-bottom: 0;
 }
 .hospital-call-to-action-content p a {
@@ -11454,7 +11451,7 @@ Hospital Call To Action Area CSS
   color: #ffffff;
   border-radius: 5px;
   padding: 15px 30px;
-  font-family: "Jost", sans-serif;
+  font-family: "Alexandria", sans-serif;
   font-weight: 500;
   transition: 0.6s;
 }
@@ -11467,7 +11464,7 @@ Hospital Call To Action Area CSS
   color: #ffffff;
   border-radius: 5px;
   padding: 15px 30px;
-  font-family: "Jost", sans-serif;
+  font-family: "Alexandria", sans-serif;
   font-weight: 500;
   transition: 0.6s;
 }
@@ -11490,7 +11487,7 @@ Hospital Testimonials Area CSS
   border-left: 5px solid #F8F8F8;
   border-right: 5px solid #F8F8F8;
   border-radius: 20px;
-  font-family: "Jost", sans-serif;
+  font-family: "Alexandria", sans-serif;
   font-size: 16.5px;
   position: relative;
 }
@@ -11533,11 +11530,11 @@ Hospital Testimonials Area CSS
   color: #0A335B;
   font-weight: bold;
   margin-bottom: 0;
-  font-family: "Jost", sans-serif;
+  font-family: "Alexandria", sans-serif;
 }
 .hospital-testimonials-card .info-content .info .title span {
   color: #486683;
-  font-family: "Jost", sans-serif;
+  font-family: "Alexandria", sans-serif;
   display: inline-block;
   margin-top: 12px;
 }
@@ -11670,7 +11667,7 @@ Hospital Blog Area CSS
   top: 40%;
   transform: translateY(-40%);
   inset-inline-end: -176px;
-  font-family: "Jost", sans-serif;
+  font-family: "Alexandria", sans-serif;
   font-size: 18px;
   color: #ffffff;
   background-color: #0A335B;
@@ -11692,7 +11689,7 @@ Hospital Blog Area CSS
 }
 .hospital-blog-card .blog-content .meta li {
   list-style-type: none;
-  font-family: "Jost", sans-serif;
+  font-family: "Alexandria", sans-serif;
   color: #486683;
   display: inline-block;
   position: relative;
@@ -11717,7 +11714,7 @@ Hospital Blog Area CSS
 }
 .hospital-blog-card .blog-content h3 {
   font-size: 24px;
-  font-family: "Jost", sans-serif;
+  font-family: "Alexandria", sans-serif;
   font-weight: bold;
   line-height: 1.4;
   margin-top: 15px;
@@ -11735,7 +11732,7 @@ Hospital Blog Area CSS
   display: inline-block;
   padding: 15px 25px;
   color: #13A8B4;
-  font-family: "Jost", sans-serif;
+  font-family: "Alexandria", sans-serif;
   font-weight: 500;
 }
 .hospital-blog-card:hover {
@@ -11789,11 +11786,11 @@ Hospital Information Area CSS
 .hospital-information-card .content h3 {
   font-size: 20px;
   font-weight: bold;
-  font-family: "Jost", sans-serif;
+  font-family: "Alexandria", sans-serif;
   margin-bottom: 0;
 }
 .hospital-information-card .content p {
-  font-family: "Jost", sans-serif;
+  font-family: "Alexandria", sans-serif;
   color: #486683;
   display: inline-block;
   margin-top: 10px;
@@ -11841,7 +11838,7 @@ Hospital Page Banner Area CSS
   color: #0A335B;
   margin-bottom: 15px;
   font-weight: 900;
-  font-family: "Jost", sans-serif;
+  font-family: "Alexandria", sans-serif;
 }
 .hospital-page-banner-content .list {
   padding: 0;
@@ -11849,7 +11846,7 @@ Hospital Page Banner Area CSS
   color: #0A335B;
 }
 .hospital-page-banner-content .list li {
-  font-family: "Jost", sans-serif;
+  font-family: "Alexandria", sans-serif;
   list-style-type: none;
   display: inline-block;
   position: relative;
@@ -11886,17 +11883,17 @@ Hospital Choice Area CSS
   display: inline-block;
   margin-bottom: 15px;
   font-weight: 500;
-  font-family: "Jost", sans-serif;
+  font-family: "Alexandria", sans-serif;
 }
 .hospital-choice-content h3 {
   font-size: 40px;
   margin-bottom: 15px;
-  font-family: "Jost", sans-serif;
+  font-family: "Alexandria", sans-serif;
   color: #0A335B;
   font-weight: 900;
 }
 .hospital-choice-content p {
-  font-family: "Jost", sans-serif;
+  font-family: "Alexandria", sans-serif;
   margin-bottom: 0;
 }
 .hospital-choice-content .list {
@@ -11907,7 +11904,7 @@ Hospital Choice Area CSS
 .hospital-choice-content .list li {
   list-style-type: none;
   margin-bottom: 15px;
-  font-family: "Jost", sans-serif;
+  font-family: "Alexandria", sans-serif;
   color: #6a6c72;
   position: relative;
   padding-inline-start: 25px;
@@ -11936,18 +11933,18 @@ Hospital Choice Area CSS
   font-size: 35px;
   color: #0A335B;
   font-weight: 900;
-  font-family: "Jost", sans-serif;
+  font-family: "Alexandria", sans-serif;
   margin-top: 30px;
   margin-bottom: 18px;
 }
 .hospital-services-details-desc .content p {
-  font-family: "Jost", sans-serif;
+  font-family: "Alexandria", sans-serif;
 }
 .hospital-services-details-desc .content h4 {
   font-size: 28px;
   color: #0A335B;
   font-weight: 900;
-  font-family: "Jost", sans-serif;
+  font-family: "Alexandria", sans-serif;
   margin-top: 30px;
   margin-bottom: 18px;
 }
@@ -11965,7 +11962,7 @@ Hospital Choice Area CSS
   border-radius: 50px;
   background-color: #13A8B4;
   color: #ffffff;
-  font-family: "Jost", sans-serif;
+  font-family: "Alexandria", sans-serif;
   font-size: 20px;
   font-weight: 500;
   position: absolute;
@@ -11974,12 +11971,12 @@ Hospital Choice Area CSS
 }
 .hospital-services-details-desc .services-details-card h4 {
   font-size: 20px;
-  font-family: "Jost", sans-serif;
+  font-family: "Alexandria", sans-serif;
   margin-bottom: 10px;
   color: #0A335B;
 }
 .hospital-services-details-desc .services-details-card p {
-  font-family: "Jost", sans-serif;
+  font-family: "Alexandria", sans-serif;
   margin-bottom: 0;
 }
 .hospital-services-details-desc .services-details-inner-content {
@@ -11987,13 +11984,13 @@ Hospital Choice Area CSS
 }
 .hospital-services-details-desc .services-details-inner-content h4 {
   font-size: 28px;
-  font-family: "Jost", sans-serif;
+  font-family: "Alexandria", sans-serif;
   font-weight: 900;
   margin-bottom: 12px;
   color: #0A335B;
 }
 .hospital-services-details-desc .services-details-inner-content p {
-  font-family: "Jost", sans-serif;
+  font-family: "Alexandria", sans-serif;
   margin-bottom: 0;
 }
 .hospital-services-details-desc .services-details-inner-content .list {
@@ -12004,7 +12001,7 @@ Hospital Choice Area CSS
 .hospital-services-details-desc .services-details-inner-content .list li {
   list-style-type: none;
   margin-bottom: 15px;
-  font-family: "Jost", sans-serif;
+  font-family: "Alexandria", sans-serif;
   color: #6a6c72;
   position: relative;
   padding-inline-start: 25px;
@@ -12046,7 +12043,7 @@ Hospital Choice Area CSS
   font-weight: 600;
   cursor: pointer;
   border-radius: 8px;
-  font-family: "Jost", sans-serif;
+  font-family: "Alexandria", sans-serif;
 }
 .hospital-services-details-desc .hospital-faq-accordion .accordion .accordion-title i {
   position: absolute;
@@ -12065,12 +12062,12 @@ Hospital Choice Area CSS
   display: none;
   padding: 20px;
   border-radius: 8px;
-  font-family: "Jost", sans-serif;
+  font-family: "Alexandria", sans-serif;
 }
 .hospital-services-details-desc .hospital-faq-accordion .accordion .accordion-content p {
   color: #486683;
   font-weight: 400;
-  font-family: "Jost", sans-serif;
+  font-family: "Alexandria", sans-serif;
 }
 .hospital-services-details-desc .hospital-faq-accordion .accordion .accordion-content.show {
   display: block;
@@ -12144,7 +12141,7 @@ Hospital Portfolio Area CSS
   font-size: 24px;
   margin-bottom: 0;
   font-weight: bold;
-  font-family: "Jost", sans-serif;
+  font-family: "Alexandria", sans-serif;
 }
 .hospital-portfolio-card .portfolio-content h3 a {
   color: #0A335B;
@@ -12152,7 +12149,7 @@ Hospital Portfolio Area CSS
 }
 .hospital-portfolio-card .portfolio-content span {
   font-size: 15.5px;
-  font-family: "Jost", sans-serif;
+  font-family: "Alexandria", sans-serif;
   color: #486683;
   display: inline-block;
   margin-top: 12px;
@@ -12190,18 +12187,18 @@ Hospital Portfolio Details Area CSS
   font-size: 35px;
   color: #0A335B;
   font-weight: 900;
-  font-family: "Jost", sans-serif;
+  font-family: "Alexandria", sans-serif;
   margin-top: 30px;
   margin-bottom: 18px;
 }
 .hospital-portfolio-details-desc .content p {
-  font-family: "Jost", sans-serif;
+  font-family: "Alexandria", sans-serif;
 }
 .hospital-portfolio-details-desc .content h4 {
   font-size: 28px;
   color: #0A335B;
   font-weight: 900;
-  font-family: "Jost", sans-serif;
+  font-family: "Alexandria", sans-serif;
   margin-top: 30px;
   margin-bottom: 18px;
 }
@@ -12218,7 +12215,7 @@ Hospital Portfolio Details Area CSS
   color: #0A335B;
   font-size: 20px;
   font-weight: bold;
-  font-family: "Jost", sans-serif;
+  font-family: "Alexandria", sans-serif;
   border-bottom: 1px solid rgba(197, 197, 197, 0.42);
   margin-bottom: 20px;
   padding-bottom: 20px;
@@ -12231,7 +12228,7 @@ Hospital Portfolio Details Area CSS
   list-style-type: none;
   margin-bottom: 20px;
   color: #486683;
-  font-family: "Jost", sans-serif;
+  font-family: "Alexandria", sans-serif;
   position: relative;
   padding-inline-start: 20px;
 }
@@ -12240,7 +12237,7 @@ Hospital Portfolio Details Area CSS
 }
 .hospital-portfolio-details-info .list li span {
   color: #0A335B;
-  font-family: "Jost", sans-serif;
+  font-family: "Alexandria", sans-serif;
   font-weight: 600;
 }
 .hospital-portfolio-details-info .list li::before {
@@ -12258,7 +12255,7 @@ Hospital Portfolio Details Area CSS
   font-size: 28px;
   color: #0A335B;
   font-weight: 900;
-  font-family: "Jost", sans-serif;
+  font-family: "Alexandria", sans-serif;
   margin-bottom: 30px;
 }
 
@@ -12274,7 +12271,7 @@ Hospital Blog Details Area CSS
 }
 .hospital-blog-details-desc .article-content .meta li {
   list-style-type: none;
-  font-family: "Jost", sans-serif;
+  font-family: "Alexandria", sans-serif;
   color: #486683;
   display: inline-block;
   position: relative;
@@ -12301,7 +12298,7 @@ Hospital Blog Details Area CSS
   font-size: 32px;
   color: #0A335B;
   font-weight: 900;
-  font-family: "Jost", sans-serif;
+  font-family: "Alexandria", sans-serif;
   margin-top: 20px;
   margin-bottom: 30px;
 }
@@ -12319,7 +12316,7 @@ Hospital Blog Details Area CSS
   top: 40%;
   transform: translateY(-40%);
   inset-inline-end: -385px;
-  font-family: "Jost", sans-serif;
+  font-family: "Alexandria", sans-serif;
   font-size: 18px;
   color: #ffffff;
   background-color: #0A335B;
@@ -12331,7 +12328,7 @@ Hospital Blog Details Area CSS
 }
 .hospital-blog-details-desc p {
   color: #486683;
-  font-family: "Jost", sans-serif;
+  font-family: "Alexandria", sans-serif;
 }
 .hospital-blog-details-desc .article-quote {
   background: #ffffff;
@@ -12347,7 +12344,7 @@ Hospital Blog Details Area CSS
 .hospital-blog-details-desc .article-quote p {
   font-size: 18px;
   color: #0A335B;
-  font-family: "Jost", sans-serif;
+  font-family: "Alexandria", sans-serif;
   position: relative;
   z-index: 1;
 }
@@ -12369,7 +12366,7 @@ Hospital Blog Details Area CSS
   font-size: 25px;
   color: #0A335B;
   font-weight: 900;
-  font-family: "Jost", sans-serif;
+  font-family: "Alexandria", sans-serif;
   margin-top: 25px;
   margin-bottom: 15px;
 }
@@ -12380,7 +12377,7 @@ Hospital Blog Details Area CSS
 .hospital-blog-details-desc .list li {
   list-style-type: none;
   margin-bottom: 15px;
-  font-family: "Jost", sans-serif;
+  font-family: "Alexandria", sans-serif;
   color: #0A335B;
   position: relative;
   padding-inline-start: 25px;
@@ -12407,7 +12404,7 @@ Hospital Blog Details Area CSS
 }
 .hospital-blog-details-desc .blog-details-inner-content p {
   color: #486683;
-  font-family: "Jost", sans-serif;
+  font-family: "Alexandria", sans-serif;
 }
 .hospital-blog-details-desc .article-tag {
   border-top: 1px solid rgba(217, 216, 216, 0.54);
@@ -12419,10 +12416,10 @@ Hospital Blog Details Area CSS
   font-weight: 600;
   color: #0A335B;
   margin-inline-end: 5px;
-  font-family: "Jost", sans-serif;
+  font-family: "Alexandria", sans-serif;
 }
 .hospital-blog-details-desc .article-tag .tag-list a {
-  font-family: "Jost", sans-serif;
+  font-family: "Alexandria", sans-serif;
   color: #486683;
 }
 .hospital-blog-details-desc .article-tag .tag-list a:hover {
@@ -12433,7 +12430,7 @@ Hospital Blog Details Area CSS
   font-weight: 600;
   color: #0A335B;
   margin-inline-end: 5px;
-  font-family: "Jost", sans-serif;
+  font-family: "Alexandria", sans-serif;
 }
 .hospital-blog-details-desc .article-tag .share-list a i {
   display: inline-block;
@@ -12455,7 +12452,7 @@ Hospital Blog Details Area CSS
 .hospital-blog-details-desc .comments-area .comment-respond .comment-reply-title {
   color: #0A335B;
   font-weight: 900;
-  font-family: "Jost", sans-serif;
+  font-family: "Alexandria", sans-serif;
   margin-bottom: 25px;
 }
 .hospital-blog-details-desc .comments-area .comment-respond .form-group {
@@ -12525,7 +12522,7 @@ Hospital Contact Area CSS
   color: #486683;
   font-size: 15.5px;
   font-weight: 400;
-  font-family: "Jost", sans-serif;
+  font-family: "Alexandria", sans-serif;
   outline: 0;
   box-shadow: unset;
   transition: 0.6s;
@@ -12554,20 +12551,20 @@ Hospital Contact Area CSS
   border: none;
   width: 100%;
   background-color: #13A8B4;
-  font-family: "Jost", sans-serif;
+  font-family: "Alexandria", sans-serif;
 }
 .hospital-contact-form .default-btn:hover {
   background-color: #0A335B;
 }
 .hospital-contact-form .list-unstyled li {
-  font-family: "Jost", sans-serif;
+  font-family: "Alexandria", sans-serif;
   color: red;
   margin-top: 10px;
 }
 .hospital-contact-form .text-danger {
   margin-top: 15px;
   font-size: 20px;
-  font-family: "Jost", sans-serif;
+  font-family: "Alexandria", sans-serif;
   margin-bottom: 0;
 }
 
@@ -12610,7 +12607,7 @@ Hospital Contact Information Area CSS
 .hospital-contact-information-content .info span {
   font-size: 22px;
   font-weight: 500;
-  font-family: "Jost", sans-serif;
+  font-family: "Alexandria", sans-serif;
   display: inline-block;
   color: #ffffff;
   margin-bottom: 12px;
@@ -12618,14 +12615,14 @@ Hospital Contact Information Area CSS
 .hospital-contact-information-content .info h3 {
   font-size: 35px;
   font-weight: bold;
-  font-family: "Jost", sans-serif;
+  font-family: "Alexandria", sans-serif;
   color: #ffffff;
 }
 .hospital-contact-information-content .info h3 a {
   color: #ffffff;
 }
 .hospital-contact-information-content p {
-  font-family: "Jost", sans-serif;
+  font-family: "Alexandria", sans-serif;
   color: #ffffff;
 }
 
@@ -12634,7 +12631,7 @@ Hospital Widget Area CSS
 =================================================*/
 .hospital-widget-area .widget .widget-title {
   color: #0A335B;
-  font-family: "Jost", sans-serif;
+  font-family: "Alexandria", sans-serif;
   border-bottom: 1px solid rgba(197, 197, 197, 0.42);
   padding-bottom: 20px;
   margin-bottom: 20px;
@@ -12645,7 +12642,7 @@ Hospital Widget Area CSS
   color: #486683;
   padding: 15px 20px;
   border-radius: 5px;
-  font-family: "Jost", sans-serif;
+  font-family: "Alexandria", sans-serif;
 }
 .hospital-widget-area .widget_search form .search-field::-moz-placeholder {
   color: #486683;
@@ -12681,7 +12678,7 @@ Hospital Widget Area CSS
 .hospital-widget-area .widget_categories ul li {
   padding-inline-start: 20px;
   margin-bottom: 18px;
-  font-family: "Jost", sans-serif;
+  font-family: "Alexandria", sans-serif;
 }
 .hospital-widget-area .widget_categories ul li::before {
   background-color: #13A8B4;
@@ -12725,12 +12722,12 @@ Hospital Widget Area CSS
   font-size: 18px;
   color: #0A335B;
   margin-bottom: 0;
-  font-family: "Jost", sans-serif;
+  font-family: "Alexandria", sans-serif;
 }
 .hospital-widget-area .widget_download_file .download-file-list li .title span {
   font-size: 14px;
   color: #486683;
-  font-family: "Jost", sans-serif;
+  font-family: "Alexandria", sans-serif;
   display: inline-block;
   margin-top: 12px;
 }
@@ -12758,26 +12755,26 @@ Hospital Widget Area CSS
 .hospital-widget-area .widget_services_info .info h4 {
   font-size: 20px;
   color: #ffffff;
-  font-family: "Jost", sans-serif;
+  font-family: "Alexandria", sans-serif;
   font-weight: bold;
   margin-bottom: 12px;
 }
 .hospital-widget-area .widget_services_info .info a {
   color: #ffffff;
-  font-family: "Jost", sans-serif;
+  font-family: "Alexandria", sans-serif;
 }
 .hospital-widget-area .widget_services_info .info a:hover {
   color: #13A8B4;
 }
 .hospital-widget-area .widget_services_info p {
-  font-family: "Jost", sans-serif;
+  font-family: "Alexandria", sans-serif;
   color: #DCDCDC;
   margin-top: 20px;
   margin-bottom: 20px;
 }
 .hospital-widget-area .widget_services_info .default-btn {
   background-color: #13A8B4;
-  font-family: "Jost", sans-serif;
+  font-family: "Alexandria", sans-serif;
   padding: 12px 30px;
   width: 100%;
   text-align: center;
@@ -12805,11 +12802,11 @@ Hospital Widget Area CSS
   display: inline-block;
   margin-bottom: 10px;
   font-size: 14px;
-  font-family: "Jost", sans-serif;
+  font-family: "Alexandria", sans-serif;
 }
 .hospital-widget-area .widget_grin_posts_thumb .item .info .title {
   font-weight: bold;
-  font-family: "Jost", sans-serif;
+  font-family: "Alexandria", sans-serif;
   font-size: 16px;
 }
 .hospital-widget-area .widget_grin_posts_thumb .item .info .title a {
@@ -12839,7 +12836,7 @@ Covid Footer Area CSS
 .footer-area {
     background: #1c1d1d;
     color: #333;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Alexandria', sans-serif;
     background-size: cover;
     background-position: center;
 }
@@ -13016,7 +13013,7 @@ Covid Footer Area CSS
   font-size: 35px;
   color: #ffffff;
   margin-bottom: 20px;
-  font-family: "Jost", sans-serif;
+  font-family: "Alexandria", sans-serif;
 }
 .hospital-footer-widget h2 a {
   color: #ffffff;
@@ -13024,7 +13021,7 @@ Covid Footer Area CSS
 .hospital-footer-widget p {
   color: #ffffff;
   margin-bottom: 0;
-  font-family: "Jost", sans-serif;
+  font-family: "Alexandria", sans-serif;
 }
 .hospital-footer-widget .share-link {
   padding: 0;
@@ -13060,7 +13057,7 @@ Covid Footer Area CSS
   font-size: 22px;
   color: #ffffff;
   margin-bottom: 20px;
-  font-family: "Jost", sans-serif;
+  font-family: "Alexandria", sans-serif;
 }
 .hospital-footer-widget .quick-links {
   padding: 0;
@@ -13069,7 +13066,7 @@ Covid Footer Area CSS
 .hospital-footer-widget .quick-links li {
   list-style-type: none;
   margin-bottom: 15px;
-  font-family: "Jost", sans-serif;
+  font-family: "Alexandria", sans-serif;
 }
 .hospital-footer-widget .quick-links li:last-child {
   margin-bottom: 0;
@@ -13097,7 +13094,7 @@ Covid Footer Area CSS
 .hospital-footer-widget .hours-list li {
   list-style-type: none;
   margin-bottom: 15px;
-  font-family: "Jost", sans-serif;
+  font-family: "Alexandria", sans-serif;
 }
 .hospital-footer-widget .hours-list li:last-child {
   margin-bottom: 0;
@@ -13117,11 +13114,11 @@ Covid Footer Area CSS
   padding-top: 0;
 }
 .hospital-copyright-area .copyright-area-content p {
-  font-family: "Jost", sans-serif;
+  font-family: "Alexandria", sans-serif;
 }
 .hospital-copyright-area .copyright-area-content p a {
   color: #0CB8B6;
-  font-family: "Jost", sans-serif;
+  font-family: "Alexandria", sans-serif;
 }
 .hospital-copyright-area .copyright-area-content p a:hover {
   color: #ffffff;
@@ -13130,28 +13127,28 @@ Covid Footer Area CSS
 /* End "Hospital Website Demo CSS" */
 /* Start "Emergency & Trauma Care Demo CSS" & "Orthopedic Care Demo CSS" */
 .emergency-trauma-care-home {
-  font-family: "Nunito Sans", sans-serif;
+  font-family: "Alexandria", sans-serif;
   color: #486683;
 }
 .emergency-trauma-care-home .h1, .emergency-trauma-care-home .h2, .emergency-trauma-care-home .h3, .emergency-trauma-care-home .h4, .emergency-trauma-care-home .h5, .emergency-trauma-care-home .h6, .emergency-trauma-care-home h1, .emergency-trauma-care-home h2, .emergency-trauma-care-home h3, .emergency-trauma-care-home h4, .emergency-trauma-care-home h5, .emergency-trauma-care-home h6 {
-  font-family: "Heebo", sans-serif;
+  font-family: "Alexandria", sans-serif;
   color: #002345;
 }
 .emergency-trauma-care-home p {
-  font-family: "Nunito Sans", sans-serif;
+  font-family: "Alexandria", sans-serif;
   color: #486683;
 }
 
 .orthopedic-care-home {
-  font-family: "Nunito Sans", sans-serif;
+  font-family: "Alexandria", sans-serif;
   color: #486683;
 }
 .orthopedic-care-home .h1, .orthopedic-care-home .h2, .orthopedic-care-home .h3, .orthopedic-care-home .h4, .orthopedic-care-home .h5, .orthopedic-care-home .h6, .orthopedic-care-home h1, .orthopedic-care-home h2, .orthopedic-care-home h3, .orthopedic-care-home h4, .orthopedic-care-home h5, .orthopedic-care-home h6 {
-  font-family: "Heebo", sans-serif;
+  font-family: "Alexandria", sans-serif;
   color: #002345;
 }
 .orthopedic-care-home p {
-  font-family: "Nunito Sans", sans-serif;
+  font-family: "Alexandria", sans-serif;
   color: #486683;
 }
 
@@ -13211,7 +13208,7 @@ Covid Footer Area CSS
   color: #222222;
   font-weight: bold;
   text-transform: capitalize;
-  font-family: "Heebo", sans-serif;
+  font-family: "Alexandria", sans-serif;
 }
 .navbar-area-optional .main-navbar .navbar .navbar-nav .nav-item {
   margin-inline-start: 17.5px;
@@ -13345,7 +13342,7 @@ Emergency & Trauma Care Banner Area CSS
   font-size: 23.5px;
   color: #002345;
   font-weight: 300;
-  font-family: "Heebo", sans-serif;
+  font-family: "Alexandria", sans-serif;
 }
 .emergency-trauma-care-banner-content .hotline .sub a {
   color: #002345;
@@ -14315,7 +14312,7 @@ ETC Working Hours Area CSS
   border-bottom: 1px dashed #78A0A7;
   padding-bottom: 20px;
   margin-bottom: 20px;
-  font-family: "Heebo", sans-serif;
+  font-family: "Alexandria", sans-serif;
 }
 .etc-working-hours-info .list li span {
   font-weight: 400;
@@ -14356,7 +14353,7 @@ ETC Working Hours Area CSS
   font-size: 23.5px;
   color: #ffffff;
   font-weight: 300;
-  font-family: "Heebo", sans-serif;
+  font-family: "Alexandria", sans-serif;
 }
 .etc-working-hours-info .hotline .sub a {
   color: #ffffff;
@@ -14700,7 +14697,7 @@ OC About Area CSS
   font-size: 23.5px;
   color: #002345;
   font-weight: 300;
-  font-family: "Heebo", sans-serif;
+  font-family: "Alexandria", sans-serif;
 }
 .oc-about-content .inner-info .hotline .sub a {
   color: #af915d;
@@ -14943,7 +14940,7 @@ OC Working Hours Area CSS
   border-bottom: 1px dashed #CABBC0;
   padding-bottom: 15px;
   margin-bottom: 15px;
-  font-family: "Heebo", sans-serif;
+  font-family: "Alexandria", sans-serif;
 }
 .oc-working-hours-info .list li span {
   font-weight: 400;
@@ -14984,7 +14981,7 @@ OC Working Hours Area CSS
   font-size: 23.5px;
   color: #ffffff;
   font-weight: 300;
-  font-family: "Heebo", sans-serif;
+  font-family: "Alexandria", sans-serif;
 }
 .oc-working-hours-info .hotline .sub a {
   color: #ffffff;
@@ -15337,7 +15334,7 @@ OC FAQ Area CSS
   position: relative;
   font-size: 22.5px;
   font-weight: 600;
-  font-family: "Heebo", sans-serif;
+  font-family: "Alexandria", sans-serif;
   color: #002345;
   padding: 0 0 0 32px;
   cursor: pointer;
@@ -15474,7 +15471,7 @@ Footer Optional Area CSS
 .footer-optional-widget h3 {
   font-size: 24px;
   font-weight: 500;
-  font-family: "Heebo", sans-serif;
+  font-family: "Alexandria", sans-serif;
   margin-bottom: 25px;
   color: #ffffff;
 }
@@ -15486,7 +15483,7 @@ Footer Optional Area CSS
   list-style-type: none;
   margin-bottom: 18px;
   color: #ffffff;
-  font-family: "Nunito Sans", sans-serif;
+  font-family: "Alexandria", sans-serif;
 }
 .footer-optional-widget .info-list li:last-child {
   margin-bottom: 0;
@@ -15516,7 +15513,7 @@ Footer Optional Area CSS
   font-size: 20px;
   color: #ffffff;
   font-weight: 500;
-  font-family: "Heebo", sans-serif;
+  font-family: "Alexandria", sans-serif;
 }
 .footer-optional-widget .share-link li a i {
   color: #ffffff;
@@ -15545,7 +15542,7 @@ Footer Optional Area CSS
   list-style-type: none;
   margin-bottom: 15px;
   position: relative;
-  font-family: "Nunito Sans", sans-serif;
+  font-family: "Alexandria", sans-serif;
   padding-inline-start: 22px;
 }
 .footer-optional-widget .quick-links li:last-child {
@@ -15565,7 +15562,7 @@ Footer Optional Area CSS
 }
 .footer-optional-widget .newsletter-form p {
   color: #ffffff;
-  font-family: "Nunito Sans", sans-serif;
+  font-family: "Alexandria", sans-serif;
   margin-bottom: 0;
 }
 .footer-optional-widget .newsletter-form .form-group {
@@ -15620,7 +15617,7 @@ Footer Optional Area CSS
 .optional-copyright-area .copyright-area-content p {
   color: #ffffff;
   font-size: 15px;
-  font-family: "Nunito Sans", sans-serif;
+  font-family: "Alexandria", sans-serif;
 }
 .optional-copyright-area .copyright-area-content p a {
   display: inline-block;
@@ -16580,11 +16577,11 @@ Products Details Area CSS
 ==============================================================*/
 /* Colors Style (Newly Added) */
 .research-teaching-hospitals-home {
-  font-family: "Nunito Sans", sans-serif;
+  font-family: "Alexandria", sans-serif;
   color: #486683;
 }
 .research-teaching-hospitals-home .h1, .research-teaching-hospitals-home .h2, .research-teaching-hospitals-home .h3, .research-teaching-hospitals-home .h4, .research-teaching-hospitals-home .h5, .research-teaching-hospitals-home .h6, .research-teaching-hospitals-home h1, .research-teaching-hospitals-home h2, .research-teaching-hospitals-home h3, .research-teaching-hospitals-home h4, .research-teaching-hospitals-home h5, .research-teaching-hospitals-home h6 {
-  font-family: "Heebo", sans-serif;
+  font-family: "Alexandria", sans-serif;
   color: #002345;
   font-weight: 700;
 }
@@ -16595,16 +16592,16 @@ Products Details Area CSS
   color: #0056D2;
 }
 .research-teaching-hospitals-home p {
-  font-family: "Nunito Sans", sans-serif;
+  font-family: "Alexandria", sans-serif;
   color: #486683;
 }
 
 .telemedicine-virtual-care-home {
-  font-family: "Nunito Sans", sans-serif;
+  font-family: "Alexandria", sans-serif;
   color: #486683;
 }
 .telemedicine-virtual-care-home .h1, .telemedicine-virtual-care-home .h2, .telemedicine-virtual-care-home .h3, .telemedicine-virtual-care-home .h4, .telemedicine-virtual-care-home .h5, .telemedicine-virtual-care-home .h6, .telemedicine-virtual-care-home h1, .telemedicine-virtual-care-home h2, .telemedicine-virtual-care-home h3, .telemedicine-virtual-care-home h4, .telemedicine-virtual-care-home h5, .telemedicine-virtual-care-home h6 {
-  font-family: "Heebo", sans-serif;
+  font-family: "Alexandria", sans-serif;
   color: #002345;
   font-weight: 700;
 }
@@ -16615,16 +16612,16 @@ Products Details Area CSS
   color: #0056D2;
 }
 .telemedicine-virtual-care-home p {
-  font-family: "Nunito Sans", sans-serif;
+  font-family: "Alexandria", sans-serif;
   color: #486683;
 }
 
 .rehabilitation-center-home {
-  font-family: "Nunito Sans", sans-serif;
+  font-family: "Alexandria", sans-serif;
   color: #486683;
 }
 .rehabilitation-center-home .h1, .rehabilitation-center-home .h2, .rehabilitation-center-home .h3, .rehabilitation-center-home .h4, .rehabilitation-center-home .h5, .rehabilitation-center-home .h6, .rehabilitation-center-home h1, .rehabilitation-center-home h2, .rehabilitation-center-home h3, .rehabilitation-center-home h4, .rehabilitation-center-home h5, .rehabilitation-center-home h6 {
-  font-family: "Heebo", sans-serif;
+  font-family: "Alexandria", sans-serif;
   color: #002345;
   font-weight: 700;
 }
@@ -16635,7 +16632,7 @@ Products Details Area CSS
   color: #0056D2;
 }
 .rehabilitation-center-home p {
-  font-family: "Nunito Sans", sans-serif;
+  font-family: "Alexandria", sans-serif;
   color: #486683;
 }
 
@@ -16752,7 +16749,7 @@ Navbar Area CSS
   color: #002345;
   font-size: 35px;
   font-weight: 700;
-  font-family: "Heebo", sans-serif;
+  font-family: "Alexandria", sans-serif;
   text-transform: capitalize;
 }
 .rth-navbar-area .main-navbar .navbar .navbar-nav {
@@ -17404,7 +17401,7 @@ RTH Services Area CSS
   list-style-type: none;
   color: #ffffff;
   font-weight: 700;
-  font-family: "Heebo", sans-serif;
+  font-family: "Alexandria", sans-serif;
   margin-bottom: 20px;
 }
 .rth-services-item .image .list li i {
@@ -17535,7 +17532,7 @@ RTH Research & Innovation Area CSS
   color: #486683;
   font-size: 16px;
   font-weight: 400;
-  font-family: "Nunito Sans", sans-serif;
+  font-family: "Alexandria", sans-serif;
 }
 .rth-research-innovation-items .item .image {
   margin-bottom: 25px;
@@ -18488,7 +18485,7 @@ TVC Services Area CSS
   color: #486683;
   font-size: 16px;
   font-weight: 400;
-  font-family: "Nunito Sans", sans-serif;
+  font-family: "Alexandria", sans-serif;
   position: relative;
   top: 3.5px;
 }
@@ -18917,7 +18914,7 @@ TVC FAQ Area CSS
   position: relative;
   font-size: 18px;
   font-weight: 500;
-  font-family: "Heebo", sans-serif;
+  font-family: "Alexandria", sans-serif;
   color: #002345;
   padding: 5.7px 0 5.7px 55px;
   cursor: pointer;
@@ -20294,12 +20291,12 @@ RC Copyright Area CSS
 /* Start "Maternity Clinic" & "Cardiac Care Clinic" CSS
 ==============================================================*/
 .heebo-and-nunito-sans-fonts {
-  font-family: "Nunito Sans", sans-serif;
+  font-family: "Alexandria", sans-serif;
   color: #486683;
 }
 .heebo-and-nunito-sans-fonts .h1, .heebo-and-nunito-sans-fonts .h2, .heebo-and-nunito-sans-fonts .h3, .heebo-and-nunito-sans-fonts .h4, .heebo-and-nunito-sans-fonts .h5, .heebo-and-nunito-sans-fonts .h6, .heebo-and-nunito-sans-fonts h1, .heebo-and-nunito-sans-fonts h2, .heebo-and-nunito-sans-fonts h3, .heebo-and-nunito-sans-fonts h4, .heebo-and-nunito-sans-fonts h5, .heebo-and-nunito-sans-fonts h6 {
   color: #002345;
-  font-family: "Heebo", sans-serif;
+  font-family: "Alexandria", sans-serif;
   font-weight: 500;
 }
 .heebo-and-nunito-sans-fonts .h1 a, .heebo-and-nunito-sans-fonts .h2 a, .heebo-and-nunito-sans-fonts .h3 a, .heebo-and-nunito-sans-fonts .h4 a, .heebo-and-nunito-sans-fonts .h5 a, .heebo-and-nunito-sans-fonts .h6 a, .heebo-and-nunito-sans-fonts h1 a, .heebo-and-nunito-sans-fonts h2 a, .heebo-and-nunito-sans-fonts h3 a, .heebo-and-nunito-sans-fonts h4 a, .heebo-and-nunito-sans-fonts h5 a, .heebo-and-nunito-sans-fonts h6 a {
@@ -20310,7 +20307,7 @@ RC Copyright Area CSS
 }
 .heebo-and-nunito-sans-fonts p {
   color: #486683;
-  font-family: "Nunito Sans", sans-serif;
+  font-family: "Alexandria", sans-serif;
 }
 
 .ptb-140 {
@@ -20352,7 +20349,7 @@ RC Copyright Area CSS
 
 /* Maternity Clinic Navbar Area CSS */
 .maternity-clinic-navbar-area {
-  font-family: "Nunito Sans", sans-serif;
+  font-family: "Alexandria", sans-serif;
 }
 .maternity-clinic-navbar-area.is-sticky .main-navbar {
   background-color: #f7f7f7 !important;
@@ -20374,7 +20371,7 @@ RC Copyright Area CSS
   color: #002345;
   font-size: 35px;
   font-weight: 700;
-  font-family: "Heebo", sans-serif;
+  font-family: "Alexandria", sans-serif;
   text-transform: capitalize;
 }
 .maternity-clinic-navbar-area .main-navbar .navbar .navbar-nav {
@@ -21744,7 +21741,7 @@ MC Footer Area CSS
 .mc-footer-widget h3 {
   font-size: 23.5px;
   font-weight: 500;
-  font-family: "Heebo", sans-serif;
+  font-family: "Alexandria", sans-serif;
   margin-bottom: 25px;
   color: #002345;
 }
@@ -21756,7 +21753,7 @@ MC Footer Area CSS
   list-style-type: none;
   margin-bottom: 18px;
   color: #486683;
-  font-family: "Nunito Sans", sans-serif;
+  font-family: "Alexandria", sans-serif;
 }
 .mc-footer-widget .info-list li:last-child {
   margin-bottom: 0;
@@ -21786,7 +21783,7 @@ MC Footer Area CSS
   font-size: 20px;
   color: #486683;
   font-weight: 500;
-  font-family: "Heebo", sans-serif;
+  font-family: "Alexandria", sans-serif;
 }
 .mc-footer-widget .share-link li a i {
   color: #486683;
@@ -21815,7 +21812,7 @@ MC Footer Area CSS
   list-style-type: none;
   margin-bottom: 15px;
   position: relative;
-  font-family: "Nunito Sans", sans-serif;
+  font-family: "Alexandria", sans-serif;
   padding-inline-start: 22px;
 }
 .mc-footer-widget .quick-links li:last-child {
@@ -21835,7 +21832,7 @@ MC Footer Area CSS
 }
 .mc-footer-widget .newsletter-form p {
   color: #486683;
-  font-family: "Nunito Sans", sans-serif;
+  font-family: "Alexandria", sans-serif;
   margin-bottom: 0;
 }
 .mc-footer-widget .newsletter-form .form-group {
@@ -21889,7 +21886,7 @@ MC Footer Area CSS
 }
 .mc-copyright-area .copyright-area-content p {
   color: #486683;
-  font-family: "Nunito Sans", sans-serif;
+  font-family: "Alexandria", sans-serif;
 }
 .mc-copyright-area .copyright-area-content p a {
   display: inline-block;
@@ -24476,7 +24473,7 @@ MC Footer Area CSS
   .dental-tourism-tourists-image .tourists-image .content h3 {
     font-size: 18px;
     font-weight: 500;
-    font-family: "Heebo", sans-serif;
+    font-family: "Alexandria", sans-serif;
     color: #ffffff;
   }
   .dental-tourism-review-card {
@@ -24661,7 +24658,7 @@ MC Footer Area CSS
   }
   .eye-care-banner-content h1 {
     font-size: 25px;
-    font-family: "Heebo", sans-serif;
+    font-family: "Alexandria", sans-serif;
     color: #ffffff;
     margin-bottom: 20px;
   }
@@ -26789,7 +26786,7 @@ MC Footer Area CSS
   .dental-tourism-tourists-image .tourists-image .content h3 {
     font-size: 18px;
     font-weight: 500;
-    font-family: "Heebo", sans-serif;
+    font-family: "Alexandria", sans-serif;
     color: #ffffff;
   }
   .dental-tourism-review-card {
@@ -26958,7 +26955,7 @@ MC Footer Area CSS
   }
   .eye-care-banner-content h1 {
     font-size: 50px;
-    font-family: "Heebo", sans-serif;
+    font-family: "Alexandria", sans-serif;
     color: #ffffff;
     margin-bottom: 20px;
   }
@@ -28016,7 +28013,7 @@ MC Footer Area CSS
     margin-inline-end: 15px;
   }
   .main-navbar .navbar .navbar-nav .nav-item a {
-    font-size: 15px;
+    font-size: 13px;
   }
   .main-navbar .navbar .others-options .option-item {
     margin-inline-end: 15px;
@@ -30910,12 +30907,7 @@ body.menu-open{
   .vision-counter{
     display: unset;
   }
-  .banner-slides video{
-  height: 71vh;
-  }
-  .banner-slides{
-  height: 71vh;
-  }
+  /* banner height handled in custom.css for consistency */
   .banner-section{
     height: 220px;
     background-repeat: no-repeat;
@@ -30935,26 +30927,5 @@ position: unset;
   .single-blog .blog-image img{
         height: auto;
   }
-  .banner-slides .mySwiper-slider .swiper-slide {
-    height: 60vh;
-    margin-top: 90px;
-}
-.banner-content span {
-    display: inline-block;
-    color: #D8B36A;
-    font-size: 10px;}
-        .banner-content h1 {
-        font-size: 20px;
-    }
-    .banner-content p {
-        font-size: 12px;
-    }
-        .banner-content {
-        left: 20px;
-        right: 20px;
-        width: auto;
-        bottom: -175px;
-        padding: 30px;
-        top: unset;
-    }
+  /* mobile banner overridden in custom.css */
 }
