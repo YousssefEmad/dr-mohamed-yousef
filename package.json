@@ -4,15 +4,23 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "dev:web": "next dev",
+    "dev:studio": "npm run dev --prefix studio",
+    "dev:all": "concurrently -n web,studio -c blue,magenta \"npm run dev:web\" \"npm run dev:studio\"",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
     "@fancyapps/ui": "^6.1.14",
+    "@sanity/client": "^7.26.2",
+    "@sanity/image-url": "^2.1.1",
     "next": "^16.3.1",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
     "swiper": "^11.1.14"
+  },
+  "devDependencies": {
+    "concurrently": "^10.0.4"
   }
 }

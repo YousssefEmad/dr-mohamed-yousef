@@ -7,6 +7,7 @@ import { buildMetadata, organizationSchema, localBusinessSchema } from "@/lib/se
 import { siteSeo } from "@/data/site";
 import { getServices } from "@/lib/api/services";
 import { getSiteConfig } from "@/lib/api";
+import { REVALIDATE_SECONDS } from "@/lib/sanity/revalidate";
 
 const alexandria = Alexandria({
   subsets: ["arabic", "latin"],
@@ -15,9 +16,13 @@ const alexandria = Alexandria({
   fallback: ["Tahoma", "Arial", "sans-serif"],
 });
 
+export const revalidate = REVALIDATE_SECONDS;
+export const dynamic = "force-dynamic";
+export const fetchCache = "force-no-store";
+
 export async function generateMetadata() {
   const site = await getSiteConfig();
-  return buildMetadata({ ...siteSeo, path: "/" }, site);
+  return buildMetadata({ ...(site.seo || siteSeo), path: "/" }, site);
 }
 
 export const viewport = {

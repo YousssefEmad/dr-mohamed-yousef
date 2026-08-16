@@ -1,0 +1,83 @@
+import {defineArrayMember, defineField, defineType} from 'sanity'
+import {HeartIcon} from '@sanity/icons/Heart'
+import {seoFields} from './seoFields'
+
+export const service = defineType({
+  name: 'service',
+  title: 'خدمة طبية',
+  type: 'document',
+  icon: HeartIcon,
+  groups: [
+    {name: 'basic', title: 'أساسي', default: true},
+    {name: 'details', title: 'التفاصيل'},
+    {name: 'media', title: 'صور وفيديو'},
+    {name: 'seo', title: 'SEO'},
+  ],
+  fields: [
+    defineField({name: 'legacyId', title: 'المعرف', type: 'string', group: 'basic', hidden: true}),
+    defineField({name: 'titleAr', title: 'العنوان (عربي)', type: 'string', group: 'basic', validation: (rule) => rule.required()}),
+    defineField({name: 'titleEn', title: 'العنوان (English)', type: 'string', group: 'basic'}),
+    defineField({
+      name: 'slug',
+      title: 'الرابط',
+      type: 'slug',
+      group: 'basic',
+      options: {source: 'titleEn', maxLength: 96},
+      validation: (rule) => rule.required(),
+    }),
+    defineField({name: 'order', title: 'ترتيب العرض', type: 'number', group: 'basic', initialValue: 0}),
+    defineField({name: 'icon', title: 'أيقونة Font Awesome', type: 'string', group: 'basic', initialValue: 'fal fa-eye'}),
+    defineField({name: 'shortDescriptionAr', title: 'وصف قصير (عربي)', type: 'text', rows: 3, group: 'basic'}),
+    defineField({name: 'shortDescriptionEn', title: 'وصف قصير (English)', type: 'text', rows: 3, group: 'basic'}),
+    defineField({name: 'heroAr', title: 'نص الهيرو (عربي)', type: 'string', group: 'basic'}),
+    defineField({name: 'heroEn', title: 'نص الهيرو (English)', type: 'string', group: 'basic'}),
+    defineField({name: 'descriptionAr', title: 'الوصف الكامل (عربي)', type: 'text', rows: 6, group: 'details'}),
+    defineField({name: 'descriptionEn', title: 'الوصف الكامل (English)', type: 'text', rows: 6, group: 'details'}),
+    defineField({name: 'highlightsAr', title: 'النقاط المميزة (عربي)', type: 'array', group: 'details', of: [defineArrayMember({type: 'string'})]}),
+    defineField({name: 'highlightsEn', title: 'النقاط المميزة (English)', type: 'array', group: 'details', of: [defineArrayMember({type: 'string'})]}),
+    defineField({name: 'whyChooseAr', title: 'لماذا تختارنا (عربي)', type: 'array', group: 'details', of: [defineArrayMember({type: 'string'})]}),
+    defineField({name: 'whyChooseEn', title: 'لماذا تختارنا (English)', type: 'array', group: 'details', of: [defineArrayMember({type: 'string'})]}),
+    defineField({
+      name: 'sections',
+      title: 'أقسام إضافية',
+      type: 'array',
+      group: 'details',
+      of: [
+        defineArrayMember({
+          type: 'object',
+          fields: [
+            defineField({name: 'titleAr', title: 'العنوان (عربي)', type: 'string'}),
+            defineField({name: 'titleEn', title: 'العنوان (English)', type: 'string'}),
+            defineField({name: 'bodyAr', title: 'النص (عربي)', type: 'text', rows: 4}),
+            defineField({name: 'bodyEn', title: 'النص (English)', type: 'text', rows: 4}),
+            defineField({name: 'listAr', title: 'قائمة (عربي)', type: 'array', of: [defineArrayMember({type: 'string'})]}),
+            defineField({name: 'listEn', title: 'قائمة (English)', type: 'array', of: [defineArrayMember({type: 'string'})]}),
+          ],
+          preview: {select: {title: 'titleAr'}},
+        }),
+      ],
+    }),
+    defineField({name: 'ctaAr', title: 'دعوة للإجراء (عربي)', type: 'text', rows: 2, group: 'details'}),
+    defineField({name: 'ctaEn', title: 'دعوة للإجراء (English)', type: 'text', rows: 2, group: 'details'}),
+    defineField({name: 'faqIds', title: 'معرفات الأسئلة', type: 'array', group: 'details', of: [defineArrayMember({type: 'string'})]}),
+    defineField({name: 'relatedSlugs', title: 'خدمات مرتبطة (slug)', type: 'array', group: 'details', of: [defineArrayMember({type: 'string'})]}),
+    defineField({name: 'image', title: 'الصورة', type: 'image', options: {hotspot: true}, group: 'media'}),
+    defineField({
+      name: 'gallery',
+      title: 'معرض الخدمة',
+      type: 'array',
+      group: 'media',
+      of: [defineArrayMember({type: 'image', options: {hotspot: true}})],
+    }),
+    defineField({
+      name: 'videos',
+      title: 'روابط فيديو فيسبوك',
+      type: 'array',
+      group: 'media',
+      of: [defineArrayMember({type: 'url'})],
+    }),
+    ...seoFields.map((field) => ({...field, group: 'seo'})),
+  ],
+  orderings: [{title: 'الترتيب', name: 'orderAsc', by: [{field: 'order', direction: 'asc'}]}],
+  preview: {select: {title: 'titleAr', subtitle: 'slug.current', media: 'image'}},
+})
