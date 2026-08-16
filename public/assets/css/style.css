@@ -548,8 +548,7 @@ Navbar Area CSS
   position: relative;
   top: 3px;
   display: inline-block;
-  margin-inline-start: -5px;
-  margin-inline-end: -5px;
+  margin-inline-start: 8px;
 }
 .main-navbar .navbar .navbar-nav .nav-item a:hover, .main-navbar .navbar .navbar-nav .nav-item a:focus, .main-navbar .navbar .navbar-nav .nav-item a.active {
   color: #af915d;
@@ -2735,7 +2734,7 @@ Page Banner CSS
     background-position: center bottom;
     background-size: contain;
     overflow: hidden;
-    margin-top: 150px;
+    margin-top: 80px;
 }
 
 .page-banner-area::after {

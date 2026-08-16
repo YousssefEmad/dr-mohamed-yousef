@@ -2,7 +2,7 @@ export const doctor = {
   id: "1",
   slug: "dr-mohamed-yousef",
   nameAr: "د. محمد يوسف",
-  nameEn: "Dr. Mohamed Yousef",
+  nameEn: "Dr. Mohamed Youssef",
   titleAr: "استشاري طب وجراحة العيون",
   titleEn: "Consultant of Ophthalmology",
   image: "/assets/images/doc-1%20(12).jpeg",
@@ -27,10 +27,10 @@ export const doctor = {
   ],
   seo: {
     titleAr: "عن الدكتور محمد يوسف",
-    titleEn: "About Dr. Mohamed Yousef",
+    titleEn: "About Dr. Mohamed Youssef",
     descriptionAr: "تعرف على د. محمد يوسف استشاري طب وجراحة العيون في الإسكندرية.",
-    descriptionEn: "Meet Dr. Mohamed Yousef, consultant ophthalmologist in Alexandria.",
-    keywordsAr: ["دكتور محمد يوسف"],
-    keywordsEn: ["Dr Mohamed Yousef"],
+    descriptionEn: "Meet Dr. Mohamed Youssef, consultant ophthalmologist in Alexandria.",
+    keywordsAr: ["دكتور محمد يوسف", "أفضل دكتور عيون"],
+    keywordsEn: ["Dr Mohamed Youssef"],
   },
 };

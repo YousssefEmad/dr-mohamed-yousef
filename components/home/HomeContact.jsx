@@ -4,6 +4,7 @@ import { useLanguage } from "@/context/LanguageContext";
 import { useSiteConfig } from "@/context/SiteContext";
 import PhoneLink from "@/components/shared/PhoneLink";
 import { homeSections } from "@/data/navigation";
+import { whatsappHref } from "@/lib/helpers";
 
 export default function HomeContact() {
   const { pick } = useLanguage();
@@ -41,7 +42,7 @@ export default function HomeContact() {
                 <i className="bx bxl-whatsapp" />
                 <h4>{pick(homeSections, "whatsappTitle")}</h4>
                 <p>
-                  <a href={`https://wa.me/${site.whatsapp}`} target="_blank" rel="noopener">
+                  <a href={whatsappHref(site)} target="_blank" rel="noopener noreferrer">
                     {site.phoneDisplay}
                   </a>
                 </p>

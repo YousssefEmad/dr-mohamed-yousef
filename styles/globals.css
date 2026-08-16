@@ -40,7 +40,7 @@ html[dir="ltr"] body {
 .lang-switch-btn {
   background: transparent;
   border: 1px solid currentColor;
-  color: inherit;
+  color: #af915d;
   padding: 4px 14px;
   border-radius: 20px;
   font-size: 13px;

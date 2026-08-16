@@ -10,10 +10,10 @@ import { doctor } from "@/data/doctor";
 const slides = [
   {
     image: "/assets/images/banner.png",
-    tagAr: "استشاري طب وجراحة العيون",
-    tagEn: "Consultant of Ophthalmology",
+    tagAr: "See Clearly. Live Confidently.",
+    tagEn: "See Clearly. Live Confidently.",
     titleAr: "د. محمد يوسف",
-    titleEn: "Dr. Mohamed Yousef",
+    titleEn: "Dr. Mohamed Youssef",
     textAr: doctor.bioAr,
     textEn: doctor.bioEn,
   },
@@ -31,10 +31,13 @@ const slides = [
 ];
 
 export default function HomeBanner() {
-  const { pick } = useLanguage();
+  const { pick, dir } = useLanguage();
+
   return (
     <div className="banner-slides">
       <Swiper
+        key={dir}
+        dir={dir}
         modules={[Navigation, Autoplay]}
         navigation
         loop

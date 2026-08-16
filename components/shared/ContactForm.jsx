@@ -93,40 +93,53 @@ export default function ContactForm({ services = [] }) {
   };
 
   return (
-    <form onSubmit={onSubmit}>
-      {status === "ok" ? <p className="text-success">{pick(contactPage, "success")}</p> : null}
-      {status === "error" ? <p className="text-danger">{t(uiLabels, "formError")}</p> : null}
-      <div className="row">
-        <div className="col-md-6 mb-3">
-          <input name="name" required className="form-control" placeholder={t(uiLabels, "fullName")} />
+    <div className="contact-form">
+      <form onSubmit={onSubmit}>
+        {status === "ok" ? <p className="text-success">{pick(contactPage, "success")}</p> : null}
+        {status === "error" ? <p className="text-danger">{t(uiLabels, "formError")}</p> : null}
+        {status === "invalid" ? <p className="text-danger">{t(uiLabels, "formError")}</p> : null}
+        <div className="row">
+          <div className="col-md-6">
+            <div className="form-group">
+              <input name="name" required className="form-control" placeholder={t(uiLabels, "fullName")} />
+            </div>
+          </div>
+          <div className="col-md-6">
+            <div className="form-group">
+              <input name="email" type="email" required className="form-control" placeholder={t(uiLabels, "email")} />
+            </div>
+          </div>
+          <div className="col-md-6">
+            <div className="form-group">
+              <input name="phone" required className="form-control" placeholder={t(uiLabels, "phone")} />
+            </div>
+          </div>
+          <div className="col-md-6">
+            <div className="form-group">
+              <select name="service" required className="form-control" defaultValue="">
+                <option value="" disabled>
+                  {t(uiLabels, "chooseService")}
+                </option>
+                {services.map((service) => (
+                  <option key={service.slug} value={pick(service, "title")}>
+                    {pick(service, "title")}
+                  </option>
+                ))}
+              </select>
+            </div>
+          </div>
+          <div className="col-12">
+            <div className="form-group">
+              <textarea name="message" rows={5} required className="form-control" placeholder={t(uiLabels, "message")} />
+            </div>
+          </div>
+          <div className="col-12">
+            <button type="submit" className="default-btn" disabled={status === "loading"}>
+              {status === "loading" ? t(uiLabels, "sending") : t(uiLabels, "send")}
+            </button>
+          </div>
         </div>
-        <div className="col-md-6 mb-3">
-          <input name="email" type="email" required className="form-control" placeholder={t(uiLabels, "email")} />
-        </div>
-        <div className="col-md-6 mb-3">
-          <input name="phone" required className="form-control" placeholder={t(uiLabels, "phone")} />
-        </div>
-        <div className="col-md-6 mb-3">
-          <select name="service" required className="form-control" defaultValue="">
-            <option value="" disabled>
-              {t(uiLabels, "chooseService")}
-            </option>
-            {services.map((service) => (
-              <option key={service.slug} value={pick(service, "title")}>
-                {pick(service, "title")}
-              </option>
-            ))}
-          </select>
-        </div>
-        <div className="col-12 mb-3">
-          <textarea name="message" rows={5} required className="form-control" placeholder={t(uiLabels, "message")} />
-        </div>
-        <div className="col-12">
-          <button type="submit" className="default-btn" disabled={status === "loading"}>
-            {status === "loading" ? t(uiLabels, "sending") : t(uiLabels, "send")}
-          </button>
-        </div>
-      </div>
-    </form>
+      </form>
+    </div>
   );
 }

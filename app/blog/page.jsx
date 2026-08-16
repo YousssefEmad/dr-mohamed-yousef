@@ -3,8 +3,16 @@ import { buildMetadata } from "@/lib/seo";
 import { getPosts } from "@/lib/api/blog";
 
 export const metadata = buildMetadata({
-  titleAr: "المقالات الطبية | د. محمد يوسف",
-  descriptionAr: "مقالات ونصائح حول صحة العيون.",
+  titleAr: "المقالات الطبية | أفضل دكتور عيون وتجميل الجفون",
+  descriptionAr:
+    "مقالات د. محمد يوسف عن تجميل الجفون، ارتخاء الجفون، تصحيح الإبصار بالليزر، زراعة عدسات ICL، وجراحة المياه البيضاء.",
+  keywordsAr: [
+    "أفضل دكتور عيون",
+    "دكتور تجميل الجفون",
+    "أفضل جراح تجميل جفون",
+    "دكتور مياه بيضاء",
+    "زراعة عدسات ICL",
+  ],
   path: "/blog/",
 });
 

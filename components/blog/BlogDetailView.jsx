@@ -10,7 +10,9 @@ export default function BlogDetailView({ post }) {
       <Breadcrumb titleAr={post.titleAr} titleEn={post.titleEn} />
       <section className="ptb-100">
         <div className="container">
-          <img src={post.image} alt={pick(post, "title")} className="mb-4 w-100" />
+          <div className="blog-detail-cover mb-4">
+            <img src={post.image} alt={pick(post, "title")} />
+          </div>
           <h1>{pick(post, "title")}</h1>
           <div dangerouslySetInnerHTML={{ __html: pick(post, "content") }} />
         </div>

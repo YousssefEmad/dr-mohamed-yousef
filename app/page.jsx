@@ -3,7 +3,7 @@ import { buildMetadata } from "@/lib/seo";
 import { siteSeo } from "@/data/site";
 import { getServices } from "@/lib/api/services";
 import { getPosts } from "@/lib/api/blog";
-import { getAboutPage, getDoctor, getSpecialties, getStats, getSiteConfig } from "@/lib/api";
+import { getAboutPage, getDoctor, getSpecialties, getStats, getSiteConfig, getGalleryItems } from "@/lib/api";
 
 export async function generateMetadata() {
   const site = await getSiteConfig();
@@ -11,13 +11,14 @@ export async function generateMetadata() {
 }
 
 export default async function HomePage() {
-  const [about, doctor, specialties, stats, services, posts] = await Promise.all([
+  const [about, doctor, specialties, stats, services, posts, galleryItems] = await Promise.all([
     getAboutPage(),
     getDoctor(),
     getSpecialties(),
     getStats(),
     getServices(),
     getPosts(),
+    getGalleryItems(),
   ]);
 
   return (
@@ -28,6 +29,7 @@ export default async function HomePage() {
       stats={stats}
       services={services}
       posts={posts}
+      galleryItems={galleryItems}
     />
   );
 }

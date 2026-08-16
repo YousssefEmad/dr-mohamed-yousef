@@ -7,6 +7,7 @@ import { useLanguage } from "@/context/LanguageContext";
 import { useSiteConfig } from "@/context/SiteContext";
 import { navigation } from "@/data/navigation";
 import LanguageSwitcher from "@/components/shared/LanguageSwitcher";
+import SocialLinks from "@/components/shared/SocialLinks";
 
 export default function Header({ services = [] }) {
   const { pick } = useLanguage();
@@ -64,7 +65,7 @@ export default function Header({ services = [] }) {
                 <img src={site.logo} alt={pick(site, "name")} />
               </Link>
               <div className="collapse navbar-collapse mean-menu show">
-                <ul className="navbar-nav m-auto">
+                <ul className="navbar-nav">
                   {items.map((item) => (
                     <li className="nav-item" key={item.id}>
                       <Link href={item.href} className="nav-link">
@@ -88,30 +89,7 @@ export default function Header({ services = [] }) {
               </div>
               <div className="soail-contact-header d-flex align-items-center gap-2">
                 <LanguageSwitcher />
-                <ul>
-                  <li>
-                    <a
-                      className="header-social-link"
-                      href={`https://wa.me/${site.whatsapp}`}
-                      target="_blank"
-                      rel="noopener"
-                      aria-label="WhatsApp"
-                    >
-                      <i className="bx bxl-whatsapp" />
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      className="header-social-link"
-                      href={site.social.facebook}
-                      target="_blank"
-                      rel="noopener"
-                      aria-label="Facebook"
-                    >
-                      <i className="bx bxl-facebook" />
-                    </a>
-                  </li>
-                </ul>
+                <SocialLinks site={site} className="header-social-list" compact />
               </div>
             </nav>
           </div>
@@ -127,6 +105,7 @@ export default function Header({ services = [] }) {
           <Link href="/" className="mobile-logo">
             <img src={site.logo} alt="" />
           </Link>
+          <LanguageSwitcher className="lang-switch-btn mobile-lang-switch" />
           <button className="close-menu" type="button" onClick={() => setMobileOpen(false)}>
             &times;
           </button>

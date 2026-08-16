@@ -1,6 +1,6 @@
 import AboutPageView from "@/components/about/AboutPageView";
 import { buildMetadata } from "@/lib/seo";
-import { getAboutPage, getDoctor } from "@/lib/api";
+import { getAboutPage, getDoctor, getTrustReasons } from "@/lib/api";
 
 export async function generateMetadata() {
   const about = await getAboutPage();
@@ -8,6 +8,10 @@ export async function generateMetadata() {
 }
 
 export default async function AboutPage() {
-  const [about, doctor] = await Promise.all([getAboutPage(), getDoctor()]);
-  return <AboutPageView about={about} doctor={doctor} />;
+  const [about, doctor, trustReasons] = await Promise.all([
+    getAboutPage(),
+    getDoctor(),
+    getTrustReasons(),
+  ]);
+  return <AboutPageView about={about} doctor={doctor} trustReasons={trustReasons} />;
 }

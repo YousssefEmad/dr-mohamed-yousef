@@ -524,7 +524,7 @@ Navbar Area CSS
 }
 .main-navbar .navbar .navbar-nav .nav-item a {
   color: #222222;
-  font-size: 20px;
+  font-size: 14px;
   font-weight: 600;
   padding-inline-start: 0;
   padding-inline-end: 0;
@@ -548,8 +548,7 @@ Navbar Area CSS
   position: relative;
   top: 3px;
   display: inline-block;
-  margin-inline-start: -5px;
-  margin-inline-end: -5px;
+  margin-inline-start: 5px;
 }
 .main-navbar .navbar .navbar-nav .nav-item a:hover, .main-navbar .navbar .navbar-nav .nav-item a:focus, .main-navbar .navbar .navbar-nav .nav-item a.active {
   color: #af915d;
@@ -2735,7 +2734,7 @@ Page Banner CSS
     background-position: center bottom;
     background-size: contain;
     overflow: hidden;
-    margin-top: 150px;
+    margin-top: 15080pxpx;
 }
 
 .page-banner-area::after {
@@ -24302,7 +24301,7 @@ MC Footer Area CSS
     font-size: 20px;
   }
   .page-banner-area {
-    padding-top: 80px;
+    padding-top: 190px;
     padding-bottom: 90px;
   }
   .page-banner-content h2 {

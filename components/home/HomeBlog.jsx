@@ -18,34 +18,33 @@ export default function HomeBlog({ posts = [] }) {
           <h2>{pick(homeSections, "blogHeading")}</h2>
         </div>
         <div className="row">
-          {posts.slice(0, 2).map((post, index) => (
-            <div className="col-lg-6 col-md-6" key={post.slug}>
-              <div className="single-blog row">
-                <div className="col-lg-6 col-12">
-                  <div className="blog-image">
-                    <Link href={`/blog/${post.slug}/`}>
-                      <img src={post.image} alt={pick(post, "title")} />
-                    </Link>
-                    <div className="tag">{String(index + 1).padStart(2, "0")}</div>
-                    <div className="tag-two">
-                      <Link href={`/blog/${post.slug}/`}>{pick(post, "category")}</Link>
-                    </div>
-                  </div>
+          {posts.slice(0, 3).map((post, index) => (
+            <div className="col-lg-4 col-md-6" key={post.slug}>
+              <article className="article-card">
+                <div className="article-card__media">
+                  <Link href={`/blog/${post.slug}/`}>
+                    <img src={post.image} alt={pick(post, "title")} />
+                  </Link>
+                  <span className="article-card__num">{String(index + 1).padStart(2, "0")}</span>
+                  <span className="article-card__cat">{pick(post, "category")}</span>
                 </div>
-                <div className="col-lg-6 col-12">
-                  <div className="blog-content">
-                    <h3>
-                      <Link href={`/blog/${post.slug}/`}>{pick(post, "title")}</Link>
-                    </h3>
-                    <p>{pick(post, "excerpt")}</p>
-                    <Link href={`/blog/${post.slug}/`} className="blog-btn">
-                      {t(uiLabels, "readMore")}
-                    </Link>
-                  </div>
+                <div className="article-card__body">
+                  <h3>
+                    <Link href={`/blog/${post.slug}/`}>{pick(post, "title")}</Link>
+                  </h3>
+                  <p>{pick(post, "excerpt")}</p>
+                  <Link href={`/blog/${post.slug}/`} className="blog-btn">
+                    {t(uiLabels, "readMore")}
+                  </Link>
                 </div>
-              </div>
+              </article>
             </div>
           ))}
+        </div>
+        <div className="text-center mt-3">
+          <Link href="/blog/" className="default-btn">
+            {t(uiLabels, "viewMore")}
+          </Link>
         </div>
       </div>
     </section>

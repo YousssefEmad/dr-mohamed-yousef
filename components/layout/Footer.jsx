@@ -4,7 +4,9 @@ import Link from "next/link";
 import { useLanguage } from "@/context/LanguageContext";
 import { useSiteConfig } from "@/context/SiteContext";
 import PhoneLink from "@/components/shared/PhoneLink";
+import SocialLinks from "@/components/shared/SocialLinks";
 import { homeSections, uiLabels } from "@/data/navigation";
+import { whatsappHref } from "@/lib/helpers";
 
 export default function Footer({ services = [] }) {
   const { pick, t } = useLanguage();
@@ -33,7 +35,7 @@ export default function Footer({ services = [] }) {
                 </li>
                 <li>
                   <i className="bx bxl-whatsapp" />
-                  <a href={`https://wa.me/${site.whatsapp}`} target="_blank" rel="noopener">
+                  <a href={whatsappHref(site)} target="_blank" rel="noopener noreferrer">
                     WhatsApp
                   </a>
                 </li>
@@ -44,6 +46,7 @@ export default function Footer({ services = [] }) {
             <div className="footer-widget">
               <h3>{pick(homeSections, "addressTitle")}</h3>
               <p>{pick(site, "address")}</p>
+              <SocialLinks site={site} className="social-links footer-social mt-3" />
             </div>
           </div>
           <div className="col-lg-3 col-md-6 text-lg-end mt-4 mt-lg-0">

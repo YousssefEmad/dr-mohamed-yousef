@@ -1,20 +1,66 @@
 export const aboutPage = {
-  titleAr: "من نحن",
-  titleEn: "About Us",
-  headingAr: "خبرة متخصصة في طب وجراحة العيون بأحدث التقنيات العلاجية",
-  headingEn: "Specialized expertise in ophthalmology with the latest techniques",
+  titleAr: "عن الدكتور",
+  titleEn: "About",
+  headingAr: "خبرة متخصصة في أدق جراحات العيون",
+  headingEn: "Specialized expertise in the most precise eye surgeries",
   introAr:
-    "يقدم د. محمد يوسف رعاية طبية متخصصة في طب وجراحة العيون، مع التركيز على التشخيص الدقيق واختيار الخطة العلاجية المناسبة لكل مريض. ويعتمد على أحدث التقنيات في جراحات تصحيح الإبصار، المياه البيضاء، وجراحات تجميل الجفون، لضمان أفضل النتائج وتحقيق أعلى مستويات جودة الرؤية.",
+    "نؤمن بأن كل مريض يستحق رعاية تُبنى على الدقة والثقة والاهتمام بالتفاصيل. لذلك نعمل على تقديم حلول علاجية تناسب احتياجات كل حالة، مع الاعتماد على الخبرة وأحدث التقنيات، والمتابعة المستمرة في كل مرحلة من مراحل العلاج.",
   introEn:
-    "Dr. Mohamed Yousef provides specialized ophthalmology care, focusing on accurate diagnosis and a treatment plan tailored to each patient, using the latest techniques in vision correction, cataract and eyelid surgery.",
+    "We believe every patient deserves care built on accuracy, trust, and attention to detail. We provide treatment plans tailored to each case, using experience, modern techniques, and continuous follow-up.",
   seo: {
-    titleAr: "عن الدكتور | د. محمد يوسف",
-    titleEn: "About | Dr. Mohamed Yousef",
-    descriptionAr: "عن د. محمد يوسف استشاري طب وجراحة العيون.",
-    descriptionEn: "About Dr. Mohamed Yousef, consultant ophthalmologist.",
-    keywordsAr: ["عن الدكتور"],
-    keywordsEn: ["about"],
+    titleAr: "عن د. محمد يوسف | أفضل دكتور عيون في الإسكندرية",
+    titleEn: "About Dr. Mohamed Youssef | Best Eye Doctor in Alexandria",
+    descriptionAr:
+      "تعرف على د. محمد يوسف، أفضل دكتور عيون واستشاري تجميل الجفون والمياه البيضاء وزراعة عدسات ICL في الإسكندرية.",
+    descriptionEn:
+      "Meet Dr. Mohamed Youssef, consultant ophthalmologist for eyelid surgery, cataract and ICL in Alexandria.",
+    keywordsAr: ["أفضل دكتور عيون", "دكتور محمد يوسف", "دكتور تجميل الجفون"],
+    keywordsEn: ["best eye doctor", "Dr Mohamed Youssef", "eyelid surgery doctor"],
   },
+};
+
+export const trustReasons = [
+  {
+    titleAr: "التشخيص الدقيق",
+    titleEn: "Accurate diagnosis",
+    textAr:
+      "كل رحلة علاج ناجحة تبدأ بفهم الحالة بشكل صحيح، لأن التشخيص الدقيق هو الأساس الذي يُبنى عليه اختيار العلاج المناسب.",
+    textEn:
+      "Every successful treatment starts with a correct understanding of the case. Accurate diagnosis is the foundation of the right plan.",
+  },
+  {
+    titleAr: "خطة علاج تناسبك",
+    titleEn: "A plan tailored to you",
+    textAr:
+      "لكل مريض احتياجات مختلفة، لذلك نختار التقنية والإجراء الأنسب وفقًا لحالته، لأن ما يناسب مريضًا قد لا يكون الأنسب لغيره.",
+    textEn:
+      "Every patient is different. We choose the technique and procedure that fit the case, not a one-size-fits-all approach.",
+  },
+  {
+    titleAr: "خبرة متخصصة",
+    titleEn: "Specialized experience",
+    textAr:
+      "خبرة متخصصة في أدق جراحات العيون، مدعومة بالخبرة العملية والاعتماد على أحدث الأساليب العلاجية المناسبة لكل حالة.",
+    textEn:
+      "Specialized experience in precise eye surgeries, supported by practice and modern techniques for each case.",
+  },
+  {
+    titleAr: "متابعة مستمرة",
+    titleEn: "Continuous follow-up",
+    textAr:
+      "رعايتنا لا تنتهي بانتهاء الإجراء، بل تستمر خلال فترة المتابعة لضمان أفضل تجربة علاجية ممكنة، لأن نجاح العلاج لا يكتمل إلا بالمتابعة.",
+    textEn:
+      "Care does not end after the procedure. Follow-up continues to complete the result and protect the outcome.",
+  },
+];
+
+export const visionBlock = {
+  tagAr: "رؤيتنا للرعاية الطبية",
+  tagEn: "Our vision for medical care",
+  textAr:
+    "نؤمن بأن كل مريض يستحق رعاية تُبنى على الدقة والثقة والاهتمام بالتفاصيل. لذلك نعمل على تقديم حلول علاجية تناسب احتياجات كل حالة، مع الاعتماد على الخبرة وأحدث التقنيات، والمتابعة المستمرة في كل مرحلة من مراحل العلاج.",
+  textEn:
+    "Every patient deserves care built on accuracy, trust, and detail. We deliver solutions that fit each case with expertise, modern technology, and follow-up at every stage.",
 };
 
 export const stats = [

@@ -2,12 +2,14 @@
 
 import Link from "next/link";
 import Breadcrumb from "@/components/layout/Breadcrumb";
+import HomeTrust from "@/components/home/HomeTrust";
+import SocialLinks from "@/components/shared/SocialLinks";
 import { useLanguage } from "@/context/LanguageContext";
 import { useSiteConfig } from "@/context/SiteContext";
 import { doctor as localDoctor } from "@/data/doctor";
 import { uiLabels } from "@/data/navigation";
 
-export default function AboutPageView({ about, doctor = localDoctor }) {
+export default function AboutPageView({ about, doctor = localDoctor, trustReasons = [] }) {
   const { pick, t } = useLanguage();
   const site = useSiteConfig();
 
@@ -32,18 +34,7 @@ export default function AboutPageView({ about, doctor = localDoctor }) {
                     <li key={item}>{item}</li>
                   ))}
                 </ul>
-                <ul className="social-links">
-                  <li>
-                    <a href={site.social.facebook} target="_blank" rel="noopener">
-                      <i className="bx bxl-facebook" />
-                    </a>
-                  </li>
-                  <li>
-                    <a href={`https://wa.me/${site.whatsapp}`} target="_blank" rel="noopener">
-                      <i className="bx bxl-whatsapp" />
-                    </a>
-                  </li>
-                </ul>
+                <SocialLinks site={site} />
                 <Link href="/contact/" className="default-btn mt-3">
                   {t(uiLabels, "bookNow")}
                 </Link>
@@ -52,6 +43,7 @@ export default function AboutPageView({ about, doctor = localDoctor }) {
           </div>
         </div>
       </div>
+      <HomeTrust reasons={trustReasons} />
     </>
   );
 }
