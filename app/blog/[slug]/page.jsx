@@ -1,12 +1,10 @@
 import { notFound } from "next/navigation";
 import BlogDetailView from "@/components/blog/BlogDetailView";
 import { buildMetadata } from "@/lib/seo";
-import { getPostBySlug, getPostSlugs } from "@/lib/api/blog";
+import { getPostBySlug } from "@/lib/api/blog";
 
-export async function generateStaticParams() {
-  const slugs = await getPostSlugs();
-  return slugs.map((slug) => ({ slug }));
-}
+export const dynamic = "force-dynamic";
+export const revalidate = 0;
 
 export async function generateMetadata({ params }) {
   const { slug } = await params;

@@ -1,12 +1,10 @@
 import { notFound } from "next/navigation";
 import ServiceDetailView from "@/components/services/ServiceDetailView";
 import { buildMetadata } from "@/lib/seo";
-import { getServiceBySlug, getServiceSlugs, getServices } from "@/lib/api/services";
+import { getServiceBySlug, getServices } from "@/lib/api/services";
 
-export async function generateStaticParams() {
-  const slugs = await getServiceSlugs();
-  return slugs.map((slug) => ({ slug }));
-}
+export const dynamic = "force-dynamic";
+export const revalidate = 0;
 
 export async function generateMetadata({ params }) {
   const { slug } = await params;

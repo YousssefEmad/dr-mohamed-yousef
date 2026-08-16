@@ -1,6 +1,9 @@
-import ServicesListView from "@/components/services/ServicesListView";
+﻿import ServicesListView from "@/components/services/ServicesListView";
 import { buildMetadata } from "@/lib/seo";
 import { getServices } from "@/lib/api/services";
+
+export const dynamic = "force-dynamic";
+export const revalidate = 0;
 
 export const metadata = buildMetadata({
   titleAr: "الخدمات الطبية | د. محمد يوسف",

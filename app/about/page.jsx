@@ -1,6 +1,9 @@
-import AboutPageView from "@/components/about/AboutPageView";
+﻿import AboutPageView from "@/components/about/AboutPageView";
 import { buildMetadata } from "@/lib/seo";
 import { getAboutPage, getDoctor, getTrustReasons } from "@/lib/api";
+
+export const dynamic = "force-dynamic";
+export const revalidate = 0;
 
 export async function generateMetadata() {
   const about = await getAboutPage();
@@ -13,5 +16,7 @@ export default async function AboutPage() {
     getDoctor(),
     getTrustReasons(),
   ]);
-  return <AboutPageView about={about} doctor={doctor} trustReasons={trustReasons} />;
+  return (
+    <AboutPageView about={about} doctor={doctor} trustReasons={trustReasons} />
+  );
 }

@@ -1,7 +1,10 @@
-import ContactPageView from "@/components/shared/ContactPageView";
+﻿import ContactPageView from "@/components/shared/ContactPageView";
 import { buildMetadata } from "@/lib/seo";
 import { getContactPage } from "@/lib/api";
 import { getServices } from "@/lib/api/services";
+
+export const dynamic = "force-dynamic";
+export const revalidate = 0;
 
 export async function generateMetadata() {
   const page = await getContactPage();
