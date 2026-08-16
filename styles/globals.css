@@ -1,0 +1,52 @@
+html,
+body {
+  max-width: 100%;
+}
+
+body,
+button,
+input,
+textarea,
+select,
+.navbar,
+.nav-link,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+span,
+li,
+label {
+  font-family: inherit !important;
+}
+
+.preloader {
+  display: none !important;
+}
+
+.phone-ltr {
+  direction: ltr;
+  unicode-bidi: isolate;
+}
+
+html[dir="ltr"] body {
+  text-align: left;
+}
+
+.lang-switch-btn {
+  background: transparent;
+  border: 1px solid currentColor;
+  color: inherit;
+  padding: 4px 14px;
+  border-radius: 20px;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.page-content-placeholder {
+  min-height: 40vh;
+}

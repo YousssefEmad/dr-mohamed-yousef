@@ -1,0 +1,70 @@
+@font-face {
+    font-family: "flaticon";
+    src: url("../fonts-two/flaticon.ttf?8dc003a00e9a13044c9bc8ec877332f5") format("truetype"),
+url("../fonts-two/flaticon.woff?8dc003a00e9a13044c9bc8ec877332f5") format("woff"),
+url("../fonts-two/flaticon.woff2?8dc003a00e9a13044c9bc8ec877332f5") format("woff2"),
+url("../fonts-two/flaticon.eot?8dc003a00e9a13044c9bc8ec877332f5#iefix") format("embedded-opentype"),
+url("../fonts-two/flaticon.svg?8dc003a00e9a13044c9bc8ec877332f5#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-dental-crown:before {
+    content: "\f101";
+}
+.flaticon-glaucoma:before {
+    content: "\f102";
+}
+.flaticon-cosmetic-surgery:before {
+    content: "\f103";
+}
+.flaticon-endodontist:before {
+    content: "\f104";
+}
+.flaticon-skin-care:before {
+    content: "\f105";
+}
+.flaticon-travel:before {
+    content: "\f106";
+}
+.flaticon-assistance:before {
+    content: "\f107";
+}
+.flaticon-cost:before {
+    content: "\f108";
+}
+.flaticon-laser:before {
+    content: "\f109";
+}
+.flaticon-hair-removal:before {
+    content: "\f10a";
+}
+.flaticon-skincare:before {
+    content: "\f10b";
+}
+.flaticon-temporary:before {
+    content: "\f10c";
+}
+.flaticon-red-eyes:before {
+    content: "\f10d";
+}
+.flaticon-acupuncture:before {
+    content: "\f10e";
+}
+.flaticon-tooth-whitening:before {
+    content: "\f10f";
+}
+.flaticon-cataract:before {
+    content: "\f110";
+}
+.flaticon-dentistry:before {
+    content: "\f111";
+}

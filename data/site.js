@@ -1,0 +1,65 @@
+export const siteConfig = {
+  nameAr: "د. محمد يوسف",
+  nameEn: "Dr. Mohamed Yousef",
+  shortNameAr: "د. محمد يوسف",
+  shortNameEn: "Dr. Mohamed Yousef",
+  taglineAr: "استشاري طب وجراحة العيون",
+  taglineEn: "Consultant of Ophthalmology",
+  url: "https://drmohamedyousef.com",
+  logo: "/assets/images/logo-smile-home.png",
+  phone: "+201023330221",
+  phoneDisplay: "+20 102 333 0221",
+  phoneAlt: "+201022093330",
+  phoneAltDisplay: "+20 102 209 3330",
+  whatsapp: "201023330221",
+  email: "info@drmohamedyousef.com",
+  contactEmail: "youssef7200143@gmail.com",
+  formEndpoint: "/sendmail.php",
+  addressAr: "الإبراهيمية، الإسكندرية",
+  addressEn: "Ibrahimia, Alexandria",
+  hoursAr: "حسب المواعيد",
+  hoursEn: "By appointment",
+  mapEmbed:
+    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8824.13101523477!2d29.932146603256818!3d31.210954273449772!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14f5c47db36d81bf%3A0x8a4381ea58d5ad96!2z2KfZhNil2KjYsdin2YfZitmF2YrYqdiMINin2YTYpdio2LHYp9mH2YrZhdmK2Kkg2YLYqNmE2Yog2YjYp9mE2K3Yttix2Kkg2KjDmNiMINio2KfYqCDYtNix2YLYjCDZhdit2KfZgdi42Kkg2KfZhNil2LPZg9mG2K_YsdmK2KnYjCDZhdi12LE!5e1!3m2!1sar!2sfr!4v1784549517971!5m2!1sar!2sfr",
+  social: {
+    facebook: "https://www.facebook.com/Dr.Mohamed.Youssef.Ophthalmologist",
+    instagram: "https://www.instagram.com/dr.mohamed.youssef.ghareeb/",
+    tiktok: "https://www.tiktok.com/@dr.mohamed_youssef",
+    youtube: "",
+  },
+  breadcrumbBg: "/assets/images/breadcrumb-eagle.png",
+  defaultOgImage: "/assets/images/logo-smile-home.png",
+  copyrightAr: "© جميع الحقوق محفوظة لد. محمد يوسف | تصميم وتطوير Blue | 2026",
+  copyrightEn: "© All rights reserved to Dr. Mohamed Yousef | Designed by Blue | 2026",
+  designer: {
+    name: "BLUE Studios",
+    url: "https://www.facebook.com/BLUEStudiosAds",
+  },
+  defaultLang: "ar",
+  langs: ["ar", "en"],
+};
+
+export const siteSeo = {
+  titleAr: "د. محمد يوسف | استشاري طب وجراحة العيون",
+  titleEn: "Dr. Mohamed Yousef | Consultant Ophthalmologist",
+  descriptionAr:
+    "د. محمد يوسف، استشاري جراحات تصحيح الإبصار بالليزر والمياه البيضاء وتجميل الجفون — الإبراهيمية، الإسكندرية.",
+  descriptionEn:
+    "Dr. Mohamed Yousef, consultant of laser vision correction, cataract and eyelid surgery — Ibrahimia, Alexandria.",
+  keywordsAr: [
+    "دكتور محمد يوسف",
+    "تصحيح الإبصار",
+    "المياه البيضاء",
+    "تجميل الجفون",
+    "عدسات ICL",
+    "عيادة عيون الإسكندرية",
+  ],
+  keywordsEn: [
+    "Dr Mohamed Yousef",
+    "LASIK",
+    "cataract",
+    "eyelid surgery",
+    "ICL",
+    "eye clinic Alexandria",
+  ],
+};
