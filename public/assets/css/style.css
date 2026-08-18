@@ -1182,7 +1182,6 @@ Main Slides Area CSS
 
     top:75%;
     left:8%;
-
     transform:translateY(-50%);
 
     width:520px;
@@ -1190,7 +1189,7 @@ Main Slides Area CSS
 
     background:rgba(255,255,255,.15);
 
-    backdrop-filter:blur(12px);
+    backdrop-filter:blur(15px);
 
     padding:45px;
 
